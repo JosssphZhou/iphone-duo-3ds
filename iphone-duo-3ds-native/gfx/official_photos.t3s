@@ -1,0 +1,5 @@
+--atlas --border=edge -f rgba8888 -z auto
+official/photos-0.png
+official/photos-1.png
+official/photos-2.png
+official/photos-3.png

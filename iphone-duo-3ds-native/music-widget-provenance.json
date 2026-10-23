@@ -1,0 +1,17 @@
+{
+  "page": "https://support.apple.com/guide/iphone/iphefb3daa42/18.0/ios/18.0",
+  "image": "https://help.apple.com/assets/683A54F5227CBBDB98051B96/683A54FC545676DF600F97D4/en_US/42b55edee27a13d1aa4643017aba8d41.png",
+  "version": "iOS 18",
+  "crop": [
+    257,
+    333,
+    437,
+    513
+  ],
+  "size": [
+    180,
+    180
+  ],
+  "processing": "Original pixels with rounded alpha mask; uniform scale only",
+  "source_sha256": "fa7779e7f03a461e1fda5552a15b8fef4a5c3babef2a883488f7673101260411"
+}

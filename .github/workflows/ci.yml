@@ -1,0 +1,54 @@
+name: Source checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  portable-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Portable C regressions
+        run: SANITIZE=1 bash tools/test_host.sh
+      - name: Asset importer safety
+        run: python3 -m unittest discover -s tests -p '*_test.py' -v
+      - name: JavaScript syntax, including inline browser scripts
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import subprocess
+          import tempfile
+
+          class Scripts(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.active = False
+                  self.content = []
+                  self.scripts = []
+              def handle_starttag(self, tag, attrs):
+                  if tag == 'script':
+                      attr = dict(attrs)
+                      self.active = 'src' not in attr and attr.get('type', '') not in ('application/json', 'application/ld+json')
+                      self.content = []
+              def handle_data(self, data):
+                  if self.active:
+                      self.content.append(data)
+              def handle_endtag(self, tag):
+                  if tag == 'script' and self.active:
+                      self.scripts.append(''.join(self.content))
+                      self.active = False
+
+          web = Path('iphone-duo-3ds-prototype')
+          for file in web.rglob('*.js'):
+              subprocess.run(['node', '--check', str(file)], check=True)
+          with tempfile.TemporaryDirectory() as folder:
+              for file in web.rglob('*.html'):
+                  parser = Scripts()
+                  parser.feed(file.read_text())
+                  for number, script in enumerate(parser.scripts):
+                      target = Path(folder) / f'inline-{number}.js'
+                      target.write_text(script)
+                      subprocess.run(['node', '--check', str(target)], check=True)
+          PY

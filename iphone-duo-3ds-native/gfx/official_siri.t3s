@@ -1,0 +1,5 @@
+--atlas --border=edge -f rgba8888 -z auto
+official/siri-0.png
+official/siri-1.png
+official/siri-2.png
+official/siri-3.png

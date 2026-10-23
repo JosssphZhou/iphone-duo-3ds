@@ -1,0 +1,10 @@
+{
+  "method": "Unmodified copies of supplied PNGs",
+  "sha256": {
+    "music-widget-official.png": "71688c21b203658d0ede3ffe85bcde637419fddcabb316d7d6e6a1f1f32e0eac",
+    "widget-top_home_day.png": "d6649e49fb14599a90420037f9834a0cbdc7e5e51c4ef557dd41dee98420520a",
+    "widget-top_home_night.png": "3cfb6b66723cedc2284b0f76c61c028919d019174f52fd8ab4b289455a0958f9",
+    "widget-top_portrait_day.png": "0c8e9231e4c7d08b54b567964844896dc7cc126e2bb2ee74ecd2de246681f7a3",
+    "widget-top_portrait_night.png": "797896779b72a4c925056c7d4fc46c1724e74abb1a15f2a428754e2472c97fab"
+  }
+}

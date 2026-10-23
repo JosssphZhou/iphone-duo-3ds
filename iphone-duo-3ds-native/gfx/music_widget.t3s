@@ -1,0 +1,6 @@
+--atlas --border=edge -f rgba8888 -z auto
+music-widget-official.png
+widget-top_home_day.png
+widget-top_home_night.png
+widget-top_portrait_day.png
+widget-top_portrait_night.png

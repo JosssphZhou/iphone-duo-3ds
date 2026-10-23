@@ -1,0 +1,442 @@
+{
+  "source": "https://www.apple.com/v/iphone-duo/d/images/overview/media-hero/hero_endframe__gdt3l3spaqie_large_2x.jpg",
+  "local_source": "../launch-home.jpg",
+  "source_dimensions": [
+    1932,
+    1280
+  ],
+  "provenance": "Original Apple app icon pixels extracted and perspective-rectified from the official press image. These are not OS asset dumps and have not been redrawn. Rounded alpha masks remove surrounding wallpaper.",
+  "output_dimensions": [
+    128,
+    128
+  ],
+  "quad_order": "top-left, top-right, bottom-right, bottom-left",
+  "icons": {
+    "facetime": {
+      "file": "facetime.png",
+      "source_quad": [
+        [
+          1004,
+          412
+        ],
+        [
+          1081,
+          408
+        ],
+        [
+          1082,
+          499
+        ],
+        [
+          1003,
+          500
+        ]
+      ]
+    },
+    "calendar": {
+      "file": "calendar.png",
+      "source_quad": [
+        [
+          1110,
+          406
+        ],
+        [
+          1197,
+          404
+        ],
+        [
+          1196,
+          500
+        ],
+        [
+          1110,
+          500
+        ]
+      ]
+    },
+    "photos": {
+      "file": "photos.png",
+      "source_quad": [
+        [
+          1221,
+          404
+        ],
+        [
+          1307,
+          404
+        ],
+        [
+          1306,
+          501
+        ],
+        [
+          1219,
+          501
+        ]
+      ]
+    },
+    "camera": {
+      "file": "camera.png",
+      "source_quad": [
+        [
+          1337,
+          405
+        ],
+        [
+          1423,
+          404
+        ],
+        [
+          1423,
+          498
+        ],
+        [
+          1335,
+          499
+        ]
+      ]
+    },
+    "mail": {
+      "file": "mail.png",
+      "source_quad": [
+        [
+          1004,
+          533
+        ],
+        [
+          1082,
+          533
+        ],
+        [
+          1083,
+          624
+        ],
+        [
+          1004,
+          624
+        ]
+      ]
+    },
+    "notes": {
+      "file": "notes.png",
+      "source_quad": [
+        [
+          1110,
+          532
+        ],
+        [
+          1196,
+          533
+        ],
+        [
+          1197,
+          628
+        ],
+        [
+          1110,
+          627
+        ]
+      ]
+    },
+    "clock": {
+      "file": "clock.png",
+      "source_quad": [
+        [
+          1221,
+          534
+        ],
+        [
+          1306,
+          535
+        ],
+        [
+          1307,
+          630
+        ],
+        [
+          1220,
+          630
+        ]
+      ]
+    },
+    "maps": {
+      "file": "maps.png",
+      "source_quad": [
+        [
+          1338,
+          537
+        ],
+        [
+          1423,
+          538
+        ],
+        [
+          1424,
+          633
+        ],
+        [
+          1336,
+          632
+        ]
+      ]
+    },
+    "apple-tv": {
+      "file": "apple-tv.png",
+      "source_quad": [
+        [
+          1004,
+          658
+        ],
+        [
+          1081,
+          656
+        ],
+        [
+          1084,
+          744
+        ],
+        [
+          1004,
+          744
+        ]
+      ]
+    },
+    "news": {
+      "file": "news.png",
+      "source_quad": [
+        [
+          1110,
+          660
+        ],
+        [
+          1196,
+          661
+        ],
+        [
+          1197,
+          752
+        ],
+        [
+          1111,
+          751
+        ]
+      ]
+    },
+    "app-store": {
+      "file": "app-store.png",
+      "source_quad": [
+        [
+          1221,
+          666
+        ],
+        [
+          1306,
+          666
+        ],
+        [
+          1307,
+          755
+        ],
+        [
+          1221,
+          755
+        ]
+      ]
+    },
+    "games": {
+      "file": "games.png",
+      "source_quad": [
+        [
+          1339,
+          668
+        ],
+        [
+          1424,
+          671
+        ],
+        [
+          1424,
+          760
+        ],
+        [
+          1338,
+          759
+        ]
+      ]
+    },
+    "health": {
+      "file": "health.png",
+      "source_quad": [
+        [
+          1004,
+          777
+        ],
+        [
+          1081,
+          777
+        ],
+        [
+          1083,
+          864
+        ],
+        [
+          1005,
+          864
+        ]
+      ]
+    },
+    "wallet": {
+      "file": "wallet.png",
+      "source_quad": [
+        [
+          1110,
+          783
+        ],
+        [
+          1195,
+          784
+        ],
+        [
+          1197,
+          874
+        ],
+        [
+          1111,
+          871
+        ]
+      ]
+    },
+    "siri": {
+      "file": "siri.png",
+      "source_quad": [
+        [
+          1222,
+          788
+        ],
+        [
+          1307,
+          790
+        ],
+        [
+          1307,
+          881
+        ],
+        [
+          1221,
+          880
+        ]
+      ]
+    },
+    "settings": {
+      "file": "settings.png",
+      "source_quad": [
+        [
+          1340,
+          794
+        ],
+        [
+          1424,
+          795
+        ],
+        [
+          1425,
+          888
+        ],
+        [
+          1338,
+          885
+        ]
+      ]
+    },
+    "phone": {
+      "file": "phone.png",
+      "source_quad": [
+        [
+          1475,
+          360
+        ],
+        [
+          1537,
+          360
+        ],
+        [
+          1539,
+          425
+        ],
+        [
+          1475,
+          427
+        ]
+      ]
+    },
+    "safari": {
+      "file": "safari.png",
+      "source_quad": [
+        [
+          1475,
+          452
+        ],
+        [
+          1538,
+          452
+        ],
+        [
+          1539,
+          518
+        ],
+        [
+          1475,
+          518
+        ]
+      ]
+    },
+    "messages": {
+      "file": "messages.png",
+      "source_quad": [
+        [
+          1476,
+          546
+        ],
+        [
+          1541,
+          547
+        ],
+        [
+          1541,
+          612
+        ],
+        [
+          1476,
+          612
+        ]
+      ]
+    },
+    "music": {
+      "file": "music.png",
+      "source_quad": [
+        [
+          1477,
+          639
+        ],
+        [
+          1542,
+          640
+        ],
+        [
+          1543,
+          705
+        ],
+        [
+          1477,
+          706
+        ]
+      ]
+    },
+    "calculator": {
+      "file": "calculator.png",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/35/37/f435379c-2c09-a52a-1bbc-326d8cd54853/calculatorCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "source_page": "https://apps.apple.com/us/app/calculator/id1069511488",
+      "provenance": "Apple Inc. official App Store icon; resized and rounded-alpha masked"
+    }
+  }
+}

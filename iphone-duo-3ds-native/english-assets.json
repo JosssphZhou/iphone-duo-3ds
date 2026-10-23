@@ -1,0 +1,38 @@
+{
+  "files": [
+    "english-top_home_day.png",
+    "english-top_home_night.png",
+    "english-top_portrait_day.png",
+    "english-top_portrait_night.png",
+    "english-widget-top_home_day.png",
+    "english-widget-top_home_night.png",
+    "english-widget-top_portrait_day.png",
+    "english-widget-top_portrait_night.png",
+    "english-bottom_home_day.png",
+    "english-bottom_home_night.png",
+    "english-bottom_home_page2_day.png",
+    "english-bottom_home_page2_night.png",
+    "english-bottom_portrait_day.png",
+    "english-bottom_portrait_night.png",
+    "english-bottom_portrait_page2_day.png",
+    "english-bottom_portrait_page2_night.png"
+  ],
+  "sha256": {
+    "english-top_home_day.png": "9ff90bec3a53aa79a3e4f03b833b174d4a7f474de6ce6689eaf892a16d5e0ad4",
+    "english-top_home_night.png": "9f211191af764d3695f51f09745a327f26727a4295ddd661ae4817c662255081",
+    "english-top_portrait_day.png": "6f53c5d1f49b0077ba066bf30105ce4eef2751db0bb832880f368c647049a51c",
+    "english-top_portrait_night.png": "40a75dc3e874b16c6367884f3f889d843798683f3a06e2ff419bd4c2b8e9e320",
+    "english-widget-top_home_day.png": "4773308ffd458816a931752b58f900035efcf7f1cbf749ef4b67f72fa87c4932",
+    "english-widget-top_home_night.png": "37b7d57c17ee052a773fc0be0025fad464d31923d34fa1e94bc1caeed07861ca",
+    "english-widget-top_portrait_day.png": "5a45f92e5a09d42e01186be5230938c8eb3eba1b1fba64b57613a1140f42336c",
+    "english-widget-top_portrait_night.png": "90ba39ad2cef685fd396f15062a0b0b27848c7bfb1169a13d9ce07c27c66a60a",
+    "english-bottom_home_day.png": "729ccfaf5c1ad2b8ab61c68d72822ff3bb6491fed83ed9e6d5fe045894e5b49a",
+    "english-bottom_home_night.png": "5a966fe53126248c60c4a5f3ae08cbc869a4f1184560fc024c5ad4411c2bee55",
+    "english-bottom_home_page2_day.png": "a90f3de58bec28b85542d6c3106c895dd03eb6adb19384572feaf6c22755f42d",
+    "english-bottom_home_page2_night.png": "e068eb8c8515b4134d9a84de4047bb743e8e0db7024d39a3bac67e6a33ade0d0",
+    "english-bottom_portrait_day.png": "a95c24b23d914853c3997bdef3082ff527d1cdb3d424592ee351e0279f50d2d5",
+    "english-bottom_portrait_night.png": "44bb5fafadf76aaffea1f86c68d82f242d95dddc2666dae0ba740ce47f6f533f",
+    "english-bottom_portrait_page2_day.png": "820db2ab4ddd3ebebc529c651b8c30d45b8d41427c7344bff2ba840013133d92",
+    "english-bottom_portrait_page2_night.png": "3cd931182917c05f41fb98a317f0831a4fb0e1cd4786b948a3de98df37489886"
+  }
+}

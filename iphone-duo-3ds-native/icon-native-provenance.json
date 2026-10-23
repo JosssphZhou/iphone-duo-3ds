@@ -1,0 +1,32 @@
+{
+  "source": "https://www.apple.com/v/iphone-duo/d/images/overview/media-hero/hero_endframe__gdt3l3spaqie_large_2x.jpg",
+  "source_sha256": "00625f7e40ac766d2b4becdfe705fc6a7e5b302b3d2ffbb2766ed1ec44992176",
+  "method": "Apple press-image pixels mapped from the original recorded quads directly to 37 or 32 pixels; rounded alpha mask only. Calculator from existing original 512px Apple icon. No redesign.",
+  "sizes": [
+    37,
+    32
+  ],
+  "order": [
+    "facetime",
+    "calendar",
+    "photos",
+    "camera",
+    "mail",
+    "notes",
+    "clock",
+    "maps",
+    "apple-tv",
+    "news",
+    "app-store",
+    "games",
+    "health",
+    "wallet",
+    "siri",
+    "settings",
+    "phone",
+    "safari",
+    "messages",
+    "music",
+    "calculator"
+  ]
+}

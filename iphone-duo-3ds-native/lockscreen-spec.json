@@ -1,0 +1,22 @@
+{
+  "font": "SFNS Regular/Semibold at native size",
+  "date": "Wednesday, April 1",
+  "time": "9:41",
+  "files": [
+    "lock-top-landscape-day.png",
+    "lock-bottom-landscape-day.png",
+    "lock-top-portrait-day.png",
+    "lock-bottom-portrait-day.png",
+    "lock-top-landscape-night.png",
+    "lock-bottom-landscape-night.png",
+    "lock-top-portrait-night.png",
+    "lock-bottom-portrait-night.png"
+  ],
+  "wallpaper": "one continuous cover per orientation; landscape 400x480, portrait 480x400 with smaller display centered",
+  "gesture": {
+    "startBottomPixels": 64,
+    "threshold": 64,
+    "verticalDominance": 1.2,
+    "settleMs": 180
+  }
+}

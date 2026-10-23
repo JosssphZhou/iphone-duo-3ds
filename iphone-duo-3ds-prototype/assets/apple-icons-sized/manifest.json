@@ -1,0 +1,13 @@
+{
+  "source": "https://www.apple.com/v/iphone-duo/d/images/overview/media-hero/hero_endframe__gdt3l3spaqie_large_2x.jpg",
+  "localSource": "../launch-home.jpg",
+  "sizes": [
+    32,
+    37,
+    64,
+    74,
+    96,
+    111
+  ],
+  "method": "Each final size rectified independently from original press pixels, never from 128px intermediate. Calculator independently downsampled from retained official original."
+}

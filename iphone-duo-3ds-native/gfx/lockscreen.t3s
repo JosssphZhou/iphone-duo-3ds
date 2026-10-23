@@ -1,0 +1,9 @@
+--atlas --border=edge -f rgba8888 -z auto
+lock-top-landscape-day.png
+lock-bottom-landscape-day.png
+lock-top-portrait-day.png
+lock-bottom-portrait-day.png
+lock-top-landscape-night.png
+lock-bottom-landscape-night.png
+lock-top-portrait-night.png
+lock-bottom-portrait-night.png

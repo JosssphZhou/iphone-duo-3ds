@@ -1,0 +1,27 @@
+--atlas --border=edge -f rgba8888 -z auto
+showcase/music_home_v0_landscape_top.png
+showcase/music_home_v0_landscape_bottom.png
+showcase/miniplayer_landscape_v0.png
+showcase/miniplayer_landscape_v1.png
+showcase/miniplayer_landscape_v2.png
+showcase/miniplayer_landscape_v3.png
+showcase/miniplayer_landscape_v4.png
+showcase/miniplayer_landscape_v5.png
+showcase/miniplayer_landscape_v6.png
+showcase/miniplayer_landscape_v7.png
+showcase/miniplayer_landscape_v8.png
+showcase/music_home_v0_landscape_bottom_play_paused.png
+showcase/music_home_v0_landscape_bottom_play_playing.png
+showcase/music_home_v0_portrait_top.png
+showcase/music_home_v0_portrait_bottom.png
+showcase/miniplayer_portrait_v0.png
+showcase/miniplayer_portrait_v1.png
+showcase/miniplayer_portrait_v2.png
+showcase/miniplayer_portrait_v3.png
+showcase/miniplayer_portrait_v4.png
+showcase/miniplayer_portrait_v5.png
+showcase/miniplayer_portrait_v6.png
+showcase/miniplayer_portrait_v7.png
+showcase/miniplayer_portrait_v8.png
+showcase/music_home_v0_portrait_bottom_play_paused.png
+showcase/music_home_v0_portrait_bottom_play_playing.png

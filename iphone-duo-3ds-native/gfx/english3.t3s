@@ -1,0 +1,5 @@
+--atlas --border=edge -f rgba8888 -z auto
+english-bottom_portrait_day.png
+english-bottom_portrait_night.png
+english-bottom_portrait_page2_day.png
+english-bottom_portrait_page2_night.png

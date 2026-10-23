@@ -1,0 +1,2 @@
+/* Generated from final browser regions. */
+static const char *contractActions[]={"music.album","music.album.0","music.album.1","music.album.2","music.home","music.library","music.new","music.next","music.play","music.playalbum","music.player","music.prev","music.repeat","music.search","music.seek-forward","music.shuffle","music.track.0","music.track.1","music.track.2","store.apps","store.back","store.detail.0","store.detail.1","store.detail.2","store.games","store.get.0","store.get.1","store.get.2","store.search","store.today"};

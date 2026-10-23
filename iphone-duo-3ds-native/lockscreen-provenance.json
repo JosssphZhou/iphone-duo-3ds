@@ -1,0 +1,26 @@
+{
+  "page": "https://support.apple.com/guide/iphone/iphcd5c65ccf/18.0/ios/18.0",
+  "image": "https://help.apple.com/assets/683A54F5227CBBDB98051B96/683A54FC545676DF600F97D4/en_US/f80b1e5e3be8eae21ccf73bf3bb0cd22.png",
+  "sha256": "49e2f65d2c18f7a44097483f6162f6ebf26fb9232c42d4ffdb500395bde29c21",
+  "boxes": {
+    "flashlight": [
+      94,
+      885,
+      110,
+      919
+    ],
+    "camera": [
+      369,
+      886,
+      403,
+      916
+    ],
+    "lock": [
+      159,
+      43,
+      175,
+      64
+    ]
+  },
+  "method": "Extract original white glyphs as alpha; no redraw"
+}

@@ -1,0 +1,3452 @@
+{
+  "note": "Private prepared artwork inventory. Source distribution does not include these PNG files.",
+  "atlases": [
+    {
+      "atlas": "gfx/english0.t3s",
+      "inputs": [
+        {
+          "path": "gfx/english-top_home_day.png",
+          "sha256": "9ff90bec3a53aa79a3e4f03b833b174d4a7f474de6ce6689eaf892a16d5e0ad4"
+        },
+        {
+          "path": "gfx/english-top_home_night.png",
+          "sha256": "9f211191af764d3695f51f09745a327f26727a4295ddd661ae4817c662255081"
+        },
+        {
+          "path": "gfx/english-top_portrait_day.png",
+          "sha256": "6f53c5d1f49b0077ba066bf30105ce4eef2751db0bb832880f368c647049a51c"
+        },
+        {
+          "path": "gfx/english-top_portrait_night.png",
+          "sha256": "40a75dc3e874b16c6367884f3f889d843798683f3a06e2ff419bd4c2b8e9e320"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/english1.t3s",
+      "inputs": [
+        {
+          "path": "gfx/english-widget-top_home_day.png",
+          "sha256": "4773308ffd458816a931752b58f900035efcf7f1cbf749ef4b67f72fa87c4932"
+        },
+        {
+          "path": "gfx/english-widget-top_home_night.png",
+          "sha256": "37b7d57c17ee052a773fc0be0025fad464d31923d34fa1e94bc1caeed07861ca"
+        },
+        {
+          "path": "gfx/english-widget-top_portrait_day.png",
+          "sha256": "5a45f92e5a09d42e01186be5230938c8eb3eba1b1fba64b57613a1140f42336c"
+        },
+        {
+          "path": "gfx/english-widget-top_portrait_night.png",
+          "sha256": "90ba39ad2cef685fd396f15062a0b0b27848c7bfb1169a13d9ce07c27c66a60a"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/english2.t3s",
+      "inputs": [
+        {
+          "path": "gfx/english-bottom_home_day.png",
+          "sha256": "729ccfaf5c1ad2b8ab61c68d72822ff3bb6491fed83ed9e6d5fe045894e5b49a"
+        },
+        {
+          "path": "gfx/english-bottom_home_night.png",
+          "sha256": "5a966fe53126248c60c4a5f3ae08cbc869a4f1184560fc024c5ad4411c2bee55"
+        },
+        {
+          "path": "gfx/english-bottom_home_page2_day.png",
+          "sha256": "a90f3de58bec28b85542d6c3106c895dd03eb6adb19384572feaf6c22755f42d"
+        },
+        {
+          "path": "gfx/english-bottom_home_page2_night.png",
+          "sha256": "e068eb8c8515b4134d9a84de4047bb743e8e0db7024d39a3bac67e6a33ade0d0"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/english3.t3s",
+      "inputs": [
+        {
+          "path": "gfx/english-bottom_portrait_day.png",
+          "sha256": "a95c24b23d914853c3997bdef3082ff527d1cdb3d424592ee351e0279f50d2d5"
+        },
+        {
+          "path": "gfx/english-bottom_portrait_night.png",
+          "sha256": "44bb5fafadf76aaffea1f86c68d82f242d95dddc2666dae0ba740ce47f6f533f"
+        },
+        {
+          "path": "gfx/english-bottom_portrait_page2_day.png",
+          "sha256": "820db2ab4ddd3ebebc529c651b8c30d45b8d41427c7344bff2ba840013133d92"
+        },
+        {
+          "path": "gfx/english-bottom_portrait_page2_night.png",
+          "sha256": "3cd931182917c05f41fb98a317f0831a4fb0e1cd4786b948a3de98df37489886"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/icons_native.t3s",
+      "inputs": [
+        {
+          "path": "gfx/iconnative-37-facetime.png",
+          "sha256": "0d47827e6d48fc9bb13172af8f009d69b54392d1c8d238752cbcc768003bfbf6"
+        },
+        {
+          "path": "gfx/iconnative-37-calendar.png",
+          "sha256": "f9c3c792473aa659bb506abc376476cfe09c925d62856d075a30b5679336d0bf"
+        },
+        {
+          "path": "gfx/iconnative-37-photos.png",
+          "sha256": "be443e72f3f692eb26b1aa17e28fb2e8b366f374d4acec6c6b3ca1ecf8e44395"
+        },
+        {
+          "path": "gfx/iconnative-37-camera.png",
+          "sha256": "e2459cbbbe4097dfd721fbb63fb148fad6e623b5abe5aa99cc8096ccc709d71e"
+        },
+        {
+          "path": "gfx/iconnative-37-mail.png",
+          "sha256": "6bee2995c7633bd541fd80d4c563514d7b8b3e0993ebdcbac5486992f602160f"
+        },
+        {
+          "path": "gfx/iconnative-37-notes.png",
+          "sha256": "5d59c2380a14beebd748a0787ad32546c32afa8f8841a85b24bb2e99e9654150"
+        },
+        {
+          "path": "gfx/iconnative-37-clock.png",
+          "sha256": "e132da0498fe843008089233f07bfa1160d9ad56325a50f607c6994eb3c1d26c"
+        },
+        {
+          "path": "gfx/iconnative-37-maps.png",
+          "sha256": "6fbc615274127f6cc66fa01ef2e4674527836bd04d5ff37985776abfc8e1be92"
+        },
+        {
+          "path": "gfx/iconnative-37-apple-tv.png",
+          "sha256": "6356be1a8ba4bbfd94de424ef1ee11b73a01c6639b94209029bf5c01874a85c9"
+        },
+        {
+          "path": "gfx/iconnative-37-news.png",
+          "sha256": "f8b04cf357a5762a8fbbccf43a958ae6b27f73ceb981d7a4a6ebd9dcee0111f0"
+        },
+        {
+          "path": "gfx/iconnative-37-app-store.png",
+          "sha256": "649e37169d23e19eea8072535cb7cadc7a83c6f09144e5c1d3280ba81b97e9a0"
+        },
+        {
+          "path": "gfx/iconnative-37-games.png",
+          "sha256": "a145d8460293bdafefa11ffebb9d8439063cb558efd3fa3371a69b19008a60f6"
+        },
+        {
+          "path": "gfx/iconnative-37-health.png",
+          "sha256": "98bfa57619664e01aacb3ac1ab83d3328195d81dd8b996c08f47708aed5aa751"
+        },
+        {
+          "path": "gfx/iconnative-37-wallet.png",
+          "sha256": "eba104a2892eefb9b4354ef04930066554ec1974610af7144d3727a567095986"
+        },
+        {
+          "path": "gfx/iconnative-37-siri.png",
+          "sha256": "072f3f7a29d079d252c9451ac5b060ee3fc4dcc67af6c787d7244e4528ad0e85"
+        },
+        {
+          "path": "gfx/iconnative-37-settings.png",
+          "sha256": "a473cfd17a0c45b9e243e680b6b0f9d55e72eef56e177c3f8394d35b6861ddc4"
+        },
+        {
+          "path": "gfx/iconnative-37-phone.png",
+          "sha256": "aa0e4ba6e4fe9caf377d83583c077358200854de3c61aeb9d0897ad75b5f5440"
+        },
+        {
+          "path": "gfx/iconnative-37-safari.png",
+          "sha256": "3b06ee0874250f1cee14d8b4dbc16af9bea2f1ed6f482f3171d5b36237e2dbeb"
+        },
+        {
+          "path": "gfx/iconnative-37-messages.png",
+          "sha256": "8017e01ee2d9e6f90267e4ac81dacc13e54da574fd352f7701bd819a0829f474"
+        },
+        {
+          "path": "gfx/iconnative-37-music.png",
+          "sha256": "713615110175afb97dfaaaec7d94e1106131357098f5116f7b285a418c42eede"
+        },
+        {
+          "path": "gfx/iconnative-37-calculator.png",
+          "sha256": "a1049f4df958919bd5744ab55b7b26a5af8f2e5c6a27c533c8e2f57525775951"
+        },
+        {
+          "path": "gfx/iconnative-32-facetime.png",
+          "sha256": "1ac95068256dad2fb329afc2e445ed59e399269b1bbdd0cfffe16d01c48a6f36"
+        },
+        {
+          "path": "gfx/iconnative-32-calendar.png",
+          "sha256": "e2b5a7a195a5e46188778b74490a27178a28e5849eb667331f3e7e78fe9dd3a0"
+        },
+        {
+          "path": "gfx/iconnative-32-photos.png",
+          "sha256": "3c6c580e8354f1b82491c202641b732d50e087cbd73fc7251b3232fcb0a1765f"
+        },
+        {
+          "path": "gfx/iconnative-32-camera.png",
+          "sha256": "b087eb18a6a6636c452c6d3d51e0bbf35d01037bb0fabb712528cbc279b4b776"
+        },
+        {
+          "path": "gfx/iconnative-32-mail.png",
+          "sha256": "cae75b7e9c49851167894aa44a04e8f3215ca56e29b291e4a2f9907db23faf49"
+        },
+        {
+          "path": "gfx/iconnative-32-notes.png",
+          "sha256": "157349366c2deeddc8bc533c184fcbdb740a29570ef9e80939eae1b7edb4db73"
+        },
+        {
+          "path": "gfx/iconnative-32-clock.png",
+          "sha256": "fd9323524845317b6f45bbd898bd8128f200ef72194ee2a0c2b4ce67f4a2aa01"
+        },
+        {
+          "path": "gfx/iconnative-32-maps.png",
+          "sha256": "0a576f036b37afd1ff353014338e2f662334f331eb06a24a54c1ed737b97e8c0"
+        },
+        {
+          "path": "gfx/iconnative-32-apple-tv.png",
+          "sha256": "ba48fccc5ad29cb968c76112d39251c940effb8d7844a3ca729bee264e884403"
+        },
+        {
+          "path": "gfx/iconnative-32-news.png",
+          "sha256": "73e61ff0843c01b7db52a83fe2532e1ae4110f934772dea27b672612ae006d6c"
+        },
+        {
+          "path": "gfx/iconnative-32-app-store.png",
+          "sha256": "082e8e198783a413fe417eb2fd8d68a26374a24874ce4646120b96cbd8b6226b"
+        },
+        {
+          "path": "gfx/iconnative-32-games.png",
+          "sha256": "18601940a1c083194e9527558aea3ff5a015a94a3b536f8cfd4db30aa7fd7fbd"
+        },
+        {
+          "path": "gfx/iconnative-32-health.png",
+          "sha256": "01a9877278b5074c65ccf58b6c05ff3c4327f363b7fb89fff9189ee3a44efe6c"
+        },
+        {
+          "path": "gfx/iconnative-32-wallet.png",
+          "sha256": "24df3a85d77aca64ab8d9e548027ee037b6d734524cec713acb5eb8a9e46d466"
+        },
+        {
+          "path": "gfx/iconnative-32-siri.png",
+          "sha256": "9e62cd939544cb58904081c255c9df22fa1f632cae2212a4636f319af3ccc4ce"
+        },
+        {
+          "path": "gfx/iconnative-32-settings.png",
+          "sha256": "edf5f25464efcddfac5753faac15e3e0f523a3ae98377046b6dba988eaba8eb4"
+        },
+        {
+          "path": "gfx/iconnative-32-phone.png",
+          "sha256": "00b5b4339fdf6eea3c39514e77d7805bce93bad41a74a1a3c50f9357317a9a8e"
+        },
+        {
+          "path": "gfx/iconnative-32-safari.png",
+          "sha256": "f576ed06d5889bfbc95352896f9eb5e3a11c304d4cdb8a315a108fa9544333a8"
+        },
+        {
+          "path": "gfx/iconnative-32-messages.png",
+          "sha256": "8f5d43d9d95921683560ea5ebb55e853bcb478a5de1a3eb3f505483649eeb6fa"
+        },
+        {
+          "path": "gfx/iconnative-32-music.png",
+          "sha256": "dfc4793dfbc73154f14830e81762e7532e4262a006e4aa0224161ff4fbdf3d8a"
+        },
+        {
+          "path": "gfx/iconnative-32-calculator.png",
+          "sha256": "2c85716b66e08b7f2072c08c8812e6fdbead86fc0d4a67e36a171e65f1337917"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/labels.t3s",
+      "inputs": [
+        {
+          "path": "gfx/labelsharp-facetime.png",
+          "sha256": "9dd8e89a0a8c157d86b957be61c86f0caf5fbc36349b217a3de042534c23b02b"
+        },
+        {
+          "path": "gfx/labelsharp-calendar.png",
+          "sha256": "21cbf0d4b21dbd7b50e77e74800696ea3ade1f0113caecaa1ba551ebaa9e334d"
+        },
+        {
+          "path": "gfx/labelsharp-photos.png",
+          "sha256": "e300b2a87ab975a66594bd413931464f0a997e6745a2d33eeabd867aebd23cfb"
+        },
+        {
+          "path": "gfx/labelsharp-camera.png",
+          "sha256": "bdbf0f9644c9ede99df3b047afbd2a3801f0641dc580a1b3394fe67154f798c6"
+        },
+        {
+          "path": "gfx/labelsharp-mail.png",
+          "sha256": "4d6045b89a9c0e38c30f050327d0322c6c4329a88cd98f9d53aac6469b00840b"
+        },
+        {
+          "path": "gfx/labelsharp-notes.png",
+          "sha256": "139d350bb661a61f2dbea23a9dbed9cfdbb7462b6ee9d2ead9e67b8491f9d5d2"
+        },
+        {
+          "path": "gfx/labelsharp-clock.png",
+          "sha256": "1ae492f2df99fcf94b976e246121aabf0f6229749c8d85ea2802abfbd99d947a"
+        },
+        {
+          "path": "gfx/labelsharp-maps.png",
+          "sha256": "f3f497073125b9c06e3efc53f817e3ecfbaaf3d96f7d78af789fecb76e759afe"
+        },
+        {
+          "path": "gfx/labelsharp-apple-tv.png",
+          "sha256": "55290f68dba04b50ffdb41aca46a3d8c8cdaa248dc7763773747081841d87c22"
+        },
+        {
+          "path": "gfx/labelsharp-news.png",
+          "sha256": "996e66ba8d347c43cc4efcd2babdc59542111fa1e55d35dcb331a347e886984b"
+        },
+        {
+          "path": "gfx/labelsharp-app-store.png",
+          "sha256": "bc2a4bc6b683eee492090754e5a228ceb9790aa71c1e21b665ac839de3d03548"
+        },
+        {
+          "path": "gfx/labelsharp-games.png",
+          "sha256": "14f1ac0dfa2071980e4ef440ace306fefa84118884b26074a1861ae943dc7120"
+        },
+        {
+          "path": "gfx/labelsharp-health.png",
+          "sha256": "86404f862b76897dad80a0257bd4a5c3bfa672a747b47e33e319c4e226d55878"
+        },
+        {
+          "path": "gfx/labelsharp-wallet.png",
+          "sha256": "ae16e9ab65460917ce0d1c6f8005d56e30dd58a10e09ceb13d3307c6de8294c3"
+        },
+        {
+          "path": "gfx/labelsharp-siri.png",
+          "sha256": "285d7f051ea952b58ed10e12f62af031dd418378563f330c67e53f40932604d6"
+        },
+        {
+          "path": "gfx/labelsharp-settings.png",
+          "sha256": "b80b8efc197310acc6a97f5afc6b37bf53a4e0526551e4aeed84ed1f0c5b950b"
+        },
+        {
+          "path": "gfx/labelsharp-phone.png",
+          "sha256": "55ed0c2bf808594ec2dcc7896408ea90ee984e7d941002b0f90dbe5a3f66e12c"
+        },
+        {
+          "path": "gfx/labelsharp-safari.png",
+          "sha256": "95d6a061ef365022cc75749e79311740a9fbe2431fc0241cc6cff12de479315d"
+        },
+        {
+          "path": "gfx/labelsharp-messages.png",
+          "sha256": "3a993a23d9e219228f988999674fe9c07f2416627475b45ab0b4e761bfcec521"
+        },
+        {
+          "path": "gfx/labelsharp-music.png",
+          "sha256": "4fbecd8864e829dbc864b18aecb03790b34cdbe2864769a5269a8283983d00ac"
+        },
+        {
+          "path": "gfx/labelsharp-calculator.png",
+          "sha256": "7ca9d570de4528d073d9f42ae2bed1dccd2721bd13edff67509c362d81fbe9d7"
+        },
+        {
+          "path": "gfx/labelen-facetime.png",
+          "sha256": "a2b6d11a8ac10ae9244f919c022898c8ab042f830c0cb1b50f132562e3e8fe96"
+        },
+        {
+          "path": "gfx/labelen-calendar.png",
+          "sha256": "9d0e329d0b6f7fc5b6bd1a6f424607040f6291b895f59313652b281cb984eaf2"
+        },
+        {
+          "path": "gfx/labelen-photos.png",
+          "sha256": "51fd6a890a14480f37407836770a3e2013614297b0c9d2afd0cf10344a0227a8"
+        },
+        {
+          "path": "gfx/labelen-camera.png",
+          "sha256": "ee1f6abd8854a2e651edcfd7ba832136387d9ba9f25aad9d6dd3e764fd81f73e"
+        },
+        {
+          "path": "gfx/labelen-mail.png",
+          "sha256": "824b05e5f9926a2dbdaeaf105ede9c6804b7bebf342a44f29e80935a6a4745b8"
+        },
+        {
+          "path": "gfx/labelen-notes.png",
+          "sha256": "507700bb383765b613486e3bab13fab083c7d1a05933c4f62ae34fde39082375"
+        },
+        {
+          "path": "gfx/labelen-clock.png",
+          "sha256": "dc5fe686cc70c3684dd4b64b25e1f4424337b8153250ed111e63450cc9859051"
+        },
+        {
+          "path": "gfx/labelen-maps.png",
+          "sha256": "a44d17474a4b7d3354f26c6ae0e3914f4bf301859649ddd2308c216ae651ea70"
+        },
+        {
+          "path": "gfx/labelen-apple-tv.png",
+          "sha256": "7ce5a15a3c10382e8c3b33542fca81b4c0ce3b7e38360be9f3aefa08d32906a4"
+        },
+        {
+          "path": "gfx/labelen-news.png",
+          "sha256": "bacb96e9f16e9c6205a66b4c6de6336618453f4186fa2e5dd04c2b90842aa80c"
+        },
+        {
+          "path": "gfx/labelen-app-store.png",
+          "sha256": "8f13ff928f9d840bfa4967bcb9ef5cc2ee612b17b03ad7199de2ddcdcdfd5a69"
+        },
+        {
+          "path": "gfx/labelen-games.png",
+          "sha256": "a18eb4f25663d0cd19eb17baf441e7f5af5a0affd42a112a46089974bbd146f7"
+        },
+        {
+          "path": "gfx/labelen-health.png",
+          "sha256": "30d15bdc3a4377fb498932556ab51950f3e680902a8449cefd5aa6c033266395"
+        },
+        {
+          "path": "gfx/labelen-wallet.png",
+          "sha256": "c1dfcd7f76a73c69f42e1dff37d6e371356773cc6fdb170fa6607a7388308a4e"
+        },
+        {
+          "path": "gfx/labelen-siri.png",
+          "sha256": "b55b15bf242cd55d1bc385181663c00c5a92da8c0744cfe5e2799be2e6dd61f8"
+        },
+        {
+          "path": "gfx/labelen-settings.png",
+          "sha256": "9951fc8f0fd659ad7445e87daa259b74e83ce6a6cfac880a235a33fd882a83ba"
+        },
+        {
+          "path": "gfx/labelen-phone.png",
+          "sha256": "82e3ed978ba1b97d80136746ec0a33c049f5aa1bf7276da158e162b2ceec285b"
+        },
+        {
+          "path": "gfx/labelen-safari.png",
+          "sha256": "3262c0b8b26c4b7b61cae2f10fcf7e6ba4733faddc813aa08b88e7b83cb087ee"
+        },
+        {
+          "path": "gfx/labelen-messages.png",
+          "sha256": "a8dede8234bd4ba5d1e18d361eaf3889f39a4171b8de27e8ad46291314ab943f"
+        },
+        {
+          "path": "gfx/labelen-music.png",
+          "sha256": "aa5338b75a83cd4f095936a7d700d1c240bf097121a09a85bd6b676d45b84fa4"
+        },
+        {
+          "path": "gfx/labelen-calculator.png",
+          "sha256": "74d0ab9cb5224877aadb248bf0cbd788651286f9871c0e695185012ea978d9a5"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/lockscreen.t3s",
+      "inputs": [
+        {
+          "path": "gfx/lock-top-landscape-day.png",
+          "sha256": "6110cb17205954bf9c4d82d4ca4345aeb41d2e58a357db8fee95c9f4c3643e46"
+        },
+        {
+          "path": "gfx/lock-bottom-landscape-day.png",
+          "sha256": "6604a4a8a61a9e501b1f7c27ffc9e20dcb1fbf37da198c04bbb7af5c603e9c3d"
+        },
+        {
+          "path": "gfx/lock-top-portrait-day.png",
+          "sha256": "fee3d0744e95ae28dc93904242ee2701a8eb17b8b3c6b431089efc4f64758810"
+        },
+        {
+          "path": "gfx/lock-bottom-portrait-day.png",
+          "sha256": "d883b888008ffd631a9b7c73efaad4c1abd11a72a5813c41f0f6926d5a056b50"
+        },
+        {
+          "path": "gfx/lock-top-landscape-night.png",
+          "sha256": "10935bbe0541094f49e23c0b605e9b51af2a3b873e6a7be5d70c2bea2f59efea"
+        },
+        {
+          "path": "gfx/lock-bottom-landscape-night.png",
+          "sha256": "957b74c241177e450f5663209ff8d68713a3183f5c4f950b4ec6c7454c98ec78"
+        },
+        {
+          "path": "gfx/lock-top-portrait-night.png",
+          "sha256": "bcbc16f4810d9389e3f8712d0885d85cd3fe42b0a4c13a697fd374b58393b310"
+        },
+        {
+          "path": "gfx/lock-bottom-portrait-night.png",
+          "sha256": "2dfed524a4cea7c3562a2bc0fa09620937bc5a55509336e24febf9aae594a574"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/music_widget.t3s",
+      "inputs": [
+        {
+          "path": "gfx/music-widget-official.png",
+          "sha256": "71688c21b203658d0ede3ffe85bcde637419fddcabb316d7d6e6a1f1f32e0eac"
+        },
+        {
+          "path": "gfx/widget-top_home_day.png",
+          "sha256": "d6649e49fb14599a90420037f9834a0cbdc7e5e51c4ef557dd41dee98420520a"
+        },
+        {
+          "path": "gfx/widget-top_home_night.png",
+          "sha256": "3cfb6b66723cedc2284b0f76c61c028919d019174f52fd8ab4b289455a0958f9"
+        },
+        {
+          "path": "gfx/widget-top_portrait_day.png",
+          "sha256": "0c8e9231e4c7d08b54b567964844896dc7cc126e2bb2ee74ecd2de246681f7a3"
+        },
+        {
+          "path": "gfx/widget-top_portrait_night.png",
+          "sha256": "797896779b72a4c925056c7d4fc46c1724e74abb1a15f2a428754e2472c97fab"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/official_facetime.t3s",
+      "inputs": [
+        {
+          "path": "gfx/official/facetime-0.png",
+          "sha256": "d70a77af2b5233ef5938e9d73cf532a62dee958724e8e412feb2d65386f07684"
+        },
+        {
+          "path": "gfx/official/facetime-1.png",
+          "sha256": "896407b02bb62beb1d5c8512babf9697514621b16b305363affc2dc568ffb6d5"
+        },
+        {
+          "path": "gfx/official/facetime-2.png",
+          "sha256": "8a7c4990c17af4cfccd9606730a2597bbbbf27ac4a9b735559ace175ab3b5c01"
+        },
+        {
+          "path": "gfx/official/facetime-3.png",
+          "sha256": "e510de96fdebad58af0ae151892b27c296ce17f325286b66609bc65452db0186"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/official_mail.t3s",
+      "inputs": [
+        {
+          "path": "gfx/official/mail-0.png",
+          "sha256": "d3c0ca0199c4f74c94908f1374be04e0c77754876c4e15028cd9aba0dfa2e6c7"
+        },
+        {
+          "path": "gfx/official/mail-1.png",
+          "sha256": "061320da31ce28fe4b0c87e6f596a6bc8bacf7655f280d0ccac7fc622673c5ad"
+        },
+        {
+          "path": "gfx/official/mail-2.png",
+          "sha256": "514cfcf35521ab57b860ae2388eeeaafbb35fe9901c392d7a898d73c236fc2ed"
+        },
+        {
+          "path": "gfx/official/mail-3.png",
+          "sha256": "a3e1e3cbefbf069d5d44a1bbbe7f554a58d615c9f5879791ba17b4a6da1fb71b"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/official_notes.t3s",
+      "inputs": [
+        {
+          "path": "gfx/official/notes-0.png",
+          "sha256": "1c8f5cce3fd0498562d3f0271136745bc8f41a3229bf55dca95605b19628c69a"
+        },
+        {
+          "path": "gfx/official/notes-1.png",
+          "sha256": "3ce3a0ad534e72ff194ea35d07491d9f2585f5961dc21f6183e58e563edb6702"
+        },
+        {
+          "path": "gfx/official/notes-2.png",
+          "sha256": "4f8ab6c6270f017b6409b9ec186cb3100c57d0c836b070e7cdd922c225bca1fc"
+        },
+        {
+          "path": "gfx/official/notes-3.png",
+          "sha256": "83faba6a133a646803e577f1fa63bf58dde2207e79ace0603596d5def15bc600"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/official_photos.t3s",
+      "inputs": [
+        {
+          "path": "gfx/official/photos-0.png",
+          "sha256": "a450848414c1f7eaa2182cb556c14d779627f87d18f596990df6b88b516440ed"
+        },
+        {
+          "path": "gfx/official/photos-1.png",
+          "sha256": "afc3e6bc4f8cac4380c90f9bfbe058feed43177f741c84574bd4c7e3e77a676f"
+        },
+        {
+          "path": "gfx/official/photos-2.png",
+          "sha256": "c705b8ecce8aac4ffa1d18d0eea893d6255e9968c202262263a121a3439f1450"
+        },
+        {
+          "path": "gfx/official/photos-3.png",
+          "sha256": "a46263cb34cf56909acd90486deae8ea519abb077f1a92379a42e855d64dc022"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/official_siri.t3s",
+      "inputs": [
+        {
+          "path": "gfx/official/siri-0.png",
+          "sha256": "57c08c2d466053a72b70d046d37ca7171a929ed1a9e933f9f8a725fd98944876"
+        },
+        {
+          "path": "gfx/official/siri-1.png",
+          "sha256": "a6a3712ba53987e374b052fbc20e63b515025864953a21c47122da34e53d69b9"
+        },
+        {
+          "path": "gfx/official/siri-2.png",
+          "sha256": "546b13552adc4c7bdb9356b0ec1f995a5eea6e0411e724a22b94f583acd41b76"
+        },
+        {
+          "path": "gfx/official/siri-3.png",
+          "sha256": "6a4929fc351705ceb22908c0d1d97488a20fd9e5886b07f94466d24b88f88698"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/official_tv.t3s",
+      "inputs": [
+        {
+          "path": "gfx/official/tv-0.png",
+          "sha256": "148fe6f57cf555b00c100883621d0483f888d178dd25527e7bfffacde298d439"
+        },
+        {
+          "path": "gfx/official/tv-1.png",
+          "sha256": "f5211cb8fca526ecb2aad77384cff78380737e8fc4108f185551f03c22a93e25"
+        },
+        {
+          "path": "gfx/official/tv-2.png",
+          "sha256": "31107be2a86326a42662ba99ed6a7c403d8add557b605b0d12edf20a82c15174"
+        },
+        {
+          "path": "gfx/official/tv-3.png",
+          "sha256": "2af36c51f810dd91e46dca5958729ad3155a81661fa9b2c77220d3ca342e9d7c"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/portrait.t3s",
+      "inputs": [
+        {
+          "path": "gfx/top_portrait_day.png",
+          "sha256": "0c1c96c51446b82d961185c7309fc24f0c4564bf6f4e2ba83165dab9ada2edf4"
+        },
+        {
+          "path": "gfx/top_portrait_night.png",
+          "sha256": "42165b59801d2854ca706075e7048eee51bea6d38e14b0ecb02c50ae14a66fab"
+        },
+        {
+          "path": "gfx/bottom_portrait_day.png",
+          "sha256": "b1cb31d329fcf8a59c82733fa965f6935ed4518293a0295e8ef0ad9330233dad"
+        },
+        {
+          "path": "gfx/bottom_portrait_night.png",
+          "sha256": "fdc6c95305565760bf4845b4e23ed9a78dc6db79495262113d0ea2eddcbf5b61"
+        },
+        {
+          "path": "gfx/bottom_portrait_page2_day.png",
+          "sha256": "3dfc78df0e78e52d11b53527ff0ac5827b4c2cf8c65dd18e618d4196cf3a23db"
+        },
+        {
+          "path": "gfx/bottom_portrait_page2_night.png",
+          "sha256": "381216c8f8894b6089ae577861b5be52c8500a5617fb78667dcf0a6b984ce603"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_0.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_home_v0_landscape_top.png",
+          "sha256": "63c0cb24c138d91b1b238f613c712c4a8638fe2890fcb68d6c5f6c3574c86c91"
+        },
+        {
+          "path": "gfx/showcase/music_home_v0_landscape_bottom.png",
+          "sha256": "d555370baa89f382fdf58ab12d29e5984db720be31de39e3f61163158211d42d"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v0.png",
+          "sha256": "ae4590495d9c98ea88d2d4666e4ab37930ed4c3f5515ed927f2d0385b77319ee"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v1.png",
+          "sha256": "4e59aaf0f3b245113e020f1189805286097087e42b190f65f288b57843d0a4c0"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v2.png",
+          "sha256": "05bdee7e99d94454aedbf010243b5fd83e0956b9cae44bf4347dbffefdb7214e"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v3.png",
+          "sha256": "350be1c51774b5ae9f0a2ed7330f3ee94335537128c9f282da3878a1ccf6f550"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v4.png",
+          "sha256": "24cf63e782db2be82d03bce31526e3e45d0334cf54f477e8243d53944fc80dc6"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v5.png",
+          "sha256": "545e3750bc2e8e1fba0f4acf0644e1118f424068edb42906d69c09508185123a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v6.png",
+          "sha256": "5d6398bf7340e29a89f76d93d851034b3d2d8b8cea5300cfad8e9bb16ff3c464"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v7.png",
+          "sha256": "48a18d9e8913ca10099df59bfb41e947fa8dda1bf9f65c14187fb34790b44b61"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v8.png",
+          "sha256": "22771afc9b83c225602e3c807d2a88eae2d60d0260b79f89eeec9e3158dd9e26"
+        },
+        {
+          "path": "gfx/showcase/music_home_v0_landscape_bottom_play_paused.png",
+          "sha256": "5ca26b27c7315a587863b99b96cf16cb20d1a8b1dc8a73668371639fa2606e6c"
+        },
+        {
+          "path": "gfx/showcase/music_home_v0_landscape_bottom_play_playing.png",
+          "sha256": "4df1df4e8345e95f586c86092e38d34e7e4b37e23dea03851f9d99cc4b7df910"
+        },
+        {
+          "path": "gfx/showcase/music_home_v0_portrait_top.png",
+          "sha256": "ed32a66f13a09728412617670abd6d7835844401d8c48028ffb048409fa7d2f0"
+        },
+        {
+          "path": "gfx/showcase/music_home_v0_portrait_bottom.png",
+          "sha256": "979926cae7df8d881b29dcf781e145eb6b6ee4f4f798a134b6b1d40f65791e2c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v0.png",
+          "sha256": "8ffd2fd00856b804f5a0e982d82f9385d841bd5117b2e329ff76bae7d027c2c5"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v1.png",
+          "sha256": "d5ba6dbc6742818de4831a1bf67838b874053607e44e1906a00b625db7c5440a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v2.png",
+          "sha256": "ae3f5ae2025c9d31a1ccf34ee6add30eb658888371cffe9b7a06bacf055707de"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v3.png",
+          "sha256": "4e5b794a4375d0a9ab43160eca0a03b0b92831c4ecf5a0faeecc6d5686188b52"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v4.png",
+          "sha256": "af73298c97d797f04f2e60067618d0a271866620abbd10b88e0cb89b7eb595d4"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v5.png",
+          "sha256": "1e230e8c4f6d5a6126dc823f8318612b971eeb80eaf6f3cf1842b55f7566055c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v6.png",
+          "sha256": "4884d86f5fcec6607a564f176f44bef1d0a252f85eb688458d0df0a5a6225fcf"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v7.png",
+          "sha256": "6e55a8adf75aca18aea137b57bb33793c45931da0e0d42e8af7aae2591a66a38"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v8.png",
+          "sha256": "c314c3aa9df7027ec89ebdfd81f447f3579102949bd99a84cd1f42da96647bc3"
+        },
+        {
+          "path": "gfx/showcase/music_home_v0_portrait_bottom_play_paused.png",
+          "sha256": "8be1323d7bf0de70b2f3d592bb46990fdfb6a36664ef329b355a67c6b344ae0a"
+        },
+        {
+          "path": "gfx/showcase/music_home_v0_portrait_bottom_play_playing.png",
+          "sha256": "7e4c2675c7ae74468eaf19d17b75dc292c44845da5e3cdefc775065e42dc71bf"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_1.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_new_v0_landscape_top.png",
+          "sha256": "e11a19cda1483a6f0df75b847410171e17b76b3768030a84f3a8f0331622ace5"
+        },
+        {
+          "path": "gfx/showcase/music_new_v0_landscape_bottom.png",
+          "sha256": "7abcbbc8a0b93a03934044a6ed98826c9a749482f62cd9ab418c637a9225dbd3"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v0.png",
+          "sha256": "ae4590495d9c98ea88d2d4666e4ab37930ed4c3f5515ed927f2d0385b77319ee"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v1.png",
+          "sha256": "4e59aaf0f3b245113e020f1189805286097087e42b190f65f288b57843d0a4c0"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v2.png",
+          "sha256": "05bdee7e99d94454aedbf010243b5fd83e0956b9cae44bf4347dbffefdb7214e"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v3.png",
+          "sha256": "350be1c51774b5ae9f0a2ed7330f3ee94335537128c9f282da3878a1ccf6f550"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v4.png",
+          "sha256": "24cf63e782db2be82d03bce31526e3e45d0334cf54f477e8243d53944fc80dc6"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v5.png",
+          "sha256": "545e3750bc2e8e1fba0f4acf0644e1118f424068edb42906d69c09508185123a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v6.png",
+          "sha256": "5d6398bf7340e29a89f76d93d851034b3d2d8b8cea5300cfad8e9bb16ff3c464"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v7.png",
+          "sha256": "48a18d9e8913ca10099df59bfb41e947fa8dda1bf9f65c14187fb34790b44b61"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v8.png",
+          "sha256": "22771afc9b83c225602e3c807d2a88eae2d60d0260b79f89eeec9e3158dd9e26"
+        },
+        {
+          "path": "gfx/showcase/music_new_v0_landscape_bottom_play_paused.png",
+          "sha256": "5ca26b27c7315a587863b99b96cf16cb20d1a8b1dc8a73668371639fa2606e6c"
+        },
+        {
+          "path": "gfx/showcase/music_new_v0_landscape_bottom_play_playing.png",
+          "sha256": "c80da8d7823f3f76e79c228d4c66833ad04cf42232f70f45657c5bf07cda8dbe"
+        },
+        {
+          "path": "gfx/showcase/music_new_v0_portrait_top.png",
+          "sha256": "df979a3ab80497f9a8d2ba685eea3587dfca99ca7cf00a684765de46a4ad92f9"
+        },
+        {
+          "path": "gfx/showcase/music_new_v0_portrait_bottom.png",
+          "sha256": "3348b72d641a18a474c7c2901da5a125af46e59e8ebfe63482e8f2acd34c68f0"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v0.png",
+          "sha256": "8ffd2fd00856b804f5a0e982d82f9385d841bd5117b2e329ff76bae7d027c2c5"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v1.png",
+          "sha256": "d5ba6dbc6742818de4831a1bf67838b874053607e44e1906a00b625db7c5440a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v2.png",
+          "sha256": "ae3f5ae2025c9d31a1ccf34ee6add30eb658888371cffe9b7a06bacf055707de"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v3.png",
+          "sha256": "4e5b794a4375d0a9ab43160eca0a03b0b92831c4ecf5a0faeecc6d5686188b52"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v4.png",
+          "sha256": "af73298c97d797f04f2e60067618d0a271866620abbd10b88e0cb89b7eb595d4"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v5.png",
+          "sha256": "1e230e8c4f6d5a6126dc823f8318612b971eeb80eaf6f3cf1842b55f7566055c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v6.png",
+          "sha256": "4884d86f5fcec6607a564f176f44bef1d0a252f85eb688458d0df0a5a6225fcf"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v7.png",
+          "sha256": "6e55a8adf75aca18aea137b57bb33793c45931da0e0d42e8af7aae2591a66a38"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v8.png",
+          "sha256": "c314c3aa9df7027ec89ebdfd81f447f3579102949bd99a84cd1f42da96647bc3"
+        },
+        {
+          "path": "gfx/showcase/music_new_v0_portrait_bottom_play_paused.png",
+          "sha256": "8be1323d7bf0de70b2f3d592bb46990fdfb6a36664ef329b355a67c6b344ae0a"
+        },
+        {
+          "path": "gfx/showcase/music_new_v0_portrait_bottom_play_playing.png",
+          "sha256": "7e4c2675c7ae74468eaf19d17b75dc292c44845da5e3cdefc775065e42dc71bf"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_10.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_top.png",
+          "sha256": "3fd7b4230324377ac43f46acf4a4ecf705635d98df94ca2536a86adc1463699c"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom.png",
+          "sha256": "f8097f29fb908fc6e4e5a0cc4f4e7e168913b15c0294467b1d062535a2f95a0a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_play_paused.png",
+          "sha256": "efcac8c09afd8dd7af0171990691330f7d1e8b6d7f3da18c1cfd3541a3a1711c"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_play_playing.png",
+          "sha256": "a8ecf31833fe51155ed477dee1205adff075da877447fe986ae55099effd2b52"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_shuffle_off.png",
+          "sha256": "0ed345efd90680a58a50807783d1ba1c05bdcb87b349c149c0d3a4a96c882b09"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_shuffle_on.png",
+          "sha256": "f2ef346ca88ad5c5d46d4e407fcb316c915db74a10c9581ceaabcfe5a465571b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_repeat_off.png",
+          "sha256": "95084a76c08293a13ddb5346f23d583d0ed381299c6b8afbdeaf0567e230673f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_repeat_on.png",
+          "sha256": "967abcd0123b38baff10e5d051888753d6bd004c346f23efffac9e713b1fad3a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_progress_clean.png",
+          "sha256": "55d17950d392a5376a158451ca0707e06c3215126118b423b1357e86e14d901a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_elapsed_background.png",
+          "sha256": "678098944bb26b99199e10a5c8c85f995e8d4be59daa09589d9656e15a53a48c"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_landscape_bottom_remaining_background.png",
+          "sha256": "613f7075c21c08e29a539f983fbabbdd336bd4af84427ef6a2b71edec32a7839"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_top.png",
+          "sha256": "645c9430a207425d83aa55f801447b3cb450942d515c5fe023299c5949e060e9"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom.png",
+          "sha256": "88ef48c30c762bdcba4dd6c24b0b0280078834bbcb7b79f4fbc7c1411868760f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_play_paused.png",
+          "sha256": "c34375d5d4c9f612c1d387a230e7c883e2c8b3fc706658b5a423cc683c2ef141"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_play_playing.png",
+          "sha256": "b76f532919c3a081d53ebf853cf40bc50d5aaeffc4807b926093a7df52e16a48"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_shuffle_off.png",
+          "sha256": "b1b0be84bae3ffdfa40f7872acd6e370e11f8ecd962dfa4ce3c1db5c470325d0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_shuffle_on.png",
+          "sha256": "67c81f916265908dc3a0a9061439626026fe135c76b7e1280518a1ea0a8bafc4"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_repeat_off.png",
+          "sha256": "df3dc7adbb9e4e82ce872bc6e260ed1e82d585d9472ece56c683e1b92a271332"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_repeat_on.png",
+          "sha256": "82e870777ccd2363fb77eabad41c64fb3db04289e467ac7c2728743745e2b5bb"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_progress_clean.png",
+          "sha256": "5f4486ea9b4c464fdb8d442ee8a074665fb57471417ec67b121356c32fdcdece"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_elapsed_background.png",
+          "sha256": "408d84d70b4c3b2f089f29eee248ca2b4715370497081928b013e802862ba913"
+        },
+        {
+          "path": "gfx/showcase/music_player_v3_portrait_bottom_remaining_background.png",
+          "sha256": "eeda139ee2ef5755b63ff304a44892d6c0c245e824107733af2b0c64d1899a4b"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_11.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_top.png",
+          "sha256": "118ef39da6fc9555d84324b73c09af41f80cedf928c35c12e2e53dc226f779e4"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom.png",
+          "sha256": "b76b562a205a9a1f0a2e80c2e97ce92e6009ea57ec911799cdcca78e70d05c72"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_play_paused.png",
+          "sha256": "efcac8c09afd8dd7af0171990691330f7d1e8b6d7f3da18c1cfd3541a3a1711c"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_play_playing.png",
+          "sha256": "a8ecf31833fe51155ed477dee1205adff075da877447fe986ae55099effd2b52"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_shuffle_off.png",
+          "sha256": "0ed345efd90680a58a50807783d1ba1c05bdcb87b349c149c0d3a4a96c882b09"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_shuffle_on.png",
+          "sha256": "f2ef346ca88ad5c5d46d4e407fcb316c915db74a10c9581ceaabcfe5a465571b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_repeat_off.png",
+          "sha256": "95084a76c08293a13ddb5346f23d583d0ed381299c6b8afbdeaf0567e230673f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_repeat_on.png",
+          "sha256": "967abcd0123b38baff10e5d051888753d6bd004c346f23efffac9e713b1fad3a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_progress_clean.png",
+          "sha256": "55d17950d392a5376a158451ca0707e06c3215126118b423b1357e86e14d901a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_elapsed_background.png",
+          "sha256": "678098944bb26b99199e10a5c8c85f995e8d4be59daa09589d9656e15a53a48c"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_landscape_bottom_remaining_background.png",
+          "sha256": "613f7075c21c08e29a539f983fbabbdd336bd4af84427ef6a2b71edec32a7839"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_top.png",
+          "sha256": "0bc9ce1a0c8d0576751535d26159ab57f1f55ebeb798c1738de4b2685a3e28a3"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom.png",
+          "sha256": "129283790615684e76653a15b38302714e2eee5630eb5e0ace4ac450db2304c8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_play_paused.png",
+          "sha256": "0b7e28b1f9303dbfd7fff180af9b46bcb4596247bae77e4ac7e36cf419b9e6ee"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_play_playing.png",
+          "sha256": "b76f532919c3a081d53ebf853cf40bc50d5aaeffc4807b926093a7df52e16a48"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_shuffle_off.png",
+          "sha256": "b1b0be84bae3ffdfa40f7872acd6e370e11f8ecd962dfa4ce3c1db5c470325d0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_shuffle_on.png",
+          "sha256": "67c81f916265908dc3a0a9061439626026fe135c76b7e1280518a1ea0a8bafc4"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_repeat_off.png",
+          "sha256": "df3dc7adbb9e4e82ce872bc6e260ed1e82d585d9472ece56c683e1b92a271332"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_repeat_on.png",
+          "sha256": "82e870777ccd2363fb77eabad41c64fb3db04289e467ac7c2728743745e2b5bb"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_progress_clean.png",
+          "sha256": "a6b7813c08d65ec7896d11c061966161c40526ae7f4d1b711724c84afe84386d"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_elapsed_background.png",
+          "sha256": "408d84d70b4c3b2f089f29eee248ca2b4715370497081928b013e802862ba913"
+        },
+        {
+          "path": "gfx/showcase/music_player_v4_portrait_bottom_remaining_background.png",
+          "sha256": "eeda139ee2ef5755b63ff304a44892d6c0c245e824107733af2b0c64d1899a4b"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_12.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_top.png",
+          "sha256": "5b90b0fc852b220e96394cb28d138a0ae8053ba6865046cd9490cee857097ed8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom.png",
+          "sha256": "ae5f63a0b9c6be98ae533439d3b7a67be4674992c46531868e6127bc2e797e93"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_play_paused.png",
+          "sha256": "efcac8c09afd8dd7af0171990691330f7d1e8b6d7f3da18c1cfd3541a3a1711c"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_play_playing.png",
+          "sha256": "a8ecf31833fe51155ed477dee1205adff075da877447fe986ae55099effd2b52"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_shuffle_off.png",
+          "sha256": "0ed345efd90680a58a50807783d1ba1c05bdcb87b349c149c0d3a4a96c882b09"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_shuffle_on.png",
+          "sha256": "3cc02bf04877626606c8891f66094f511ee28a40dbbb77640c09df27c21f3b65"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_repeat_off.png",
+          "sha256": "95084a76c08293a13ddb5346f23d583d0ed381299c6b8afbdeaf0567e230673f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_repeat_on.png",
+          "sha256": "967abcd0123b38baff10e5d051888753d6bd004c346f23efffac9e713b1fad3a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_progress_clean.png",
+          "sha256": "55d17950d392a5376a158451ca0707e06c3215126118b423b1357e86e14d901a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_elapsed_background.png",
+          "sha256": "678098944bb26b99199e10a5c8c85f995e8d4be59daa09589d9656e15a53a48c"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_landscape_bottom_remaining_background.png",
+          "sha256": "613f7075c21c08e29a539f983fbabbdd336bd4af84427ef6a2b71edec32a7839"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_top.png",
+          "sha256": "6752e42a03fa6ee3ec0e5d47ab06b30506b060423cb6f641534629b261188208"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom.png",
+          "sha256": "41f8bd65275730964efd0ac5efc7f343a163f027d99a77f0f7d13af20ca3075a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_play_paused.png",
+          "sha256": "0b7e28b1f9303dbfd7fff180af9b46bcb4596247bae77e4ac7e36cf419b9e6ee"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_play_playing.png",
+          "sha256": "b76f532919c3a081d53ebf853cf40bc50d5aaeffc4807b926093a7df52e16a48"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_shuffle_off.png",
+          "sha256": "b1b0be84bae3ffdfa40f7872acd6e370e11f8ecd962dfa4ce3c1db5c470325d0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_shuffle_on.png",
+          "sha256": "67c81f916265908dc3a0a9061439626026fe135c76b7e1280518a1ea0a8bafc4"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_repeat_off.png",
+          "sha256": "df3dc7adbb9e4e82ce872bc6e260ed1e82d585d9472ece56c683e1b92a271332"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_repeat_on.png",
+          "sha256": "82e870777ccd2363fb77eabad41c64fb3db04289e467ac7c2728743745e2b5bb"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_progress_clean.png",
+          "sha256": "601e34adc1f421b8954567404c2b9f23b4b6909aa1ec361d5db8061c93cd90ff"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_elapsed_background.png",
+          "sha256": "408d84d70b4c3b2f089f29eee248ca2b4715370497081928b013e802862ba913"
+        },
+        {
+          "path": "gfx/showcase/music_player_v5_portrait_bottom_remaining_background.png",
+          "sha256": "eeda139ee2ef5755b63ff304a44892d6c0c245e824107733af2b0c64d1899a4b"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_13.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_top.png",
+          "sha256": "b768d4dc4d05d9cb9d9455d89b3b81c702f70d80e78e886b05a582b5a13cb8f8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom.png",
+          "sha256": "3a09b2cbe70a9ffc2941eee547670e9a86484e14e096e8b58dea33193ae25dde"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_play_paused.png",
+          "sha256": "e4f8215992400fe87a61cef413f71d923268c0b29cd92186a0f5071411245f0f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_play_playing.png",
+          "sha256": "c6700b259ce6458146ba023196709773ecb91a3956585dab5730428af25742d4"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_shuffle_off.png",
+          "sha256": "fccf649ac5a3af18c8e0dc47f39c8c7531ddea1184365331374eb29cb2d3c5ec"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_shuffle_on.png",
+          "sha256": "48881638a43250fc3aee50bf13c685ed3bd535e1a0af12d398b6ad93a62e7320"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_repeat_off.png",
+          "sha256": "4f8c579a9ad4471f82704a287916edb8ad302c364850b3d60ec6dc01cc2780c8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_repeat_on.png",
+          "sha256": "912c4324b7499ce2a4e02e7a38981f5cb90a1189b16ff45d8e933ac2a4365ef2"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_progress_clean.png",
+          "sha256": "ac06826299c2f6ae32b5e3acc5ef07cae193fcfa5b98e8c4d792de8a1d6d314b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_elapsed_background.png",
+          "sha256": "a2452a2ded6e4cc007fa936fb93c4f9d373a587bd44aaadbeae6a73a2762d86b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_landscape_bottom_remaining_background.png",
+          "sha256": "c8e5c5e845360b406da33c508ffa1e5e4e1fe25c4fd32be4d010fd4dd01bb273"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_top.png",
+          "sha256": "0aea517521e7883b69aa57763edd276ae5b03dc19ff5bbd01e8da60ae3b98728"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom.png",
+          "sha256": "e50af86b4f39a817e710037096eb1483656ab16af495a79fc185fe7837af14d1"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_play_paused.png",
+          "sha256": "8099838979bfb67da8d9d32be43b1e1f3348db4a6218da52232f9775fd7a6529"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_play_playing.png",
+          "sha256": "4665d4caf0299e93aa502154064a5884bcd7232eeafd7af365e3e2b617f4ba25"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_shuffle_off.png",
+          "sha256": "35bd6a7fc7e079d532369b830d7700b006742c2905a0a75015bf8faa832c22f7"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_shuffle_on.png",
+          "sha256": "e805c83343b77fc1fdd7be537c77e835e3b11d555c69d763c38c8cdad043a962"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_repeat_off.png",
+          "sha256": "5ec114b97c53391d212e033be61c56ccdc27de914a826783ce29a72c1b718528"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_repeat_on.png",
+          "sha256": "545ba8ef43322d1ec982ac381125f54ce3febeaf3ce72bb9a582be50fe371efc"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_progress_clean.png",
+          "sha256": "466b4143834b2656f499e372f7682719daa6f8004b6b1f429ad478a88c50bc20"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_elapsed_background.png",
+          "sha256": "9957eefe844651531a95ef134ac1ce2487f5e542db47e12b911b6c222ed08f5f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v6_portrait_bottom_remaining_background.png",
+          "sha256": "11151d480c751c3f5b311af02c2907597eeb771d211a8077785f38feb7d4d419"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_14.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_top.png",
+          "sha256": "c0fea22fc7dc2a402c10e768a6435fc7f95ce79ff00b775e449b9f34e08ef481"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom.png",
+          "sha256": "25858555339d974fb663e7c4f9eee2769f15f2128b72fe0c17d8bc1e8ee8a4da"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_play_paused.png",
+          "sha256": "e679fdeba2ee4774b539d411c8efc940fdf21008b118975d9e935c07657fb832"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_play_playing.png",
+          "sha256": "c6700b259ce6458146ba023196709773ecb91a3956585dab5730428af25742d4"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_shuffle_off.png",
+          "sha256": "fccf649ac5a3af18c8e0dc47f39c8c7531ddea1184365331374eb29cb2d3c5ec"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_shuffle_on.png",
+          "sha256": "48881638a43250fc3aee50bf13c685ed3bd535e1a0af12d398b6ad93a62e7320"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_repeat_off.png",
+          "sha256": "4f8c579a9ad4471f82704a287916edb8ad302c364850b3d60ec6dc01cc2780c8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_repeat_on.png",
+          "sha256": "912c4324b7499ce2a4e02e7a38981f5cb90a1189b16ff45d8e933ac2a4365ef2"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_progress_clean.png",
+          "sha256": "ac06826299c2f6ae32b5e3acc5ef07cae193fcfa5b98e8c4d792de8a1d6d314b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_elapsed_background.png",
+          "sha256": "a2452a2ded6e4cc007fa936fb93c4f9d373a587bd44aaadbeae6a73a2762d86b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_landscape_bottom_remaining_background.png",
+          "sha256": "c8e5c5e845360b406da33c508ffa1e5e4e1fe25c4fd32be4d010fd4dd01bb273"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_top.png",
+          "sha256": "0e3c2a2790f2d6362df4ff7804cc3d263a4c2fd6ac10e1dd5095720790df50e8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom.png",
+          "sha256": "fdffffa16522ac332b6ce69d026185be1ad1218af5419c29d87269f241f997e8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_play_paused.png",
+          "sha256": "8099838979bfb67da8d9d32be43b1e1f3348db4a6218da52232f9775fd7a6529"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_play_playing.png",
+          "sha256": "4665d4caf0299e93aa502154064a5884bcd7232eeafd7af365e3e2b617f4ba25"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_shuffle_off.png",
+          "sha256": "35bd6a7fc7e079d532369b830d7700b006742c2905a0a75015bf8faa832c22f7"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_shuffle_on.png",
+          "sha256": "e805c83343b77fc1fdd7be537c77e835e3b11d555c69d763c38c8cdad043a962"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_repeat_off.png",
+          "sha256": "5ec114b97c53391d212e033be61c56ccdc27de914a826783ce29a72c1b718528"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_repeat_on.png",
+          "sha256": "545ba8ef43322d1ec982ac381125f54ce3febeaf3ce72bb9a582be50fe371efc"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_progress_clean.png",
+          "sha256": "a97aa0875df3143db617947bf7ded0f8bd14482e4d95439cdd33798c7af224dd"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_elapsed_background.png",
+          "sha256": "9957eefe844651531a95ef134ac1ce2487f5e542db47e12b911b6c222ed08f5f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v7_portrait_bottom_remaining_background.png",
+          "sha256": "11151d480c751c3f5b311af02c2907597eeb771d211a8077785f38feb7d4d419"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_15.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_top.png",
+          "sha256": "e6bb0d264ec0985ca0d676b9ae1b731cc142b983a44d1b6840c793bef192da37"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom.png",
+          "sha256": "7d8d3089b7456656de65ca69f782db634334623398442665607c57c7a5c443f5"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_play_paused.png",
+          "sha256": "e4f8215992400fe87a61cef413f71d923268c0b29cd92186a0f5071411245f0f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_play_playing.png",
+          "sha256": "c6700b259ce6458146ba023196709773ecb91a3956585dab5730428af25742d4"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_shuffle_off.png",
+          "sha256": "fccf649ac5a3af18c8e0dc47f39c8c7531ddea1184365331374eb29cb2d3c5ec"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_shuffle_on.png",
+          "sha256": "48881638a43250fc3aee50bf13c685ed3bd535e1a0af12d398b6ad93a62e7320"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_repeat_off.png",
+          "sha256": "4f8c579a9ad4471f82704a287916edb8ad302c364850b3d60ec6dc01cc2780c8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_repeat_on.png",
+          "sha256": "912c4324b7499ce2a4e02e7a38981f5cb90a1189b16ff45d8e933ac2a4365ef2"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_progress_clean.png",
+          "sha256": "ac06826299c2f6ae32b5e3acc5ef07cae193fcfa5b98e8c4d792de8a1d6d314b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_elapsed_background.png",
+          "sha256": "a2452a2ded6e4cc007fa936fb93c4f9d373a587bd44aaadbeae6a73a2762d86b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_landscape_bottom_remaining_background.png",
+          "sha256": "c8e5c5e845360b406da33c508ffa1e5e4e1fe25c4fd32be4d010fd4dd01bb273"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_top.png",
+          "sha256": "c8323e364e856af194438bebe41291edf281873d68f790f4f5b2ebc3c4444781"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom.png",
+          "sha256": "7ff5bf535e9a1e2658dbbfc0415764db55f936c458d6d4b40749a60763008dd5"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_play_paused.png",
+          "sha256": "8099838979bfb67da8d9d32be43b1e1f3348db4a6218da52232f9775fd7a6529"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_play_playing.png",
+          "sha256": "4665d4caf0299e93aa502154064a5884bcd7232eeafd7af365e3e2b617f4ba25"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_shuffle_off.png",
+          "sha256": "35bd6a7fc7e079d532369b830d7700b006742c2905a0a75015bf8faa832c22f7"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_shuffle_on.png",
+          "sha256": "e805c83343b77fc1fdd7be537c77e835e3b11d555c69d763c38c8cdad043a962"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_repeat_off.png",
+          "sha256": "5ec114b97c53391d212e033be61c56ccdc27de914a826783ce29a72c1b718528"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_repeat_on.png",
+          "sha256": "545ba8ef43322d1ec982ac381125f54ce3febeaf3ce72bb9a582be50fe371efc"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_progress_clean.png",
+          "sha256": "3207d6d2d1f26c3e88c7727d9a889f0eca0649a23ac321d7c7d7fef281899524"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_elapsed_background.png",
+          "sha256": "9957eefe844651531a95ef134ac1ce2487f5e542db47e12b911b6c222ed08f5f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v8_portrait_bottom_remaining_background.png",
+          "sha256": "11151d480c751c3f5b311af02c2907597eeb771d211a8077785f38feb7d4d419"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_16.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_top.png",
+          "sha256": "242d235115f7f096ddfafd7285a1f128c7b605d4d3a1fe235da45067a30906a8"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom.png",
+          "sha256": "3218478aad43700c726a688f81fca9ec9e3f5173665592c74254fb0806fd7d87"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get0_idle.png",
+          "sha256": "a152b49d6c77bc60a80cdba4e600b88b6ef910385ef74a8b63df509f36746b54"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get0_installing.png",
+          "sha256": "29b7c236f035166b24f6b2ac4d9865211895ae5f2dce03177b5d41c0cce1c4fc"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get0_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get1_idle.png",
+          "sha256": "c6664b990c7df895da082415ae48461084201360c03901efc739082c8de6ff4a"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get1_installing.png",
+          "sha256": "d216171812b0b63fc45388e6096708fe16dffbe117b6934263873ee133b3210d"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get1_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get2_idle.png",
+          "sha256": "0c649fdfb0f287e45ba75083daec06e3e33affd4fb5131295167a075b54e00ab"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get2_installing.png",
+          "sha256": "58592ad55e51851b3a82cfc29c7aa664108b0ae0efe73b3356deac7888b4db06"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_landscape_bottom_get2_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_top.png",
+          "sha256": "bf6efac7c3810ec5ed391b6b2ff25e0081802a093f9e4d0d3b2a26f0f5684701"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom.png",
+          "sha256": "e940aff217c82e654bdfb0cd0995a3ec7e9b3bbd45233292b6fbd95e33f7abe9"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get0_idle.png",
+          "sha256": "35f67ea97d3947a76f6220f4a30968cfd204d9eaa4fc0b8a0429f9a22435b67d"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get0_installing.png",
+          "sha256": "4a32a41f48f93ef818e168a890adbb9b325995031951fcf586f83de508bb64cd"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get0_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get1_idle.png",
+          "sha256": "d97928208eb9787a7420c61bcf9eee2b7d4b4a2a7aee3ebd495a759b65a11a0f"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get1_installing.png",
+          "sha256": "7f12cf489b84aeadbc0e8eb2523cf2bdd449ee77a7b544771f5c8dd0f01db1f4"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get1_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get2_idle.png",
+          "sha256": "120ed4f1af8161b799bbbf4524d1993e8348c4d63e19784dff7f536fb632816c"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get2_installing.png",
+          "sha256": "8d026dc196bd590aec4eceeb9c027ae6ff7be93da8dc43892d3d7753e71be548"
+        },
+        {
+          "path": "gfx/showcase/store_today_v0_portrait_bottom_get2_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_17.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_top.png",
+          "sha256": "ec4d9f9ad5903f0e57b8309ed21c7f34e95de615808f8ec0281b17ea3fd6398b"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom.png",
+          "sha256": "1fae83edbc9a6d169f10b355ecbb79d8c442209033e26254c0ba932969dee561"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get0_idle.png",
+          "sha256": "a152b49d6c77bc60a80cdba4e600b88b6ef910385ef74a8b63df509f36746b54"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get0_installing.png",
+          "sha256": "4a0fe3a3074763f0aac18598c645d4283d9ce9f79218c7d2d210a6a890d62e86"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get0_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get1_idle.png",
+          "sha256": "f3fb91ecd004f302f822146ce88bcce4bf1ebbc08d9c6f303ae086fc993f8c32"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get1_installing.png",
+          "sha256": "588d588eaa4b504a73cf3813a57d9ddaeec5965af3be6e8a08533a610c7efae9"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get1_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get2_idle.png",
+          "sha256": "0c649fdfb0f287e45ba75083daec06e3e33affd4fb5131295167a075b54e00ab"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get2_installing.png",
+          "sha256": "993413662af315f595b5dfcee5263f096fadc2655f959525618264351028d4e1"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_landscape_bottom_get2_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_top.png",
+          "sha256": "bb1edbac9bc696e06ad61feb572b169f4741c1d6183e63c21d5ff5ee749186ca"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom.png",
+          "sha256": "1dd56ccd023bb262625aa0dc28225c3f83f087834e8bf7e8346a0e0857f62cc3"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get0_idle.png",
+          "sha256": "35f67ea97d3947a76f6220f4a30968cfd204d9eaa4fc0b8a0429f9a22435b67d"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get0_installing.png",
+          "sha256": "6aacb83a7b7dffc00dc5022a715bcf0d1032470b0c9415a54e945800670a7ff7"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get0_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get1_idle.png",
+          "sha256": "d97928208eb9787a7420c61bcf9eee2b7d4b4a2a7aee3ebd495a759b65a11a0f"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get1_installing.png",
+          "sha256": "8d026dc196bd590aec4eceeb9c027ae6ff7be93da8dc43892d3d7753e71be548"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get1_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get2_idle.png",
+          "sha256": "120ed4f1af8161b799bbbf4524d1993e8348c4d63e19784dff7f536fb632816c"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get2_installing.png",
+          "sha256": "6aacb83a7b7dffc00dc5022a715bcf0d1032470b0c9415a54e945800670a7ff7"
+        },
+        {
+          "path": "gfx/showcase/store_games_v0_portrait_bottom_get2_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_18.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_top.png",
+          "sha256": "11181f14df2359651f11c91b0c711675ccd91706a6662bc834b692588d898619"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom.png",
+          "sha256": "62b653f36c86c8979619e2cd09ce2ac43a61c1835ef3c5a17571af8e7e1db9d0"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get0_idle.png",
+          "sha256": "a152b49d6c77bc60a80cdba4e600b88b6ef910385ef74a8b63df509f36746b54"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get0_installing.png",
+          "sha256": "226821ed3f95c346b1a4ee0ea730756a11c0e2286559feba44dd857a7aaca6b2"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get0_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get1_idle.png",
+          "sha256": "f3fb91ecd004f302f822146ce88bcce4bf1ebbc08d9c6f303ae086fc993f8c32"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get1_installing.png",
+          "sha256": "8bdd1e319aeb2da5fb5a959842dbf0027613389302241656d2c575bb23e1015c"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get1_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get2_idle.png",
+          "sha256": "7f1b5a6486511007a2070e4d0cfd41a995c623f7f6ced3595b02654ce743851c"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get2_installing.png",
+          "sha256": "48ae28dbacb7787d8928f83983caa8dbe58b842fd16c0d27edb9f1876b68b74f"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_landscape_bottom_get2_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_top.png",
+          "sha256": "8d7bb80fb39cb93ac46d66752f17345db45190bd0f7d8e7ba852ccf6adae2f68"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom.png",
+          "sha256": "bdb97d5d00f196468f5603fd56d8f0d2aafbb861c78fc0efeac5542ccdc3cf31"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get0_idle.png",
+          "sha256": "35f67ea97d3947a76f6220f4a30968cfd204d9eaa4fc0b8a0429f9a22435b67d"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get0_installing.png",
+          "sha256": "1675e9cb44302e0bde57b5a2fc115ae222d00dfac8cca61b626418a7075bdb03"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get0_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get1_idle.png",
+          "sha256": "d97928208eb9787a7420c61bcf9eee2b7d4b4a2a7aee3ebd495a759b65a11a0f"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get1_installing.png",
+          "sha256": "8d026dc196bd590aec4eceeb9c027ae6ff7be93da8dc43892d3d7753e71be548"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get1_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get2_idle.png",
+          "sha256": "120ed4f1af8161b799bbbf4524d1993e8348c4d63e19784dff7f536fb632816c"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get2_installing.png",
+          "sha256": "6aacb83a7b7dffc00dc5022a715bcf0d1032470b0c9415a54e945800670a7ff7"
+        },
+        {
+          "path": "gfx/showcase/store_apps_v0_portrait_bottom_get2_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_19.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_top.png",
+          "sha256": "2ce97ebeebcb314c1dcb76f43335390b6ae41c349ce31cc67715a74c8ce224d2"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom.png",
+          "sha256": "da2ee8ce7229d432f43815a72fa77c4f3dbe54802a97647a912cfd20a7433774"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get0_idle.png",
+          "sha256": "a152b49d6c77bc60a80cdba4e600b88b6ef910385ef74a8b63df509f36746b54"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get0_installing.png",
+          "sha256": "588d588eaa4b504a73cf3813a57d9ddaeec5965af3be6e8a08533a610c7efae9"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get0_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get1_idle.png",
+          "sha256": "c6664b990c7df895da082415ae48461084201360c03901efc739082c8de6ff4a"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get1_installing.png",
+          "sha256": "007cd0868a3581d8d7ffbf073e56fe9fad5f33a3159baa68e594b106bdadd147"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get1_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get2_idle.png",
+          "sha256": "0c649fdfb0f287e45ba75083daec06e3e33affd4fb5131295167a075b54e00ab"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get2_installing.png",
+          "sha256": "588d588eaa4b504a73cf3813a57d9ddaeec5965af3be6e8a08533a610c7efae9"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_landscape_bottom_get2_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_top.png",
+          "sha256": "a346c97979836074eff5cb7fd7814567e2b2b90d6bd56c8b56e9101a53e7020c"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_top_get0_idle.png",
+          "sha256": "8edb55aacca9f6e7f128be17411194f26851512e8d6e1e1c59292d42a3fc5478"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_top_get0_installing.png",
+          "sha256": "cbf1ff2949cf6fd8f35f55bd563f18dfca287cf470406296c2de66ff64d7a0f1"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_top_get0_open.png",
+          "sha256": "479acbb814563adba5d937d86b1edd0b3dc8177563bb9499129be7bf6230d78b"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom.png",
+          "sha256": "f10f702f7265b1971d0d0ae2897eb34cc5569dfd83532344d219b05894ddf5ee"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get0_idle.png",
+          "sha256": "35f67ea97d3947a76f6220f4a30968cfd204d9eaa4fc0b8a0429f9a22435b67d"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get0_installing.png",
+          "sha256": "8d026dc196bd590aec4eceeb9c027ae6ff7be93da8dc43892d3d7753e71be548"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get0_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get1_idle.png",
+          "sha256": "d97928208eb9787a7420c61bcf9eee2b7d4b4a2a7aee3ebd495a759b65a11a0f"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get1_installing.png",
+          "sha256": "4a32a41f48f93ef818e168a890adbb9b325995031951fcf586f83de508bb64cd"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get1_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get2_idle.png",
+          "sha256": "120ed4f1af8161b799bbbf4524d1993e8348c4d63e19784dff7f536fb632816c"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get2_installing.png",
+          "sha256": "4a32a41f48f93ef818e168a890adbb9b325995031951fcf586f83de508bb64cd"
+        },
+        {
+          "path": "gfx/showcase/store_search_v0_portrait_bottom_get2_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_2.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_library_v0_landscape_top.png",
+          "sha256": "ce6538d95b4c9374ef9caa9bc68ab0fa6ced6e60c48b8f641ea70038083345bb"
+        },
+        {
+          "path": "gfx/showcase/music_library_v0_landscape_bottom.png",
+          "sha256": "4990efa7ae5ec34b5f595b734734bb87812a044b67825decd7d329e0e2c2c27c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v0.png",
+          "sha256": "ae4590495d9c98ea88d2d4666e4ab37930ed4c3f5515ed927f2d0385b77319ee"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v1.png",
+          "sha256": "4e59aaf0f3b245113e020f1189805286097087e42b190f65f288b57843d0a4c0"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v2.png",
+          "sha256": "05bdee7e99d94454aedbf010243b5fd83e0956b9cae44bf4347dbffefdb7214e"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v3.png",
+          "sha256": "350be1c51774b5ae9f0a2ed7330f3ee94335537128c9f282da3878a1ccf6f550"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v4.png",
+          "sha256": "24cf63e782db2be82d03bce31526e3e45d0334cf54f477e8243d53944fc80dc6"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v5.png",
+          "sha256": "545e3750bc2e8e1fba0f4acf0644e1118f424068edb42906d69c09508185123a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v6.png",
+          "sha256": "5d6398bf7340e29a89f76d93d851034b3d2d8b8cea5300cfad8e9bb16ff3c464"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v7.png",
+          "sha256": "48a18d9e8913ca10099df59bfb41e947fa8dda1bf9f65c14187fb34790b44b61"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v8.png",
+          "sha256": "22771afc9b83c225602e3c807d2a88eae2d60d0260b79f89eeec9e3158dd9e26"
+        },
+        {
+          "path": "gfx/showcase/music_library_v0_landscape_bottom_play_paused.png",
+          "sha256": "5ca26b27c7315a587863b99b96cf16cb20d1a8b1dc8a73668371639fa2606e6c"
+        },
+        {
+          "path": "gfx/showcase/music_library_v0_landscape_bottom_play_playing.png",
+          "sha256": "c80da8d7823f3f76e79c228d4c66833ad04cf42232f70f45657c5bf07cda8dbe"
+        },
+        {
+          "path": "gfx/showcase/music_library_v0_portrait_top.png",
+          "sha256": "cd27a6ff6bfcc7b5afb3c6cea7c81c1b21f26d7efe6388027becc7b97547a3b4"
+        },
+        {
+          "path": "gfx/showcase/music_library_v0_portrait_bottom.png",
+          "sha256": "d09fe8e5586317776c6a2aa7e01da93c61a97fd889ee88f54a23170ed1e62894"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v0.png",
+          "sha256": "8ffd2fd00856b804f5a0e982d82f9385d841bd5117b2e329ff76bae7d027c2c5"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v1.png",
+          "sha256": "d5ba6dbc6742818de4831a1bf67838b874053607e44e1906a00b625db7c5440a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v2.png",
+          "sha256": "ae3f5ae2025c9d31a1ccf34ee6add30eb658888371cffe9b7a06bacf055707de"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v3.png",
+          "sha256": "4e5b794a4375d0a9ab43160eca0a03b0b92831c4ecf5a0faeecc6d5686188b52"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v4.png",
+          "sha256": "af73298c97d797f04f2e60067618d0a271866620abbd10b88e0cb89b7eb595d4"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v5.png",
+          "sha256": "1e230e8c4f6d5a6126dc823f8318612b971eeb80eaf6f3cf1842b55f7566055c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v6.png",
+          "sha256": "4884d86f5fcec6607a564f176f44bef1d0a252f85eb688458d0df0a5a6225fcf"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v7.png",
+          "sha256": "6e55a8adf75aca18aea137b57bb33793c45931da0e0d42e8af7aae2591a66a38"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v8.png",
+          "sha256": "c314c3aa9df7027ec89ebdfd81f447f3579102949bd99a84cd1f42da96647bc3"
+        },
+        {
+          "path": "gfx/showcase/music_library_v0_portrait_bottom_play_paused.png",
+          "sha256": "8be1323d7bf0de70b2f3d592bb46990fdfb6a36664ef329b355a67c6b344ae0a"
+        },
+        {
+          "path": "gfx/showcase/music_library_v0_portrait_bottom_play_playing.png",
+          "sha256": "7e4c2675c7ae74468eaf19d17b75dc292c44845da5e3cdefc775065e42dc71bf"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_20.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/store_detail_v0_landscape_top.png",
+          "sha256": "bb0566c3b4d596aa22d16d2d742d5b9230a82f662eb2db2e90e28827700aa0f1"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_landscape_top_opened.png",
+          "sha256": "94831cbb88dbffdc6ced3ddda6f7b1be3d138efc460bd157324fa51cfb685a87"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_landscape_bottom.png",
+          "sha256": "54d6f715b49f677d7a62c4f8024cf7a79a47a7cc1b31526f3cd1de1fca402f7c"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_landscape_bottom_opened.png",
+          "sha256": "e57ca54571b152674a0afdf3d6a67111cd2d4db1be62a6bc8e50a4a477ed6ccd"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_landscape_bottom_get0_idle.png",
+          "sha256": "a152b49d6c77bc60a80cdba4e600b88b6ef910385ef74a8b63df509f36746b54"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_landscape_bottom_get0_installing.png",
+          "sha256": "1954e6d3d4fd53718b5030d186e1af47e8f3224b47ad8014c3086338d453c45b"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_landscape_bottom_get0_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_portrait_top.png",
+          "sha256": "7fc2e863cbf1b8ac232882c728b5596098132decf3a9ceeed802d0a33969ff5b"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_portrait_top_opened.png",
+          "sha256": "a429881237b8988d27cacbc6e862ecd26337f46e7203f50e43a16f508ccb14aa"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_portrait_bottom.png",
+          "sha256": "b8bebcb15c76320ba21c211500f2ea4c95ac4fcd4ef82aaf71a512fa4c4e2adc"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_portrait_bottom_opened.png",
+          "sha256": "2a007d35501416b894b88b06b2c0a4455a534b3eca10085848646916f4b6327c"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_portrait_bottom_get0_idle.png",
+          "sha256": "35f67ea97d3947a76f6220f4a30968cfd204d9eaa4fc0b8a0429f9a22435b67d"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_portrait_bottom_get0_installing.png",
+          "sha256": "8d026dc196bd590aec4eceeb9c027ae6ff7be93da8dc43892d3d7753e71be548"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v0_portrait_bottom_get0_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_21.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/store_detail_v1_landscape_top.png",
+          "sha256": "f361cf1427f90bf67124ec641976b282310d6659f3fa227d4967c0fa8d7a51ea"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_landscape_top_opened.png",
+          "sha256": "90fa09ab8ac71aeed68609257cacfe97b794c6b35169d26fb05f29d186202041"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_landscape_bottom.png",
+          "sha256": "f024540c91235165af645bb8a314ff67951d44740c4f6e635ff1f765e74f5bf2"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_landscape_bottom_opened.png",
+          "sha256": "a35c61d279c3b7af27e23b0ccfc9b3e49723f793c4dde4609956956c06db4251"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_landscape_bottom_get1_idle.png",
+          "sha256": "c6664b990c7df895da082415ae48461084201360c03901efc739082c8de6ff4a"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_landscape_bottom_get1_installing.png",
+          "sha256": "44802507f35146761ff1c5409461633cf9af81ee7e7b11f3c8155a38bf692e72"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_landscape_bottom_get1_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_portrait_top.png",
+          "sha256": "59ec02ac6fdf85b7fb869f78f3fc921a89961dda4a456ebcbb0b7ae7620c3e8f"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_portrait_top_opened.png",
+          "sha256": "a2210907241da6573f91476351042f5e99c5bdec7de7e5d9691d8ebf00568fa4"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_portrait_bottom.png",
+          "sha256": "ec405b99c3017264d56004a3926a5a1296c61546d50d7a083fa8fae27dca51f5"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_portrait_bottom_opened.png",
+          "sha256": "bc896b8fd4706336ef6130dbb7829282e9ee07f672f7e3e26f4061e414a24175"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_portrait_bottom_get1_idle.png",
+          "sha256": "d97928208eb9787a7420c61bcf9eee2b7d4b4a2a7aee3ebd495a759b65a11a0f"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_portrait_bottom_get1_installing.png",
+          "sha256": "a3b002e845e9f6297eb5ccf251acf208354c974b1df1ff6a7f99a163e8a347c8"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v1_portrait_bottom_get1_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_22.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/store_detail_v2_landscape_top.png",
+          "sha256": "12b18465ed80afc1117e7b698b6d75be7709ff968d3e89d559a84b2beb04431b"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_landscape_top_opened.png",
+          "sha256": "6a0bd8b3237dfbf889628fe10a4ba73088464a5412dff14d4f58517429dd11e1"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_landscape_bottom.png",
+          "sha256": "cad1d966df681edef8ef5ba1943b371c1ce65dfd23baa7993e8eec36f26c8eaa"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_landscape_bottom_opened.png",
+          "sha256": "21181d15173def626944a05fa832f831240270dc8c1d0696028db1a9cce0cd6f"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_landscape_bottom_get2_idle.png",
+          "sha256": "7f1b5a6486511007a2070e4d0cfd41a995c623f7f6ced3595b02654ce743851c"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_landscape_bottom_get2_installing.png",
+          "sha256": "e316d4f1572d091a50d7c2b8860a97084d3579fe8bc931eb2fe1655011c5f928"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_landscape_bottom_get2_open.png",
+          "sha256": "513fed990467acde9c7144592234f9c5b4fe8f99e97e397ac8726db16d8f9363"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_portrait_top.png",
+          "sha256": "94bee4cdc2fc91c53d8ac9b04231e2ed8d73d098ce6461ea1662eac4206c0fa6"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_portrait_top_opened.png",
+          "sha256": "f171ac627aa2ca538b3872861bee48e3053a346a929828b178c6cebf39b8608b"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_portrait_bottom.png",
+          "sha256": "f67be4506ed71d01e7dd94e57293c8dc21250ec0657f8d8173f5b868915d0ef4"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_portrait_bottom_opened.png",
+          "sha256": "917b6833e1db56f1368054a1309cb49baa0743a24971fce1cde89d3c41662c4e"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_portrait_bottom_get2_idle.png",
+          "sha256": "120ed4f1af8161b799bbbf4524d1993e8348c4d63e19784dff7f536fb632816c"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_portrait_bottom_get2_installing.png",
+          "sha256": "9542f154e9f272b59fa3691e043a45fb31a138b8bb61d57b43eaa66eb58d84a4"
+        },
+        {
+          "path": "gfx/showcase/store_detail_v2_portrait_bottom_get2_open.png",
+          "sha256": "3a98b7f25080f1a174ea611818dc5ab7c817db6a6758402cfb9360e3b49e749e"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_3.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_search_v0_landscape_top.png",
+          "sha256": "ebafa94996c9867d3959068e570ac90698d5273cd170962ad325c4c3f3e16357"
+        },
+        {
+          "path": "gfx/showcase/music_search_v0_landscape_bottom.png",
+          "sha256": "905c4042e421fadc12fa1d9b93defe4f98c470f9302aa812ed505cf758e225fa"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v0.png",
+          "sha256": "ae4590495d9c98ea88d2d4666e4ab37930ed4c3f5515ed927f2d0385b77319ee"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v1.png",
+          "sha256": "4e59aaf0f3b245113e020f1189805286097087e42b190f65f288b57843d0a4c0"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v2.png",
+          "sha256": "05bdee7e99d94454aedbf010243b5fd83e0956b9cae44bf4347dbffefdb7214e"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v3.png",
+          "sha256": "350be1c51774b5ae9f0a2ed7330f3ee94335537128c9f282da3878a1ccf6f550"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v4.png",
+          "sha256": "24cf63e782db2be82d03bce31526e3e45d0334cf54f477e8243d53944fc80dc6"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v5.png",
+          "sha256": "545e3750bc2e8e1fba0f4acf0644e1118f424068edb42906d69c09508185123a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v6.png",
+          "sha256": "5d6398bf7340e29a89f76d93d851034b3d2d8b8cea5300cfad8e9bb16ff3c464"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v7.png",
+          "sha256": "48a18d9e8913ca10099df59bfb41e947fa8dda1bf9f65c14187fb34790b44b61"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v8.png",
+          "sha256": "22771afc9b83c225602e3c807d2a88eae2d60d0260b79f89eeec9e3158dd9e26"
+        },
+        {
+          "path": "gfx/showcase/music_search_v0_landscape_bottom_play_paused.png",
+          "sha256": "5ca26b27c7315a587863b99b96cf16cb20d1a8b1dc8a73668371639fa2606e6c"
+        },
+        {
+          "path": "gfx/showcase/music_search_v0_landscape_bottom_play_playing.png",
+          "sha256": "c80da8d7823f3f76e79c228d4c66833ad04cf42232f70f45657c5bf07cda8dbe"
+        },
+        {
+          "path": "gfx/showcase/music_search_v0_portrait_top.png",
+          "sha256": "ac7f3140d1214fa32e0959ee40ceef6de8cae47c36da77736bc66928517324a1"
+        },
+        {
+          "path": "gfx/showcase/music_search_v0_portrait_bottom.png",
+          "sha256": "779679e2ecc64016c9b51793ad05a93646440ec0d95e6f4cff1aacc43b914196"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v0.png",
+          "sha256": "8ffd2fd00856b804f5a0e982d82f9385d841bd5117b2e329ff76bae7d027c2c5"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v1.png",
+          "sha256": "d5ba6dbc6742818de4831a1bf67838b874053607e44e1906a00b625db7c5440a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v2.png",
+          "sha256": "ae3f5ae2025c9d31a1ccf34ee6add30eb658888371cffe9b7a06bacf055707de"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v3.png",
+          "sha256": "4e5b794a4375d0a9ab43160eca0a03b0b92831c4ecf5a0faeecc6d5686188b52"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v4.png",
+          "sha256": "af73298c97d797f04f2e60067618d0a271866620abbd10b88e0cb89b7eb595d4"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v5.png",
+          "sha256": "1e230e8c4f6d5a6126dc823f8318612b971eeb80eaf6f3cf1842b55f7566055c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v6.png",
+          "sha256": "4884d86f5fcec6607a564f176f44bef1d0a252f85eb688458d0df0a5a6225fcf"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v7.png",
+          "sha256": "6e55a8adf75aca18aea137b57bb33793c45931da0e0d42e8af7aae2591a66a38"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v8.png",
+          "sha256": "c314c3aa9df7027ec89ebdfd81f447f3579102949bd99a84cd1f42da96647bc3"
+        },
+        {
+          "path": "gfx/showcase/music_search_v0_portrait_bottom_play_paused.png",
+          "sha256": "8be1323d7bf0de70b2f3d592bb46990fdfb6a36664ef329b355a67c6b344ae0a"
+        },
+        {
+          "path": "gfx/showcase/music_search_v0_portrait_bottom_play_playing.png",
+          "sha256": "7e4c2675c7ae74468eaf19d17b75dc292c44845da5e3cdefc775065e42dc71bf"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_4.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_album_v0_landscape_top.png",
+          "sha256": "7460b47ec111fde363930475bbacbd43dc8b26d596cce745fbccba16f1256dbb"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_landscape_top_shuffle_off.png",
+          "sha256": "ab68ea45ca016b07fc36bb9e2397f02337bb19ba0d4b35f43a6ba3e5dd047f64"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_landscape_top_shuffle_on.png",
+          "sha256": "cc84e21f68e6daef140676858edb08cc29cb4b334847da6faa29fd98a3657e4a"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_landscape_bottom.png",
+          "sha256": "442381a64a5e2e1ccf725b82fc5650dc0dd8a16dca625b255bab2a7f3a631d66"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v0.png",
+          "sha256": "ae4590495d9c98ea88d2d4666e4ab37930ed4c3f5515ed927f2d0385b77319ee"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v1.png",
+          "sha256": "4e59aaf0f3b245113e020f1189805286097087e42b190f65f288b57843d0a4c0"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v2.png",
+          "sha256": "05bdee7e99d94454aedbf010243b5fd83e0956b9cae44bf4347dbffefdb7214e"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v3.png",
+          "sha256": "350be1c51774b5ae9f0a2ed7330f3ee94335537128c9f282da3878a1ccf6f550"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v4.png",
+          "sha256": "24cf63e782db2be82d03bce31526e3e45d0334cf54f477e8243d53944fc80dc6"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v5.png",
+          "sha256": "545e3750bc2e8e1fba0f4acf0644e1118f424068edb42906d69c09508185123a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v6.png",
+          "sha256": "5d6398bf7340e29a89f76d93d851034b3d2d8b8cea5300cfad8e9bb16ff3c464"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v7.png",
+          "sha256": "48a18d9e8913ca10099df59bfb41e947fa8dda1bf9f65c14187fb34790b44b61"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v8.png",
+          "sha256": "22771afc9b83c225602e3c807d2a88eae2d60d0260b79f89eeec9e3158dd9e26"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_landscape_bottom_play_paused.png",
+          "sha256": "5ca26b27c7315a587863b99b96cf16cb20d1a8b1dc8a73668371639fa2606e6c"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_landscape_bottom_play_playing.png",
+          "sha256": "c80da8d7823f3f76e79c228d4c66833ad04cf42232f70f45657c5bf07cda8dbe"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_portrait_top.png",
+          "sha256": "9abc873625ed547d4e7407fd4677eccb7605fb5d7abce0024da4a95fce95ac24"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_portrait_top_shuffle_off.png",
+          "sha256": "41d466ffe77808eabe80a91250b8c0263442e28e119c2377a6d177b2416560e7"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_portrait_top_shuffle_on.png",
+          "sha256": "afba8da454873c766a8b84736bc3ff45a9268af96cb251b56285a74b098020af"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_portrait_bottom.png",
+          "sha256": "baac5d80022c555c85aa5c83d09318f578216155191885fc0ab7cf63e4183263"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v0.png",
+          "sha256": "8ffd2fd00856b804f5a0e982d82f9385d841bd5117b2e329ff76bae7d027c2c5"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v1.png",
+          "sha256": "d5ba6dbc6742818de4831a1bf67838b874053607e44e1906a00b625db7c5440a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v2.png",
+          "sha256": "ae3f5ae2025c9d31a1ccf34ee6add30eb658888371cffe9b7a06bacf055707de"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v3.png",
+          "sha256": "4e5b794a4375d0a9ab43160eca0a03b0b92831c4ecf5a0faeecc6d5686188b52"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v4.png",
+          "sha256": "af73298c97d797f04f2e60067618d0a271866620abbd10b88e0cb89b7eb595d4"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v5.png",
+          "sha256": "1e230e8c4f6d5a6126dc823f8318612b971eeb80eaf6f3cf1842b55f7566055c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v6.png",
+          "sha256": "4884d86f5fcec6607a564f176f44bef1d0a252f85eb688458d0df0a5a6225fcf"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v7.png",
+          "sha256": "6e55a8adf75aca18aea137b57bb33793c45931da0e0d42e8af7aae2591a66a38"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v8.png",
+          "sha256": "c314c3aa9df7027ec89ebdfd81f447f3579102949bd99a84cd1f42da96647bc3"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_portrait_bottom_play_paused.png",
+          "sha256": "8be1323d7bf0de70b2f3d592bb46990fdfb6a36664ef329b355a67c6b344ae0a"
+        },
+        {
+          "path": "gfx/showcase/music_album_v0_portrait_bottom_play_playing.png",
+          "sha256": "7e4c2675c7ae74468eaf19d17b75dc292c44845da5e3cdefc775065e42dc71bf"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_5.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_album_v1_landscape_top.png",
+          "sha256": "154b047950fe24bbd426bd452522f72da38b5c47a24368430c77faa056feb801"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_landscape_top_shuffle_off.png",
+          "sha256": "4406ae5a3d95e06d9d41e81b8d59e2ecf1c16c2cebd5de2cda2dd413431225b4"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_landscape_top_shuffle_on.png",
+          "sha256": "00988a77638feeb109d0af8ff4d86019d4b6a9cecc94df5f6c71422ab2e0001b"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_landscape_bottom.png",
+          "sha256": "021cd56d938f77e56dc252b3925c116cf21d61923812c19e0395c14b2fcfc67c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v0.png",
+          "sha256": "ae4590495d9c98ea88d2d4666e4ab37930ed4c3f5515ed927f2d0385b77319ee"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v1.png",
+          "sha256": "4e59aaf0f3b245113e020f1189805286097087e42b190f65f288b57843d0a4c0"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v2.png",
+          "sha256": "05bdee7e99d94454aedbf010243b5fd83e0956b9cae44bf4347dbffefdb7214e"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v3.png",
+          "sha256": "350be1c51774b5ae9f0a2ed7330f3ee94335537128c9f282da3878a1ccf6f550"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v4.png",
+          "sha256": "24cf63e782db2be82d03bce31526e3e45d0334cf54f477e8243d53944fc80dc6"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v5.png",
+          "sha256": "545e3750bc2e8e1fba0f4acf0644e1118f424068edb42906d69c09508185123a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v6.png",
+          "sha256": "5d6398bf7340e29a89f76d93d851034b3d2d8b8cea5300cfad8e9bb16ff3c464"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v7.png",
+          "sha256": "48a18d9e8913ca10099df59bfb41e947fa8dda1bf9f65c14187fb34790b44b61"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v8.png",
+          "sha256": "22771afc9b83c225602e3c807d2a88eae2d60d0260b79f89eeec9e3158dd9e26"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_landscape_bottom_play_paused.png",
+          "sha256": "5ca26b27c7315a587863b99b96cf16cb20d1a8b1dc8a73668371639fa2606e6c"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_landscape_bottom_play_playing.png",
+          "sha256": "c80da8d7823f3f76e79c228d4c66833ad04cf42232f70f45657c5bf07cda8dbe"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_portrait_top.png",
+          "sha256": "a984e393b640c6e1a8b3116dad8a8c64a5dd7d8c70a74c9c1efad01c6476350d"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_portrait_top_shuffle_off.png",
+          "sha256": "44ec18e7fd6b431bb0440e88ebf090852df363ea8da68b990fdeb6e1aa20a380"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_portrait_top_shuffle_on.png",
+          "sha256": "578742ae90d33e8823257bf037215e462bdfda1585e67864410dd543b18bc3dd"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_portrait_bottom.png",
+          "sha256": "1caafd7ad2e3cb19809c9420d990f4fce0b0bcb5ea777dee9c05432e467327c5"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v0.png",
+          "sha256": "8ffd2fd00856b804f5a0e982d82f9385d841bd5117b2e329ff76bae7d027c2c5"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v1.png",
+          "sha256": "d5ba6dbc6742818de4831a1bf67838b874053607e44e1906a00b625db7c5440a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v2.png",
+          "sha256": "ae3f5ae2025c9d31a1ccf34ee6add30eb658888371cffe9b7a06bacf055707de"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v3.png",
+          "sha256": "4e5b794a4375d0a9ab43160eca0a03b0b92831c4ecf5a0faeecc6d5686188b52"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v4.png",
+          "sha256": "af73298c97d797f04f2e60067618d0a271866620abbd10b88e0cb89b7eb595d4"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v5.png",
+          "sha256": "1e230e8c4f6d5a6126dc823f8318612b971eeb80eaf6f3cf1842b55f7566055c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v6.png",
+          "sha256": "4884d86f5fcec6607a564f176f44bef1d0a252f85eb688458d0df0a5a6225fcf"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v7.png",
+          "sha256": "6e55a8adf75aca18aea137b57bb33793c45931da0e0d42e8af7aae2591a66a38"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v8.png",
+          "sha256": "c314c3aa9df7027ec89ebdfd81f447f3579102949bd99a84cd1f42da96647bc3"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_portrait_bottom_play_paused.png",
+          "sha256": "8be1323d7bf0de70b2f3d592bb46990fdfb6a36664ef329b355a67c6b344ae0a"
+        },
+        {
+          "path": "gfx/showcase/music_album_v1_portrait_bottom_play_playing.png",
+          "sha256": "7e4c2675c7ae74468eaf19d17b75dc292c44845da5e3cdefc775065e42dc71bf"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_6.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_album_v2_landscape_top.png",
+          "sha256": "caef285be3e3d359d380b2477e022495e6303b4e6649141894a3aa9c936c9f8f"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_landscape_top_shuffle_off.png",
+          "sha256": "9d2297d1bd14db78cb26271512cc5c0275ce736a7e581607ff1dea1a6c723775"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_landscape_top_shuffle_on.png",
+          "sha256": "3000a933a4e9d5a18a92feb6a955fe39d57d4c631acbabcccf53cabf4ed242a2"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_landscape_bottom.png",
+          "sha256": "16701f0ef086bcec58b8de6fa2d8a1e156365853a768a39d622a03235e86e0ce"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v0.png",
+          "sha256": "ae4590495d9c98ea88d2d4666e4ab37930ed4c3f5515ed927f2d0385b77319ee"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v1.png",
+          "sha256": "4e59aaf0f3b245113e020f1189805286097087e42b190f65f288b57843d0a4c0"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v2.png",
+          "sha256": "05bdee7e99d94454aedbf010243b5fd83e0956b9cae44bf4347dbffefdb7214e"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v3.png",
+          "sha256": "350be1c51774b5ae9f0a2ed7330f3ee94335537128c9f282da3878a1ccf6f550"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v4.png",
+          "sha256": "24cf63e782db2be82d03bce31526e3e45d0334cf54f477e8243d53944fc80dc6"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v5.png",
+          "sha256": "545e3750bc2e8e1fba0f4acf0644e1118f424068edb42906d69c09508185123a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v6.png",
+          "sha256": "5d6398bf7340e29a89f76d93d851034b3d2d8b8cea5300cfad8e9bb16ff3c464"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v7.png",
+          "sha256": "48a18d9e8913ca10099df59bfb41e947fa8dda1bf9f65c14187fb34790b44b61"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_landscape_v8.png",
+          "sha256": "22771afc9b83c225602e3c807d2a88eae2d60d0260b79f89eeec9e3158dd9e26"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_landscape_bottom_play_paused.png",
+          "sha256": "5ca26b27c7315a587863b99b96cf16cb20d1a8b1dc8a73668371639fa2606e6c"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_landscape_bottom_play_playing.png",
+          "sha256": "c80da8d7823f3f76e79c228d4c66833ad04cf42232f70f45657c5bf07cda8dbe"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_portrait_top.png",
+          "sha256": "857fac9cf59b8d91f6871d5804076ce7724596f79d06c50fe96e4aeaaa4c3455"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_portrait_top_shuffle_off.png",
+          "sha256": "28f39a895076282b9612b415d3972fb7aa60004020e2e228f2dba5df5134b5f7"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_portrait_top_shuffle_on.png",
+          "sha256": "1e1966b38be642c6bb6dbe3c0de0ccc00a9c1c55865531a6deaa2991128f38a0"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_portrait_bottom.png",
+          "sha256": "66ca2e328c2d8bf75074ccb82277e007ecde37da01f8b9c944ca962d782e17f9"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v0.png",
+          "sha256": "8ffd2fd00856b804f5a0e982d82f9385d841bd5117b2e329ff76bae7d027c2c5"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v1.png",
+          "sha256": "d5ba6dbc6742818de4831a1bf67838b874053607e44e1906a00b625db7c5440a"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v2.png",
+          "sha256": "ae3f5ae2025c9d31a1ccf34ee6add30eb658888371cffe9b7a06bacf055707de"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v3.png",
+          "sha256": "4e5b794a4375d0a9ab43160eca0a03b0b92831c4ecf5a0faeecc6d5686188b52"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v4.png",
+          "sha256": "af73298c97d797f04f2e60067618d0a271866620abbd10b88e0cb89b7eb595d4"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v5.png",
+          "sha256": "1e230e8c4f6d5a6126dc823f8318612b971eeb80eaf6f3cf1842b55f7566055c"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v6.png",
+          "sha256": "4884d86f5fcec6607a564f176f44bef1d0a252f85eb688458d0df0a5a6225fcf"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v7.png",
+          "sha256": "6e55a8adf75aca18aea137b57bb33793c45931da0e0d42e8af7aae2591a66a38"
+        },
+        {
+          "path": "gfx/showcase/miniplayer_portrait_v8.png",
+          "sha256": "c314c3aa9df7027ec89ebdfd81f447f3579102949bd99a84cd1f42da96647bc3"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_portrait_bottom_play_paused.png",
+          "sha256": "8be1323d7bf0de70b2f3d592bb46990fdfb6a36664ef329b355a67c6b344ae0a"
+        },
+        {
+          "path": "gfx/showcase/music_album_v2_portrait_bottom_play_playing.png",
+          "sha256": "7e4c2675c7ae74468eaf19d17b75dc292c44845da5e3cdefc775065e42dc71bf"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_7.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_top.png",
+          "sha256": "9e6048191a759987cc81ec6fca1f0179a1853a4ec7cb8b29e791bec74be9a017"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom.png",
+          "sha256": "3aba70d758ce4e54dca098d4832e5ca85d5db3f8c643174c85874c1023bde8fd"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_play_paused.png",
+          "sha256": "5553bfca70d3e55bb666fd49a086d09fad617015cf82b212c9181fd469cc2e21"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_play_playing.png",
+          "sha256": "c60a3150c6e7cf7199431dc07ad17ef1dab196ea68888e9122ed2f31e6b5d2ab"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_shuffle_off.png",
+          "sha256": "f0164fad06919ffd85a7ce25f5003da03ef60e478c0c51b373e72e53ec637e2a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_shuffle_on.png",
+          "sha256": "03ae00eedcb8394156714f07a3b4ca0419e29f933b05c30548b71b25925d6fa9"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_repeat_off.png",
+          "sha256": "83c0886f01a85f4aae7f8e40ef7b72a0d5d2bfc05f49e6d73a5b3b182f20065a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_repeat_on.png",
+          "sha256": "538c6f6a2e4c175cb0f69c07b22ecf8f25fee6f75f9aafdac1327725be98fb6d"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_progress_clean.png",
+          "sha256": "7bb11cad48ab03588930719a3613809dc1317a45ea591a9cc799738bff791cd8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_elapsed_background.png",
+          "sha256": "9cd9a97cca5f0caa225d37127602d03a20384817528dd62f589a7dd97d050bd8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_landscape_bottom_remaining_background.png",
+          "sha256": "c4604ca1d69ff1c857fa4337d5b12f26ab97f95cd81112da39afdaf1d88eb822"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_top.png",
+          "sha256": "d8f361c2e0988246e55b0ef026238e64da787afae97ba7387b7446d8633ae88b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom.png",
+          "sha256": "8c9be3de4a00be6eea1aafc5717ea6872805df0523b0106326538309c8f54d47"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_play_paused.png",
+          "sha256": "bfb2769b1b3896e672ae69933cdbaa4c9ee68cbf24b29344ef5a198e3fff7a25"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_play_playing.png",
+          "sha256": "31cc2f045ea3ab615154c749e5fda0e42d957a25044cfb8b47231a2af76165e0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_shuffle_off.png",
+          "sha256": "b8136e0fa06f8a753ffe7b5a76b160b3a316020f56c368356fcf705560319e22"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_shuffle_on.png",
+          "sha256": "0dcd9c0d7c07a51f6624302d72a2b980045ddfcbb767c1a2c10e61da016b5434"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_repeat_off.png",
+          "sha256": "0aea78502164472ed44a4f435470ad09814a3a0c0dd09a8c905e626a3a5057f0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_repeat_on.png",
+          "sha256": "46b421661dad97814fbbe6f793b14e8a73712394756ca1bdc4bf46e18b1026d0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_progress_clean.png",
+          "sha256": "c2bcb6e06a91fe41393885565b0ea7aaaa1781a62ed66b2c48d02dd098d9f1eb"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_elapsed_background.png",
+          "sha256": "21fa4c0ac7c3bef1fc3c581e7e0e4cc34a641460ae382052237b98de12c82bee"
+        },
+        {
+          "path": "gfx/showcase/music_player_v0_portrait_bottom_remaining_background.png",
+          "sha256": "6bf4ea4095afb938a8a4790483fe89b93a84891715e142fe80ec82f11da27d77"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_8.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_top.png",
+          "sha256": "a305d04ae95c9921f52112253b440be9a2a30772467204244e56b218389e86ad"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom.png",
+          "sha256": "3cf813860fdd47a6f9f0922c87ed50b466aedcfbf32ad10c720254a1e495afd4"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_play_paused.png",
+          "sha256": "98af50830e2a8b824ffbb6d5dcc0a767261d1036180f5d3d5518706fb190d8bb"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_play_playing.png",
+          "sha256": "baa16b736fa4916297790ba820fea8b55160557b9127dd1b69490546fb74e304"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_shuffle_off.png",
+          "sha256": "f0164fad06919ffd85a7ce25f5003da03ef60e478c0c51b373e72e53ec637e2a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_shuffle_on.png",
+          "sha256": "03ae00eedcb8394156714f07a3b4ca0419e29f933b05c30548b71b25925d6fa9"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_repeat_off.png",
+          "sha256": "83c0886f01a85f4aae7f8e40ef7b72a0d5d2bfc05f49e6d73a5b3b182f20065a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_repeat_on.png",
+          "sha256": "538c6f6a2e4c175cb0f69c07b22ecf8f25fee6f75f9aafdac1327725be98fb6d"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_progress_clean.png",
+          "sha256": "6efda6e50ab77bce0bb7e441c52e9484765c3dfe0bc63744a0da562848375367"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_elapsed_background.png",
+          "sha256": "9cd9a97cca5f0caa225d37127602d03a20384817528dd62f589a7dd97d050bd8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_landscape_bottom_remaining_background.png",
+          "sha256": "c4604ca1d69ff1c857fa4337d5b12f26ab97f95cd81112da39afdaf1d88eb822"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_top.png",
+          "sha256": "0ff799e0c3cd300bb9b357ee3e884b2385f28c0de0b67276d7d0d1ad89205525"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom.png",
+          "sha256": "538a13f5efd23ce89ae775d5194bda2ae805d72ea80ea0b87958c823634da0bd"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_play_paused.png",
+          "sha256": "bfb2769b1b3896e672ae69933cdbaa4c9ee68cbf24b29344ef5a198e3fff7a25"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_play_playing.png",
+          "sha256": "31cc2f045ea3ab615154c749e5fda0e42d957a25044cfb8b47231a2af76165e0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_shuffle_off.png",
+          "sha256": "b8136e0fa06f8a753ffe7b5a76b160b3a316020f56c368356fcf705560319e22"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_shuffle_on.png",
+          "sha256": "0dcd9c0d7c07a51f6624302d72a2b980045ddfcbb767c1a2c10e61da016b5434"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_repeat_off.png",
+          "sha256": "0aea78502164472ed44a4f435470ad09814a3a0c0dd09a8c905e626a3a5057f0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_repeat_on.png",
+          "sha256": "46b421661dad97814fbbe6f793b14e8a73712394756ca1bdc4bf46e18b1026d0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_progress_clean.png",
+          "sha256": "afbd99256fbb8defe9151f34ca14c6eecf0a9a26dd49dc2ce35a4dbabfb1261b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_elapsed_background.png",
+          "sha256": "21fa4c0ac7c3bef1fc3c581e7e0e4cc34a641460ae382052237b98de12c82bee"
+        },
+        {
+          "path": "gfx/showcase/music_player_v1_portrait_bottom_remaining_background.png",
+          "sha256": "6bf4ea4095afb938a8a4790483fe89b93a84891715e142fe80ec82f11da27d77"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/showcase_9.t3s",
+      "inputs": [
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_top.png",
+          "sha256": "52419b8942bb47e10a019343ac797e5b8a113cfcc0940617817dba147c029c26"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom.png",
+          "sha256": "39910b0f0ea0fb27f78e2ccea2d6c5a024074e5b32d18ff7be19b27839a263b6"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_play_paused.png",
+          "sha256": "98af50830e2a8b824ffbb6d5dcc0a767261d1036180f5d3d5518706fb190d8bb"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_play_playing.png",
+          "sha256": "baa16b736fa4916297790ba820fea8b55160557b9127dd1b69490546fb74e304"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_shuffle_off.png",
+          "sha256": "f0164fad06919ffd85a7ce25f5003da03ef60e478c0c51b373e72e53ec637e2a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_shuffle_on.png",
+          "sha256": "03ae00eedcb8394156714f07a3b4ca0419e29f933b05c30548b71b25925d6fa9"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_repeat_off.png",
+          "sha256": "83c0886f01a85f4aae7f8e40ef7b72a0d5d2bfc05f49e6d73a5b3b182f20065a"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_repeat_on.png",
+          "sha256": "538c6f6a2e4c175cb0f69c07b22ecf8f25fee6f75f9aafdac1327725be98fb6d"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_progress_clean.png",
+          "sha256": "6efda6e50ab77bce0bb7e441c52e9484765c3dfe0bc63744a0da562848375367"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_elapsed_background.png",
+          "sha256": "9cd9a97cca5f0caa225d37127602d03a20384817528dd62f589a7dd97d050bd8"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_landscape_bottom_remaining_background.png",
+          "sha256": "c4604ca1d69ff1c857fa4337d5b12f26ab97f95cd81112da39afdaf1d88eb822"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_top.png",
+          "sha256": "9b0653e8180f6c44b849a2745f3ec9ca5c297ec78c732ac6592a18286b277ec9"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom.png",
+          "sha256": "97de7722a44a7cdaa62a79b90795fb4080f2599306f9bd3dcb2ed1c2a26fe04f"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_play_paused.png",
+          "sha256": "bfb2769b1b3896e672ae69933cdbaa4c9ee68cbf24b29344ef5a198e3fff7a25"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_play_playing.png",
+          "sha256": "31cc2f045ea3ab615154c749e5fda0e42d957a25044cfb8b47231a2af76165e0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_shuffle_off.png",
+          "sha256": "b8136e0fa06f8a753ffe7b5a76b160b3a316020f56c368356fcf705560319e22"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_shuffle_on.png",
+          "sha256": "0dcd9c0d7c07a51f6624302d72a2b980045ddfcbb767c1a2c10e61da016b5434"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_repeat_off.png",
+          "sha256": "0aea78502164472ed44a4f435470ad09814a3a0c0dd09a8c905e626a3a5057f0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_repeat_on.png",
+          "sha256": "46b421661dad97814fbbe6f793b14e8a73712394756ca1bdc4bf46e18b1026d0"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_progress_clean.png",
+          "sha256": "dab7897c1482fa613a5ffccdcbdf5a40d67fe8597ee0060eb4cb18a85a805d6b"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_elapsed_background.png",
+          "sha256": "21fa4c0ac7c3bef1fc3c581e7e0e4cc34a641460ae382052237b98de12c82bee"
+        },
+        {
+          "path": "gfx/showcase/music_player_v2_portrait_bottom_remaining_background.png",
+          "sha256": "6bf4ea4095afb938a8a4790483fe89b93a84891715e142fe80ec82f11da27d77"
+        }
+      ]
+    },
+    {
+      "atlas": "gfx/ui.t3s",
+      "inputs": [
+        {
+          "path": "gfx/top_home_day.png",
+          "sha256": "6d889591de52a35f19b2ebe39aaa5356747be528b380993a30124ea7f4524085"
+        },
+        {
+          "path": "gfx/bottom_home_day.png",
+          "sha256": "251cc749869f46db993c1c10c7661011040dd73091ef787ceab33f5dfe99ed99"
+        },
+        {
+          "path": "gfx/top_home_night.png",
+          "sha256": "fe33aeefb170182675fc0e00e4abce9a524fcc8687b40b700925da2571552542"
+        },
+        {
+          "path": "gfx/bottom_home_night.png",
+          "sha256": "13cd1201e1ac280e23d49c2483799801afbf8663df28dd64f93a02bee18bb284"
+        },
+        {
+          "path": "gfx/photo_desert.png",
+          "sha256": "a3f63e67f040cc3365cfd8c3d1391355ea1f104605a02651672c81f5716c2d3f"
+        },
+        {
+          "path": "gfx/photo_memory.png",
+          "sha256": "a65b36c34506b774ba9e42ee2f4286dde614c8fdb50144165bff1f60cbeac10a"
+        },
+        {
+          "path": "gfx/glyph_32.png",
+          "sha256": "cd9008f20f0d42fc527b20ebba52fb36396e6b9a74dab3882879f17fe87ab467"
+        },
+        {
+          "path": "gfx/glyph_33.png",
+          "sha256": "6b7577d22597a3cc36536b0abac4abba570c238b181e9b45f614fa4437143985"
+        },
+        {
+          "path": "gfx/glyph_34.png",
+          "sha256": "979ad158d766fc74181f6eda43566f64ca829a273f6909cece66eb8ddbf7d576"
+        },
+        {
+          "path": "gfx/glyph_35.png",
+          "sha256": "539fa242dc70b1358f47048fe53847e48ed2a0c809246632faed3d38a1978755"
+        },
+        {
+          "path": "gfx/glyph_36.png",
+          "sha256": "1f87456bc38da09c6dea02224d60ecbee14b3cf2bf7f9e319d909492d3265b04"
+        },
+        {
+          "path": "gfx/glyph_37.png",
+          "sha256": "fb16e89165b2e9c3424e18e5ad463c90dd96ec37e8c42035d781e1cd1e793466"
+        },
+        {
+          "path": "gfx/glyph_38.png",
+          "sha256": "fb2347baccf22c4a18e9d9fcc2bc03332ee8e9fabb42dc7aa55c0a7727264a87"
+        },
+        {
+          "path": "gfx/glyph_39.png",
+          "sha256": "60042a5c04bc78f59776a6f866afbb568fb0a6387b0c0e46a7b26f2979139b58"
+        },
+        {
+          "path": "gfx/glyph_40.png",
+          "sha256": "86d1fda524bfb4f4ec0fc2e23fabb1cabaaf6e24b9b27baefdd15b1c2a556408"
+        },
+        {
+          "path": "gfx/glyph_41.png",
+          "sha256": "4d3d5b0d821007fb8d94e1d4c209eb3dbb90955ec1f5facfd9aaa71d3cc12637"
+        },
+        {
+          "path": "gfx/glyph_42.png",
+          "sha256": "50e31ef698885fd63732328dd36a6b17cf328ce6d57b19d1604f2cc088b5f059"
+        },
+        {
+          "path": "gfx/glyph_43.png",
+          "sha256": "bef0a2443bb1eb4712c8bb16a4ec7bea469c4f5e00b9e437d4d513f859f020d1"
+        },
+        {
+          "path": "gfx/glyph_44.png",
+          "sha256": "a7ed3d16da5261aac902265a641066e82e3ba30df49f075c79a7e7844b4e0e69"
+        },
+        {
+          "path": "gfx/glyph_45.png",
+          "sha256": "a8d02f3f6565c488e6cf9b2e3241ba06284fc3f842c3930f0c3aa5c3f4bda5cf"
+        },
+        {
+          "path": "gfx/glyph_46.png",
+          "sha256": "29f17374fba6a0b44f20541917fbbf7c64dff9aae73f403a6931e8f80658906d"
+        },
+        {
+          "path": "gfx/glyph_47.png",
+          "sha256": "6ac3aadec2a3ed0915ad3bc3ee4a807091d63f9078800b74f0e3abaf3e930821"
+        },
+        {
+          "path": "gfx/glyph_48.png",
+          "sha256": "302d57dc89a59b816b71309e216b43e57c9e21736c701e00f9a739dc747963c7"
+        },
+        {
+          "path": "gfx/glyph_49.png",
+          "sha256": "7219bf23baebc51d949151b68a4881717c119b33f2cf660d471982c2ca37b74f"
+        },
+        {
+          "path": "gfx/glyph_50.png",
+          "sha256": "bd5968456f20a6ba38d190d7c2360db38d17b9e133907e32a537387d29904bbe"
+        },
+        {
+          "path": "gfx/glyph_51.png",
+          "sha256": "9779122ffeb5546e89314495da01737e01a133340e7b1c3d3afdd93914542874"
+        },
+        {
+          "path": "gfx/glyph_52.png",
+          "sha256": "8256d748fe647992f03570718b0440ba464d592c68b70a2df98b606c39785ab4"
+        },
+        {
+          "path": "gfx/glyph_53.png",
+          "sha256": "bdf3401d4eb97650087e773e6d2239920cb7acdac87645f689771d29981c43c4"
+        },
+        {
+          "path": "gfx/glyph_54.png",
+          "sha256": "2923b1792241ebd6e6f41d6fa6e65cd71949e4985ce78e8107afdf5418f5cc93"
+        },
+        {
+          "path": "gfx/glyph_55.png",
+          "sha256": "d2a4014cbcb893c8afc63169ead6ec1b3e4ad6e4066609e394b5655beb156da0"
+        },
+        {
+          "path": "gfx/glyph_56.png",
+          "sha256": "459f1e73de907ac3667a031689d123c8147311c6e9c02471f4a64a1c131aeb48"
+        },
+        {
+          "path": "gfx/glyph_57.png",
+          "sha256": "005749398f1f9e9c8d65d45ea435be9928c4da2a606bcb22572c9e753e9c73db"
+        },
+        {
+          "path": "gfx/glyph_58.png",
+          "sha256": "013a002bda51bfe0b6628d3b627e6767b244ee5eb9084df8e58ca9dcb7ebd66c"
+        },
+        {
+          "path": "gfx/glyph_59.png",
+          "sha256": "cbeca80c27f1a106fde1782315b9f3418cd65a9e18702c32a46fbae857394989"
+        },
+        {
+          "path": "gfx/glyph_60.png",
+          "sha256": "54e2dc9a9e1d9bc40155e098b7dc37197640df8548d04989523783c8fcf74b1b"
+        },
+        {
+          "path": "gfx/glyph_61.png",
+          "sha256": "899933ed4cd666b076322cbedd5cadc2cba345c318ac00739c5c75196808e02e"
+        },
+        {
+          "path": "gfx/glyph_62.png",
+          "sha256": "ba0e65e56d59f846025b4439bf68dff2ffc52297ad7b817b8e816fae1aac68d0"
+        },
+        {
+          "path": "gfx/glyph_63.png",
+          "sha256": "a20442b19a306ab11f9f36a333f54186a150a9db25fac2c796facdac3b91f6d1"
+        },
+        {
+          "path": "gfx/glyph_64.png",
+          "sha256": "08dd367e3ca4496e3b789aadb87e95c5009018a74e048c768edf5395b52cf3f3"
+        },
+        {
+          "path": "gfx/glyph_65.png",
+          "sha256": "9af33bca172cde9b1f5d435d3386112dba2172300eeeee470ae0d5dea3d43cbd"
+        },
+        {
+          "path": "gfx/glyph_66.png",
+          "sha256": "5efdd0f07187c9a0ba621cc537bb64007e7f06fafec2dbdd259ba49340ace68b"
+        },
+        {
+          "path": "gfx/glyph_67.png",
+          "sha256": "b13907d0bf17e7b939037ebf3685b787a14bba09a70d7f70cf06ce0352eb2d13"
+        },
+        {
+          "path": "gfx/glyph_68.png",
+          "sha256": "39aa4909dbf76c310c36be0490b24b2d6483a5a3f4585d63d34c2fbb20baa20d"
+        },
+        {
+          "path": "gfx/glyph_69.png",
+          "sha256": "9b333d334780a08e2745600bcb9c330f71a4a2c3600fea1985b0c13e3293f751"
+        },
+        {
+          "path": "gfx/glyph_70.png",
+          "sha256": "dd1046eb7dc384b8fb5fa39be183911c6e28a19d385f7905d03ed40d1249707c"
+        },
+        {
+          "path": "gfx/glyph_71.png",
+          "sha256": "6356e90841159721b3573b05c2e4c6a71952f287ef813474e16ffdb797a102d5"
+        },
+        {
+          "path": "gfx/glyph_72.png",
+          "sha256": "b0a37e2041be60c867ba2be98f3ecfbb32f7f1f98a7757be4c0ef2fab73951e0"
+        },
+        {
+          "path": "gfx/glyph_73.png",
+          "sha256": "b839b95b591384f987b6d410e0f90719bb6d697e62c7c6cc12959528cb2157fa"
+        },
+        {
+          "path": "gfx/glyph_74.png",
+          "sha256": "c79acac45e258053dda2ebc6bc27f7e33406dc2f86675a734beeb8523258bd29"
+        },
+        {
+          "path": "gfx/glyph_75.png",
+          "sha256": "79d79214c32d6e236ad85317dfad4a9976c0d143da1c836c007be38ffbec7f57"
+        },
+        {
+          "path": "gfx/glyph_76.png",
+          "sha256": "9fc0b6f289ece7a4c2719ab231677e5d55a3ee9a3cf0dd6c9ee026819800991a"
+        },
+        {
+          "path": "gfx/glyph_77.png",
+          "sha256": "e42a4afa0affa20f52e8d7fc753e22dd4c65531692952f9205d5604a157221e3"
+        },
+        {
+          "path": "gfx/glyph_78.png",
+          "sha256": "01bee12d15cd3b21288b3784470d1248914d7bda038598e7230c4559543cf3a4"
+        },
+        {
+          "path": "gfx/glyph_79.png",
+          "sha256": "b6aaeb0a3732d7e3911e96005f3c5828a0a063cb629bd2606b4300071d935e3f"
+        },
+        {
+          "path": "gfx/glyph_80.png",
+          "sha256": "d279c0538c8e2cefd156a844c00684aaa8f866e4a37b9784d37b6941a4a5941c"
+        },
+        {
+          "path": "gfx/glyph_81.png",
+          "sha256": "73ca7edd4c2ae99ac7972625add299380accc6c52f3b2cbe519227fb60cbb2cd"
+        },
+        {
+          "path": "gfx/glyph_82.png",
+          "sha256": "016f4a51f447953e1942220e96637ca3755e6278a6eba0ed72725e23341f62f8"
+        },
+        {
+          "path": "gfx/glyph_83.png",
+          "sha256": "08697c5551565a2cc3ff58e5127e1f2ecd436450ed50732ad71c321cb0dce09a"
+        },
+        {
+          "path": "gfx/glyph_84.png",
+          "sha256": "2ec28bb469edc469c4eeb08c52302bc6b7587f449b0a65484b34b1e7a54a1233"
+        },
+        {
+          "path": "gfx/glyph_85.png",
+          "sha256": "4918222b2783abfd19ed38f1e074ff998ddcd632971d8a661a18a3fa73c1759d"
+        },
+        {
+          "path": "gfx/glyph_86.png",
+          "sha256": "a3e4ec02664990a6d9f3c314a3fd407eec126434b0cbd43d7854be65dc01da9a"
+        },
+        {
+          "path": "gfx/glyph_87.png",
+          "sha256": "e6d9551caa981a0088ef312449105f5615b06b0dfd247582ca6a0ad86805d249"
+        },
+        {
+          "path": "gfx/glyph_88.png",
+          "sha256": "0a1498c0c2f6f2dbcc6593bc6b19196da9755c4dd37221ef0c43590c49fb872f"
+        },
+        {
+          "path": "gfx/glyph_89.png",
+          "sha256": "6400fe874c7989529d114564aac109a82269733121782e1f5e2f8f6d409e37ef"
+        },
+        {
+          "path": "gfx/glyph_90.png",
+          "sha256": "ba42d7ab0fba9afdf11e2c022320a978891bfbb31d58564553c632d3338a7f4d"
+        },
+        {
+          "path": "gfx/glyph_91.png",
+          "sha256": "7fc44d6f15d07f0096a9a730caf56853213f9d9510266ffb28ac6fce1a31954f"
+        },
+        {
+          "path": "gfx/glyph_92.png",
+          "sha256": "60fa3080ae82e36c78548b131eb3a899b26e92dc3ffa401e8247888807a34cae"
+        },
+        {
+          "path": "gfx/glyph_93.png",
+          "sha256": "620b69bbe1109be10102f4803febe53992840967fc549f09551669b2fd0519bb"
+        },
+        {
+          "path": "gfx/glyph_94.png",
+          "sha256": "b07affa31cafd6c70770df36b143eceb3817389682fd970a598bdf975d45dde9"
+        },
+        {
+          "path": "gfx/glyph_95.png",
+          "sha256": "2aefe10abaa62481919695d0dc40b85521e51286a1b251ac2d085a55a7c3c7b3"
+        },
+        {
+          "path": "gfx/glyph_96.png",
+          "sha256": "f34b6a3cf5f97ce017f79a2838549f751fb4a3504f3e0f8b8c28592cb1007785"
+        },
+        {
+          "path": "gfx/glyph_97.png",
+          "sha256": "6c37753a5b60b96cfbb12a41319ae8fd69266514fbcd9c781c31c9b6fdfbc74b"
+        },
+        {
+          "path": "gfx/glyph_98.png",
+          "sha256": "44a8b34ae05e838ff7acd47ba42e49807b613f06db33be73f28af1b7d847b2c3"
+        },
+        {
+          "path": "gfx/glyph_99.png",
+          "sha256": "0ae7f82caacd468f5fb571ab204dd7686c8038eed17bbd50bc00cb969935a654"
+        },
+        {
+          "path": "gfx/glyph_100.png",
+          "sha256": "c5f85832465aca991e973eef3ba4e3d977284e0b6df7922f9cb1dd1f4dccb464"
+        },
+        {
+          "path": "gfx/glyph_101.png",
+          "sha256": "4a0e1ecec828695df2687e79b02da196a7652dd715e7e5fa81c144f2729e01d0"
+        },
+        {
+          "path": "gfx/glyph_102.png",
+          "sha256": "5165427d20623c5e900ad1c8180f4896c916f767f8bea7c9fa069a15bfbec089"
+        },
+        {
+          "path": "gfx/glyph_103.png",
+          "sha256": "742c1234c7d58e143046a0bafa944cae914c43468cf20807fbd1a57e11c24813"
+        },
+        {
+          "path": "gfx/glyph_104.png",
+          "sha256": "9e2319ba1b3ae6ba880535434fd98bb1e184fdc25adef07678bf4feb649b1f48"
+        },
+        {
+          "path": "gfx/glyph_105.png",
+          "sha256": "dd7f7d72d793d958c5aa7b4a2e435456c7f8423bb6f64c55d183b5fecbabe245"
+        },
+        {
+          "path": "gfx/glyph_106.png",
+          "sha256": "91e29c7b4870e8bdd332cab9e8480089256157edfaf5a86cdc435107c5d8c4bd"
+        },
+        {
+          "path": "gfx/glyph_107.png",
+          "sha256": "1d487a660026fa1f14a45bb92a1f795c591524a60c04fcc22732f1320783e0d6"
+        },
+        {
+          "path": "gfx/glyph_108.png",
+          "sha256": "9814153037618d81d7b6589cebd934bc15f252fce9ef7d753d4ce3eb4fb8b531"
+        },
+        {
+          "path": "gfx/glyph_109.png",
+          "sha256": "0902862d467ee6579f9284d0d8fa33c4810c4cae141e867fbcff6d16fe441a3c"
+        },
+        {
+          "path": "gfx/glyph_110.png",
+          "sha256": "edf5979fd775c734a573d1c1a3d13f23a6f473268745545dca5b13506dbae2b4"
+        },
+        {
+          "path": "gfx/glyph_111.png",
+          "sha256": "4972154319091adb7df68b4a8e51adec2758f91789e9077b134adcf45647ab11"
+        },
+        {
+          "path": "gfx/glyph_112.png",
+          "sha256": "3eed8da9951afe35aaea3ab587940af22d59430d46cf66168c0620d0ca09ea33"
+        },
+        {
+          "path": "gfx/glyph_113.png",
+          "sha256": "71f266f0830a0523929806ddcdf0596691f1d51d7e3181faac1a9ad4a89b50ac"
+        },
+        {
+          "path": "gfx/glyph_114.png",
+          "sha256": "d3813733ccefde3b1651bef42de17f9e1ef63d0e9cd01ebe0bc953906b247dfc"
+        },
+        {
+          "path": "gfx/glyph_115.png",
+          "sha256": "a489f5d8312605421e5e3cb0c47db9769e550613572bf14a36aa1c982772c27f"
+        },
+        {
+          "path": "gfx/glyph_116.png",
+          "sha256": "69ed24354e79865f44712642cc715f5a23d0ce387fd4e8a1e05b735e019f96ed"
+        },
+        {
+          "path": "gfx/glyph_117.png",
+          "sha256": "b9b7866ad96bba2bcfce93dac30dd5060fc187fc182fbc25bf2eeaface2b8f7c"
+        },
+        {
+          "path": "gfx/glyph_118.png",
+          "sha256": "ab77d02bae6e97b337866307367ea29e22e0af6b3de3b099b8caf2880dca7d6f"
+        },
+        {
+          "path": "gfx/glyph_119.png",
+          "sha256": "1d2963d93aac95587047a8a8482e30f497420222ff453391637d00387b86d7ef"
+        },
+        {
+          "path": "gfx/glyph_120.png",
+          "sha256": "dee1ca8f76ad6fb7067d8d39e5f8e4059b4859def79cd168b491f47f3d73e351"
+        },
+        {
+          "path": "gfx/glyph_121.png",
+          "sha256": "f1452ed153610d8c789a68e22c4a4cfd8acf15182643fe499f22becd54baef8e"
+        },
+        {
+          "path": "gfx/glyph_122.png",
+          "sha256": "41f39e0e787285e8de60947f8989a8da254575a4e30329948afc07cb649d8e4c"
+        },
+        {
+          "path": "gfx/glyph_123.png",
+          "sha256": "87178125a39a5d81bc144b7aa68ad5a41ca49f48842931872589a82745d53b7b"
+        },
+        {
+          "path": "gfx/glyph_124.png",
+          "sha256": "39bf830a20adcf129b4b8793efb390eb067fd01360d2961cf912b20010f09286"
+        },
+        {
+          "path": "gfx/glyph_125.png",
+          "sha256": "a221456f5b707c10efe4221bd05308f1f6857d9c9b22bb112e0ec44bca6074fe"
+        },
+        {
+          "path": "gfx/glyph_126.png",
+          "sha256": "66c2d800aba275f873761dcb61a3b95d96e387d02a85be68a90b1655e081bdd5"
+        },
+        {
+          "path": "gfx/icon-facetime.png",
+          "sha256": "f832278bcf23bc4f5decddab0175eee3c9f27d618f25a082c31d26133894554c"
+        },
+        {
+          "path": "gfx/icon-calendar.png",
+          "sha256": "4a3a2b557af876959456f609736e1c7116416db3f47593e6a0d7375ca715e498"
+        },
+        {
+          "path": "gfx/icon-photos.png",
+          "sha256": "473a55eb2266514f00682e1243360d6770e21c1a73967bbe206332f89e3310d2"
+        },
+        {
+          "path": "gfx/icon-camera.png",
+          "sha256": "3ce9d40cb9d86302561879bb52afd4cd6bba4e71a3b9d1e4223c0606135e2a38"
+        },
+        {
+          "path": "gfx/icon-mail.png",
+          "sha256": "d7969669cad5681f746764329562eeefb182076d7785e71d8ed671483a62f256"
+        },
+        {
+          "path": "gfx/icon-notes.png",
+          "sha256": "22aad33d6cdf7423d1c5ce1f89f9e29c622aa2b121c9ba894b20d29bf8e7a503"
+        },
+        {
+          "path": "gfx/icon-clock.png",
+          "sha256": "93d52b9215386ed2f271c60abcfa6a2fb3320cdec507bc500eaa5c0410810245"
+        },
+        {
+          "path": "gfx/icon-maps.png",
+          "sha256": "6a46d47c24a10df4b2bbeab3d1ae30dfa63d2726a72c88207c6437da7ad0d35f"
+        },
+        {
+          "path": "gfx/icon-apple-tv.png",
+          "sha256": "5db76d0ae482057bc910a47d87df5e601f525a276f0b4f2025862c1bc329129b"
+        },
+        {
+          "path": "gfx/icon-news.png",
+          "sha256": "8d0f07e5b49e8f1da5a287111194a6270c448ab966279d1befcf3b434f4b8433"
+        },
+        {
+          "path": "gfx/icon-app-store.png",
+          "sha256": "6c52c14aca57f242399e524bd3ddbb5437c18eb4386366f01917462661dec2df"
+        },
+        {
+          "path": "gfx/icon-games.png",
+          "sha256": "c82474d9d395baa8829c8c62cba057d2bffc7abb6afc376ac3c8edee0ac4529d"
+        },
+        {
+          "path": "gfx/icon-health.png",
+          "sha256": "7866f10c5f401f23a7cfb57c300b10ba5910dbab320b823cd6e97c99fa4c6842"
+        },
+        {
+          "path": "gfx/icon-wallet.png",
+          "sha256": "54796534ba42db7e0aa10429102c6c7009a32b65123a2686d5a10c64d3209f18"
+        },
+        {
+          "path": "gfx/icon-siri.png",
+          "sha256": "f5649b139d318324cbae71a1f970c0244743aba0dc30b743a92a542f09ac5115"
+        },
+        {
+          "path": "gfx/icon-settings.png",
+          "sha256": "69eb002cd5e52b9805762a800423848183080b4aeee90517395562fc3fff524a"
+        },
+        {
+          "path": "gfx/icon-phone.png",
+          "sha256": "135f0b9d3723ec8de0d0175ce8e4c537545fb042d72a85f9c8757c850032f2e0"
+        },
+        {
+          "path": "gfx/icon-safari.png",
+          "sha256": "f89d99897c0386764d815d9ff7527002094a5e01e284a1078147370970830c49"
+        },
+        {
+          "path": "gfx/icon-messages.png",
+          "sha256": "300e43d28b6380cb74b46b790ecdbcee08d87e0a4356120d08471034ef778916"
+        },
+        {
+          "path": "gfx/icon-music.png",
+          "sha256": "438e7a7fd02a74fdde76f19ecfd8da912d83b5a092329a844a03cbe68920dcf5"
+        },
+        {
+          "path": "gfx/icon-calculator.png",
+          "sha256": "239477398a75826d1ad62d2f91bcb7133bbcd898c625c392405cc76ccee02480"
+        },
+        {
+          "path": "gfx/label-facetime.png",
+          "sha256": "ca4caf15238beba412793984ffcbc9f8ff4df045674458793bc6cd8c8a71a747"
+        },
+        {
+          "path": "gfx/label-calendar.png",
+          "sha256": "7a807b49f3d86af9355351b5c4880486fa6c3416cf2533f61335fd3204aa1ff9"
+        },
+        {
+          "path": "gfx/label-photos.png",
+          "sha256": "355496b8d34d6a6f6d36fcecb35d4fc5ba3fc8e2767b687f8a21f59d25dddf40"
+        },
+        {
+          "path": "gfx/label-camera.png",
+          "sha256": "7e09bdc4de8228fa39fc1bface19ba0ef34831c43d9e1b41198532218ad958b0"
+        },
+        {
+          "path": "gfx/label-mail.png",
+          "sha256": "c8c1e7bb1ca237e22d012120a28fae7fd11abd47b66ded52f43641739b179823"
+        },
+        {
+          "path": "gfx/label-notes.png",
+          "sha256": "edd56e9a738671ed663bb70bf58edb90c3a724ab5a27fbad17d4839abdc90e53"
+        },
+        {
+          "path": "gfx/label-clock.png",
+          "sha256": "0a494c0a4c70ba58c8b37e3f8e516b4a2453e4a0119d289d8521d6196eb319a1"
+        },
+        {
+          "path": "gfx/label-maps.png",
+          "sha256": "14a5f91647dd1f0ed63632fdb5b569d3f0958caa52152412fd032e624b8a6c99"
+        },
+        {
+          "path": "gfx/label-apple-tv.png",
+          "sha256": "6dcfe9a4e53c4291503d2466da3b315384500439038f4d8af0eb47f8495190b7"
+        },
+        {
+          "path": "gfx/label-news.png",
+          "sha256": "99abd3723f5c5d5e824850a4475922791dad2cc12f2d5b9b97d8ad445032bd69"
+        },
+        {
+          "path": "gfx/label-app-store.png",
+          "sha256": "bd9675e3da68f5f7944c0d3e93513ced83aaf422025c6382bb0f49982604b975"
+        },
+        {
+          "path": "gfx/label-games.png",
+          "sha256": "18a4f9c68a919032465a6a18ae6a1d37a786c8df546b158938025c8e31086630"
+        },
+        {
+          "path": "gfx/label-health.png",
+          "sha256": "b535bb9f83f6074bb108ab38a77603de54da4f181c86c145eaa904ba49b920f8"
+        },
+        {
+          "path": "gfx/label-wallet.png",
+          "sha256": "3ddb98678ed780d83d3d52c93590102cace7b2b811b6ece477182cbabbd7b455"
+        },
+        {
+          "path": "gfx/label-siri.png",
+          "sha256": "123f9898c707164cd1b22b307ba4448a6ce7bb366126be4ad1bdf534907751f2"
+        },
+        {
+          "path": "gfx/label-settings.png",
+          "sha256": "4c3fbd3b59e5fc523b17179bb21be32bd33766a8057f31888be66c65610e0a4b"
+        },
+        {
+          "path": "gfx/label-phone.png",
+          "sha256": "795e28dfc00902f94235bdda0140de5367ed68c3b145b59d1171679660b3a351"
+        },
+        {
+          "path": "gfx/label-safari.png",
+          "sha256": "172244961f94f7962c2ad5c81d437f18f325e0a9fbf452c88dca41f115427487"
+        },
+        {
+          "path": "gfx/label-messages.png",
+          "sha256": "8ab7cdc59c8ef3ae9700f946abe77cbcb50ab2466bbd0ab8d8ba0829938a4a93"
+        },
+        {
+          "path": "gfx/label-music.png",
+          "sha256": "e61e76a197fba98370f2aae2b3fcd37e79db75b9d6801186eb4df4e027da6cb8"
+        },
+        {
+          "path": "gfx/label-calculator.png",
+          "sha256": "4c0067adc334226a2d794297a1cfb7c72519311c3d6930ba7ddcb3338af72997"
+        },
+        {
+          "path": "gfx/bottom_home_page2_day.png",
+          "sha256": "de193754c8d08b8ea79f8615ad2f7276ef20880bc76554d3f609f7976e9a0526"
+        },
+        {
+          "path": "gfx/bottom_home_page2_night.png",
+          "sha256": "1581760a27800be0a5d2a1ee7c86d39d53bd68dd768d47452b1a4e277aefc933"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "apps" : "square.grid.2x2",
+  "back" : "chevron.left",
+  "check" : "checkmark",
+  "download" : "arrow.down",
+  "game" : "gamecontroller",
+  "home" : "house",
+  "library" : "square.stack",
+  "more" : "ellipsis",
+  "new" : "sparkles",
+  "next" : "forward.end.fill",
+  "pause" : "pause.fill",
+  "play" : "play.fill",
+  "prev" : "backward.end.fill",
+  "repeat" : "repeat",
+  "search" : "magnifyingglass",
+  "shuffle" : "shuffle",
+  "star" : "star",
+  "today" : "text.rectangle",
+  "volume" : "speaker.wave.2"
+}

@@ -1,0 +1,5 @@
+--atlas --border=edge -f rgba8888 -z auto
+official/facetime-0.png
+official/facetime-1.png
+official/facetime-2.png
+official/facetime-3.png
