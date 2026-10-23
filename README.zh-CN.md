@@ -2,9 +2,7 @@
 
 # iPhone Duo for Nintendo 3DS
 
-### 两块屏幕，一台意想不到的 iPhone。
-
-在 Nintendo 3DS 上运行的原生自制程序，复刻 iPhone Duo 的双屏桌面与交互。
+运行在 Nintendo 3DS 上的原生自制程序，还原 iPhone Duo 双屏桌面与跨屏交互。
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [编译 3DS 程序](#编译-3ds-程序) | [安装到 SD 卡](#安装到-sd-卡) | [按键与操作](#按键与操作)
 
@@ -17,7 +15,9 @@
 
 ## 编译 3DS 程序
 
-先按 [devkitPro 官方安装指南](https://devkitpro.org/wiki/Getting_Started) 安装 **devkitPro 3DS 工具链**（包含 `devkitARM`、`libctru`、`citro2d`、`citro3d`、`3dstools` 和 `tex3ds`）。所需预制纹理已随仓库提交，可直接校验并编译：
+先参照 [devkitPro 官方安装指南](https://devkitpro.org/wiki/Getting_Started) 安装 **devkitPro 3DS 工具链**（包含 `devkitARM`、`libctru`、`citro2d`、`citro3d`、`3dstools` 与 `tex3ds`），并确保本地已安装 Git、Python 3.9+ 和 `make`。
+
+仓库已包含处理好的纹理素材，克隆后可直接编译：
 
 ```sh
 git clone https://github.com/JosssphZhou/iphone-duo-3ds.git
@@ -27,13 +27,11 @@ cd iphone-duo-3ds-native
 ./build.sh -j4
 ```
 
-构建入口是 `iphone-duo-3ds-native/build.sh`，输出为同目录下的 `iphone-duo.3dsx` 和 `iphone-duo.smdh`。编译使用仓库内已有的图片素材，无需启动网页或重新生成图片。
-
-脚本默认工具链路径为 `/opt/devkitpro`；安装在其他位置时，设置 `DEVKITPRO` 和 `DEVKITARM` 后再运行。执行上述命令需要 Git、Python 3.9+、make 和已安装的 3DS 工具链。
+构建脚本 `iphone-duo-3ds-native/build.sh` 会在 `iphone-duo-3ds-native/` 目录下生成 `iphone-duo.3dsx` 与 `iphone-duo.smdh`。脚本默认从 `/opt/devkitpro` 读取工具链；若安装在其他路径，请在编译前设置环境变量 `DEVKITPRO` 和 `DEVKITARM`。
 
 ## 安装到 SD 卡
 
-准备一台能打开 **Homebrew Launcher** 的 3DS，以及它使用的 SD 卡。将编译生成的两个文件复制到卡中：
+准备一台已安装 **Homebrew Launcher** 的 3DS，将编译生成的两个文件拷入 SD 卡对应目录：
 
 ```text
 SD:/
@@ -43,61 +41,58 @@ SD:/
         └── iphone-duo.smdh
 ```
 
-覆盖更新时，保留原有的 `layout.bin` 和 `language.bin` 即可延续此前的图标排布与语言设置。
+所有图像资源均已通过 RomFS 打包进 `.3dsx`，无需把 `gfx/` 或网页原型目录拷到卡上。更新旧版本时，保留目录中原有的 `layout.bin` 和 `language.bin` 即可沿用之前的图标排布与语言设置。
 
-复制完成后安全弹出 SD 卡，插回 3DS，再从 Homebrew Launcher 打开程序。图片资源已嵌入 `.3dsx`，无需把网页目录或 `gfx/` 另行复制到卡上。
+将 SD 卡插回主机，在 Homebrew Launcher 中打开 **iPhone Duo** 即可运行。
 
 ## 按键与操作
 
-| 操作 | 作用 |
+| 操作 | 功能 |
 | --- | --- |
-| 点击图标，或方向键选择后按 A | 打开已有的应用内页演示 |
-| 长按图标后拖动 | 进入编辑状态并整理桌面图标 |
-| 把音乐图标拖向两屏接缝 | 在上屏添加音乐小组件 |
-| 已有组件时长按音乐图标 | 呼出移除菜单；松手后点击菜单即可移除组件 |
-| B 或点击菜单外部 | 取消移除菜单 |
-| B | 结束桌面整理或返回桌面 |
-| L | 切换横屏与书本模式，并关闭自动旋转 |
-| R | 显示或隐藏传感器诊断信息 |
+| 点击图标，或方向键选中后按 A | 打开应用内页演示 |
+| 长按图标并拖动 | 进入抖动编辑模式，调整图标位置 |
+| 将音乐图标拖向两屏接缝 | 在另一块屏幕上展开音乐小组件 |
+| 小组件展开时长按音乐图标 | 呼出移除菜单；松手后点击菜单将小组件收回 |
+| B 或点击移除菜单外部 | 关闭移除菜单 |
+| B | 退出桌面编辑状态或返回主屏幕 |
+| L | 切换横屏与书本竖屏布局（同时关闭自动旋转） |
+| R | 切换传感器调试信息显示 |
 | X | 切换日间与夜间壁纸 |
 | Y | 切换桌面分页 |
-| 按住 SELECT 后按 Y | 切换中英文界面 |
-| 单独按下并松开 SELECT | 切换锁屏状态 |
-| 从触控屏底部边缘向上滑动 | 解锁进入桌面 |
+| 按住 SELECT 再按 Y | 切换中英文界面 |
+| 单独按下并松开 SELECT | 锁屏或点亮屏幕 |
+| 从触控屏底边向上滑动 | 解锁进入桌面 |
 | START | 退出并返回 Homebrew Launcher |
 
-硬件 HOME 键仍由 3DS 系统接管。重力感应自动旋转目前属于实验特性，仍待实体机复测；需要稳定切换横竖屏时请按 **L**。
+硬件 HOME 键仍由 3DS 系统接管。重力感应自动旋转目前为实验功能，尚待真机校准，日常切换横竖屏请按 **L**。
 
-## 双屏玩法
+## 主要特性
 
-长按**音乐**图标进入抖动编辑状态，把它拖向两屏接缝，图标就会跨过触控屏，在另一块屏幕上展开成音乐小组件。
+- **跨屏音乐小组件：** 长按**音乐**图标进入编辑模式，将其拖向转轴接缝即可在另一块屏幕上展开为音乐小组件。再次长按**音乐**并点击**移除组件**，小组件会动态缩回图标当前所在的格子（即使图标已被移到其他位置或另一页）。
+- **自定义主屏幕：** 支持长按进入抖动编辑状态，在两页桌面与 Dock 之间自由换位，布局自动保存在 SD 卡上。
+- **横屏与书本模式：** 按 **L** 可将双屏画面旋转 90 度切换为书本持握模式（原上屏在左、下触控屏在右）。
+- **锁屏、主题与双语切换：** 支持上滑解锁、日夜壁纸切换，以及随时在中文和英文界面之间切换。
 
-想收回来？再次长按**音乐**，点击**移除组件**，小组件便会缩回图标当前所在的格子。就算你已经把图标挪到了别的位置或另一页，收回动画也会准确跟过去。
+> **说明：** 本项目仅演示界面设计与双屏交互动效，不运行 iOS 应用，也不具备音频播放、通话或联网功能。
 
-| 整理桌面 | 转过来玩 | 熟悉的细节 |
-| --- | --- | --- |
-| 长按抖动、拖动换位，支持两页桌面与 Dock。 | 按 **L** 切换书本模式，原上屏在左，触控屏在右。 | 上滑解锁、日夜壁纸切换，以及中英文界面切换。 |
+## 目录结构与技术实现
 
-> **项目边界说明：** 本项目复刻的是双屏界面与交互动效，不运行 iOS 或 iPhone 应用。音乐组件与应用内页均为离线视觉演示，不播放音乐、不通话，也不下载应用。
+原生程序在上屏以 **400 × 240** 分辨率渲染，在下屏以 **320 × 240** 渲染；切换至书本模式后分别采用 **240 × 400** 与 **240 × 320** 的逻辑坐标，并同步变换触控输入映射（硬件上仅下屏支持触控）。
 
-## 实现与目录结构
-
-原生程序在上屏以 **400 × 240** 渲染，在下触控屏以 **320 × 240** 渲染。切换到书本模式后，界面改用 **240 × 400** 与 **240 × 320** 的逻辑布局，并同步转换触控坐标。硬件上仅下方屏幕支持触控输入。
-
-图标、纹理与文字均按 3DS 原生像素尺寸预制，构建时将纹理图集打包进 RomFS。语言偏好与桌面图标布局分别独立保存。
+所有图标、文字标签与背景均按 3DS 原生像素尺寸预先栅格化，并在编译时打包为 RomFS 纹理图集。
 
 ```text
-iphone-duo-3ds-native/       C 原生程序、预制纹理、交互模型与测试
-iphone-duo-3ds-prototype/    网页交互原型与图片素材
-docs/images/                 网页原型与模拟器运行截图
-tools/                       素材校验、可选导入脚本与本地测试
-asset-manifest.json          945 个预制资源的路径、大小与 SHA-256
+iphone-duo-3ds-native/       C 原生程序、纹理图集、交互逻辑与测试
+iphone-duo-3ds-prototype/    网页交互原型与参考素材
+docs/images/                 模拟器与网页原型运行截图
+tools/                       素材校验、可选素材导入脚本与本地测试脚本
+asset-manifest.json          945 个内置素材文件的大小与 SHA-256 清单
 ```
 
 <details>
-<summary><strong>开发检查</strong></summary>
+<summary><strong>本地测试与校验</strong></summary>
 
-需要 Python 3.9+ 和 C11 编译器，运行本地主机测试无需安装 3DS 工具链：
+运行主机端交互逻辑与素材测试仅需 Python 3.9+ 和 C11 编译器，无需安装 3DS 工具链：
 
 ```sh
 python3 tools/check_assets.py
@@ -105,16 +100,14 @@ bash tools/test_host.sh
 python3 -m unittest discover -s tests -p '*_test.py' -v
 ```
 
-在支持相应特性的编译器上，可执行 `SANITIZE=1 bash tools/test_host.sh` 开启 AddressSanitizer 与 UndefinedBehaviorSanitizer 检查。CI 会自动校验素材完整性、可移植交互回归测试、导入安全性及 JavaScript 语法。
+在支持的编译器环境下，可运行 `SANITIZE=1 bash tools/test_host.sh` 启用 AddressSanitizer 与 UndefinedBehaviorSanitizer。
 
 </details>
 
 <details>
-<summary><strong>素材校验与重新生成</strong></summary>
+<summary><strong>素材清单与重生成流程</strong></summary>
 
-仓库已内置处理完毕的壁纸、苹果应用图标、静态应用演示画面、音乐小组件、锁屏视觉与原生纹理，常规克隆后即可直接预览和构建。
-
-`asset-manifest.json` 记录了全部预制文件的字节大小与 SHA-256 哈希。若误改素材，可直接从 Git 恢复，或使用可选导入脚本从匹配的本地素材目录恢复：
+`asset-manifest.json` 记录了全部内置纹理与网页素材的文件大小和 SHA-256 校验值。若本地素材被修改，可通过 `git checkout` 还原，或使用导入脚本从已准备好的目录恢复：
 
 ```sh
 python3 tools/import_assets.py \
@@ -122,36 +115,35 @@ python3 tools/import_assets.py \
   --web /path/to/prepared/iphone-duo-3ds-prototype
 ```
 
-导入器会校验哈希、拒绝符号链接与未登记文件，并跳过主机存档；覆盖已有素材需显式传入 `--replace`，且覆盖前会自动备份。从原始素材重新生成纹理属于独立流程，详见 [ASSET_INPUTS.md](iphone-duo-3ds-native/ASSET_INPUTS.md)。仓库不打包苹果字体软件及全部原始中间截图。
+覆盖已有文件需传入 `--replace`（覆盖前会自动备份）。仅在修改美术源图时才需要重新生成纹理，具体流程见 [ASSET_INPUTS.md](iphone-duo-3ds-native/ASSET_INPUTS.md)。
 
 </details>
 
-## 当前状态与限制
+## 当前状态与已知限制
 
-- **原生中英文 v10（模拟器）：** 构建通过，语言设置持久化、按键旋转控制，以及跨屏音乐组件的添加与移除均已在 Azahar 中完成验证。
-- **实体 3DS 主机：** 早期 v9.3 版本已拷入 SD 卡；中英文 v10 版本与自动旋转仍待实体机验证。
-- **应用内页演示：** 已提供素材的应用使用静态参考画面展示内页；无对应演示图的应用保留在桌面上，截图内嵌文字保持原语言。
-- **归档实验页面：** 归档的实验性 Music 与 App Store 页面不在默认预览路径中，且未做完整翻译。
+- **模拟器与真机测试：** 当前双语版本已在 Azahar 模拟器中完成验证，早期版本已在 3DS 真机运行；最新双语特性与重力感应旋转仍待真机复测。
+- **静态应用预览：** 已配备素材的应用点击后展示静态参考界面；未提供内页素材的应用保留在桌面上，参考截图内的原始文字不做额外重绘翻译。
+- **归档实验页面：** 早期实验性的 Music 与 App Store 内页未纳入默认导航流程，也未做完整双语适配。
 
-## 开发辅助
+## 网页原型与运行截图
 
 <details>
-<summary>网页交互原型与开发截图</summary>
+<summary>查看网页交互原型说明与运行截图</summary>
 
-网页原型用于开发时检查布局与交互，不参与 3DS 编译和安装。运行方法见[网页原型说明](iphone-duo-3ds-prototype/README.md)。
+`iphone-duo-3ds-prototype/` 是用于前期验证双屏布局与动效的独立网页原型，不参与 3DS 编译和安装。具体使用方式见[网页原型说明](iphone-duo-3ds-prototype/README.md)。
 
-<img src="docs/images/book-widget.png" width="820" alt="网页原型的书本模式，非真机截图">
+<img src="docs/images/book-widget.png" width="820" alt="网页原型书本模式运行画面">
 
-*网页原型的书本模式。*
+*网页原型（书本模式）。*
 
-<img src="docs/images/native-emulator.png" width="760" alt="原生程序在 Azahar 中运行的开发验证截图">
+<img src="docs/images/native-emulator.png" width="760" alt="原生 3DS 程序在 Azahar 模拟器中的运行画面">
 
-*原生程序在 Azahar 中运行的开发验证截图。*
+*原生 3DS 程序在 Azahar 模拟器中运行。*
 
 </details>
 
-## 来源与许可
+## 致谢与许可声明
 
-本项目的原创代码采用 [MIT 许可证](LICENSE)。仓库附带的苹果参考图片、应用图标、截图、美术素材及第三方商标**不属于 MIT 授权范围**，相关权利归各自权利人所有。Noto Sans 字体保留其独立的 SIL Open Font License。
+本项目的原创代码采用 [MIT 许可证](LICENSE) 发布。仓库内包含的苹果参考图像、应用图标、界面截图、美术素材及相关第三方商标**不在 MIT 许可证授权范围内**，其权利归各自权利人所有。Noto Sans 字体遵循 SIL Open Font License。
 
-本项目为独立爱好者作品，与 Apple 或任天堂（Nintendo）不存在隶属、赞助或官方认可关系。详细来源说明与素材声明见 [THIRD_PARTY.md](THIRD_PARTY.md)。
+本项目为独立爱好者作品，与 Apple 及任天堂（Nintendo）无任何隶属、赞助或官方背书关系。完整素材来源与权利说明见 [THIRD_PARTY.md](THIRD_PARTY.md)。

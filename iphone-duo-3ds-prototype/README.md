@@ -1,35 +1,37 @@
-# iPhone Duo on Nintendo 3DS: web prototype
+# iPhone Duo on Nintendo 3DS — Web Prototype
 
-A small interactive desktop for a two-screen Nintendo 3DS mockup. Open `index.html` locally; no package installation or server is required. This folder is the browser prototype, not the native 3DS build.
+An interactive browser prototype used to design and test the dual-screen layout and interactions before porting to native 3DS hardware.
 
-## Bundled artwork
+Open `index.html` directly in a browser—no build step or package installation is needed. For the native 3DS application, see the root [README](../README.md).
 
-Prepared Apple reference images, icons, wallpapers, and app-preview screenshots are included in `assets/`. Clone the repository and open this prototype directly. See the root [README](../README.md) for a local HTTP server command and [THIRD_PARTY.md](../THIRD_PARTY.md) for sources and the separate rights notice.
+## Bundled Assets
 
-If files are missing or modified, run `python3 tools/check_assets.py` from the repository root. The prototype displays an asset-import notice when required images cannot load. The importer remains available for restoring a compatible local set.
+All required wallpapers, icons, and static app previews are included under `assets/`. See [THIRD_PARTY.md](../THIRD_PARTY.md) for source attributions and license details.
 
-## Language
+To verify asset integrity from the repository root, run `python3 tools/check_assets.py`. If required images are missing or modified, the prototype displays an on-screen asset notice.
 
-The interface starts in Chinese for a Chinese browser locale and English otherwise. The **中文 / EN** button switches languages and remembers the choice locally. App identities and saved layouts stay unchanged. Search accepts both English and Chinese app names.
+## Language Support
 
-The default official-image mode is localized: desktop labels, accessibility labels, help, search, messages and the widget menu. Text inside original Apple screenshots is retained. Archived experimental Music/App Store screens are developer export references and are not fully translated; they are not the default user path.
+The interface defaults to Chinese when opened in a Chinese browser locale and English otherwise. Click **中文 / EN** to switch languages at any time; your choice is saved in `localStorage` independently of your icon layout. Search supports both English and Chinese app names.
+
+UI labels, help text, search, messages, and the widget menu are localized. Text embedded inside reference Apple screenshots remains in its original language. Archived Music and App Store mockups are kept as developer export references and are not part of the default user flow.
 
 ## Controls
 
-- Click or tap an icon. Arrow keys select; **A / Enter** opens; **B / Esc / HOME** returns.
-- **L** or the orientation button changes between landscape and book-style portrait.
-- **X** changes day/night wallpaper. **Y** changes the desktop page.
-- **START** locks. Swipe up at least 64 logical pixels from the bottom edge to unlock; taps and A do not unlock.
-- Hold an icon for 450 ms, then drag to rearrange. Hold near a page edge to change page. Layouts are stored locally.
-- Drag Music toward the main screen to add its widget. With the widget present, hold Music without moving to show **Remove widget**; release, then click the menu item to remove it. Continuing to move performs normal rearrangement.
-- **Recording stage** enlarges the console and hides explanatory text. It keeps the web-prototype badge and never plays a scripted demo.
+- **Open / close apps:** Click or tap an icon, or select with the arrow keys and press **A / Enter**. Press **B / Esc / HOME** to return to the home screen.
+- **Rotate console:** Press **L** or click the orientation button to switch between landscape and book-style portrait mode.
+- **Theme and pages:** Press **X** to toggle day/night wallpaper, and **Y** to switch home screen pages.
+- **Lock screen:** Press **START** to lock. Swipe up at least 64 logical pixels from the bottom edge to unlock.
+- **Rearrange icons:** Hold an icon for 450 ms, then drag to move it. Dragging near a screen edge flips to the adjacent page. Custom layouts are persisted in `localStorage`.
+- **Music widget:** Drag **Music** across the hinge toward the upper screen to expand it into a widget. When the widget is active, hold **Music** without dragging to open the **Remove widget** menu, then release and click the menu item to fold the widget back.
+- **Recording stage:** Enlarges the console frame and hides surrounding explanatory text for clean screen captures.
 
-The app screens and music widget are static visual references. They do not play music, place calls, send messages or install applications.
+> **Note:** App interiors and the Music widget are static visual demos and do not play audio, place calls, send messages, or install apps.
 
-## Developer exports
+## Asset Export Scripts
 
-- `scripts/export_english.mjs` exports English desktop textures from a supplied Ego Page. Pass `page`, `projectDir` and `outputDir` explicitly.
-- `scripts/adapt_official_screens_v8.py --source PATH --output PATH --native-output PATH` adapts user-supplied rectified source images. Default intermediates are in `.local-assets/`. Set `DUO_FONT` when the platform has no supported default TrueType font.
-- `scripts/export_icon_sizes.py` rectifies each target size directly from the original source. Set `DUO_NATIVE_ICON_OUTPUT` to select the native export directory.
+These developer scripts prepare and export textures for the native 3DS build:
 
-Original app identities, validated layout permutations and language preferences use separate local-storage entries. The one-time Music/Mail layout migration preserves all other slots.
+- `scripts/export_english.mjs` renders and exports English desktop textures from an Ego Page instance (requires explicit `page`, `projectDir`, and `outputDir` arguments).
+- `scripts/adapt_official_screens_v8.py --source PATH --output PATH --native-output PATH` adapts rectified source screenshots into target resolutions, writing intermediate files to `.local-assets/`. Set `DUO_FONT` if the host system lacks the default TrueType font.
+- `scripts/export_icon_sizes.py` resamples icons directly from source images for each target resolution. Set `DUO_NATIVE_ICON_OUTPUT` to specify the native export directory.

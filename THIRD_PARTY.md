@@ -1,31 +1,31 @@
-# Artwork, dependencies, and rights
+# Third-Party Artwork, Dependencies, and Licenses
 
-The [MIT license](LICENSE) covers original project code and documentation. It does **not** relicense third-party images, screenshots, icons, fonts, artwork, or trademarks bundled with this demonstration.
+The [MIT license](LICENSE) applies to the original source code and documentation in this repository. It does **not** cover third-party images, screenshots, icons, fonts, artwork, or trademarks included with the project.
 
-## Included demo artwork
+## Bundled Visual Assets
 
-The repository includes the prepared visuals used by the native build and browser prototype. `asset-manifest.json` records 945 files with their paths, sizes, and SHA-256 hashes. These hashes establish file integrity, not ownership or permission.
+This repository includes pre-processed textures and reference visuals for both the native 3DS build and the browser prototype. `asset-manifest.json` lists all 945 bundled asset files along with their file sizes and SHA-256 checksums for integrity verification.
 
-| Material | Original source / provenance | Included location |
+| Material | Source / Provenance | Location in Repository |
 | --- | --- | --- |
-| Launch interface, app icons, wallpapers, app preview scenes | [iPhone Duo product page](https://www.apple.com/iphone-duo/); browser icon and official-scene manifests | `iphone-duo-3ds-prototype/assets/` |
-| Apple Music widget and lock-screen reference artwork | [Apple iPhone User Guide](https://support.apple.com/guide/iphone/welcome/ios); native `music-widget-provenance.json` and `lockscreen-provenance.json` | Browser assets and native `gfx/` |
-| SF Symbols image representations | Browser `assets/sf-symbols/symbols.json` | Browser `assets/sf-symbols/` |
-| Rasterized labels, UI captures, resized icons, prepared frames | Native provenance JSON files and `ASSET_INPUTS.md` document the conversion pipeline | `iphone-duo-3ds-native/gfx/` |
-| Project demonstration screenshots | Browser prototype and Azahar emulator captures; captions identify their origin | `docs/images/` |
+| Home screen reference, app icons, wallpapers, app preview screens | [iPhone Duo product page](https://www.apple.com/iphone-duo/); documented in browser icon and official-scene manifests | `iphone-duo-3ds-prototype/assets/` |
+| Apple Music widget and lock screen reference graphics | [Apple iPhone User Guide](https://support.apple.com/guide/iphone/welcome/ios); documented in `music-widget-provenance.json` and `lockscreen-provenance.json` | Browser `assets/` and native `gfx/` |
+| SF Symbols raster exports | Documented in `assets/sf-symbols/symbols.json` | `iphone-duo-3ds-prototype/assets/sf-symbols/` |
+| Pre-rendered labels, UI captures, resized icons, native frames | Generated via the asset pipeline described in [ASSET_INPUTS.md](iphone-duo-3ds-native/ASSET_INPUTS.md) and native provenance JSON files | `iphone-duo-3ds-native/gfx/` |
+| Project screenshots | Captures from the browser prototype and the Azahar 3DS emulator | `docs/images/` |
 
-Apple and other respective rights holders retain their rights to the underlying imagery. Bundling the files does not make them open-source assets or grant a separate license to reuse them. This project does not claim permission from, affiliation with, or endorsement by Apple. Refer to [Apple's website terms](https://www.apple.com/legal/internet-services/terms/site.html) and the original sources when assessing use outside this project.
+All rights to the underlying Apple imagery and icons remain with Apple and their respective owners. Including these files in the repository for demonstration and build reproducibility does not make them open-source assets or grant permission for standalone reuse. Please consult [Apple's website terms](https://www.apple.com/legal/internet-services/terms/site.html) and the original sources regarding any use outside this project.
 
-Original Apple font software (including SF and PingFang) is not included. Some prepared UI images contain rasterized text from the original local rendering pipeline. Console saves, SD backups, personal data, and machine-specific build records are not part of the repository.
+Proprietary Apple font files (such as SF Pro and PingFang) are not distributed in this repository, though some pre-rendered UI textures contain rasterized text produced during asset preparation.
 
-## Font software
+## Fonts
 
-Noto Sans is included at `iphone-duo-3ds-native/tools/NotoSans.ttf`, under the [SIL Open Font License](iphone-duo-3ds-native/tools/OFL.txt). Retain that license when redistributing the font.
+`iphone-duo-3ds-native/tools/NotoSans.ttf` is distributed under the [SIL Open Font License](iphone-duo-3ds-native/tools/OFL.txt). Keep the license file intact when redistributing the font.
 
-## Toolchain and generated binaries
+## Toolchain and Compiled Binaries
 
-Native builds use separately installed devkitPro libraries: libctru, citro2d, and citro3d. These dependencies are not vendored here; their upstream licenses continue to apply. Asset-preparation scripts use Pillow, installed separately.
+Building the native 3DS application requires external devkitPro packages (`libctru`, `citro2d`, and `citro3d`), and the asset preparation scripts require `Pillow`. These dependencies are installed separately and remain governed by their respective upstream licenses.
 
-The native build embeds the prepared artwork in RomFS. A generated binary therefore contains third-party imagery as well as project code; the code's MIT license does not apply to the imagery inside it. CI verifies the checked-in artwork and source code but does not publish compiled binaries.
+Because the 3DS build embeds `gfx/` textures into RomFS, any compiled `.3dsx` binary contains both MIT-licensed project code and third-party imagery. Automated CI checks source code and asset checksums only and does not publish prebuilt binaries.
 
-Apple, iPhone, Apple Music, and related names are trademarks of their respective owners. Nintendo and Nintendo 3DS are trademarks of Nintendo. This is an independent fan project.
+Apple, iPhone, Apple Music, and related marks are trademarks of Apple Inc. Nintendo and Nintendo 3DS are trademarks of Nintendo. This is an independent fan project and is not affiliated with or endorsed by Apple or Nintendo.
