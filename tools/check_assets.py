@@ -52,7 +52,7 @@ def main():
             print(f"  {issue}", file=sys.stderr)
         if len(issues) > 20:
             print(f"  ... and {len(issues) - 20} more.", file=sys.stderr)
-        print("This source-only repository does not include third-party artwork. See README.md and THIRD_PARTY.md.", file=sys.stderr)
+        print("Bundled artwork is missing or modified. Restore the listed files from Git, or see README.md for the optional import workflow.", file=sys.stderr)
         return 2
     print("All manifest assets and native atlas references are ready.")
     return 0

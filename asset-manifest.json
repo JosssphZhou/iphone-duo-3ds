@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Third-party visual assets excluded from the source release; local import inventory only. No license is granted to these assets.",
+  "description": "Bundled prepared demo artwork: paths, byte sizes and SHA-256 integrity hashes. Third-party artwork is not covered by the project MIT license; see THIRD_PARTY.md.",
   "files": [
     {
       "target": "iphone-duo-3ds-native/gfx/bottom_home_day.png",

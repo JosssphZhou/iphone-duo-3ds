@@ -1,8 +1,8 @@
 # Artwork input contract
 
-Prepared artwork is imported locally and is excluded from the public source distribution. No tool downloads it or grants redistribution rights. Keep the original source/provenance records with any privately held inputs. Noto Sans (`tools/NotoSans.ttf`, `tools/OFL.txt`) is the only supplied font. Do not copy SF or PingFang font files into the source repository.
+Prepared artwork is bundled in `gfx/` and can be built directly after cloning. No import or raw regeneration step is required for a normal build. See the root `THIRD_PARTY.md` for artwork sources and rights; artwork is not covered by the code license. Noto Sans (`tools/NotoSans.ttf`, `tools/OFL.txt`) is the only supplied font. Do not copy SF or PingFang font files into the source repository.
 
-## Minimal path: import an existing prepared native project
+## Optional recovery: import an existing prepared native project
 
 Run `python3 tools/import_assets.py --from-project /path/to/native-project` from the destination checkout. It copies all PNGs and `.t3s` atlas descriptions under `gfx/` and validates every referenced image. This is sufficient to build with the checked-in generated C headers and registries; generated RomFS textures are rebuilt by `make`. No regeneration of proprietary font glyphs or original website artwork is required.
 
@@ -20,7 +20,7 @@ Prepared groups:
 | `official_*.t3s` | Four final native-size frames for each supported app: FaceTime, Photos, Mail, Notes, Siri, TV |
 | `showcase_*.t3s` | Legacy optional Music/Store prepared screenshots and overlays referenced by the existing atlas descriptions; inactive in the default official-preview mode |
 
-The exact local list is defined by the `.t3s` descriptions; `asset-input-manifest.json` records the current paths and SHA256 values. Keeping these descriptions alongside private artwork avoids relying on absolute paths or machine-specific font installations.
+The exact local list is defined by the `.t3s` descriptions; `asset-input-manifest.json` records the current paths and SHA256 values. Keeping these descriptions alongside prepared artwork avoids relying on absolute paths or machine-specific font installations.
 
 ## Raw regeneration inputs
 

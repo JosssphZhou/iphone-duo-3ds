@@ -2,11 +2,11 @@
 
 A small interactive desktop for a two-screen Nintendo 3DS mockup. Open `index.html` locally; no package installation or server is required. This folder is the browser prototype, not the native 3DS build.
 
-## Artwork is not included
+## Bundled artwork
 
-Public source distributions do **not** include Apple images, icons, wallpapers or screenshots. Supply your own local copies through the repository's asset import tool; follow the root README for the import command. Preserve the paths recorded in the asset manifests. The source metadata identifies the original references; it does not grant redistribution rights.
+Prepared Apple reference images, icons, wallpapers, and app-preview screenshots are included in `assets/`. Clone the repository and open this prototype directly. See the root [README](../README.md) for a local HTTP server command and [THIRD_PARTY.md](../THIRD_PARTY.md) for sources and the separate rights notice.
 
-If artwork is missing, the prototype hides failed images and displays an **Asset import guide** notice instead of broken-image icons. Reopen or reload the page after importing. Private generated images and intermediate exports belong in `.local-assets/`, outside the public package.
+If files are missing or modified, run `python3 tools/check_assets.py` from the repository root. The prototype displays an asset-import notice when required images cannot load. The importer remains available for restoring a compatible local set.
 
 ## Language
 

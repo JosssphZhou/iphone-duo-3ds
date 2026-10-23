@@ -17,7 +17,7 @@ language.bin
 language.cfg
 .env
 .env.*
-# Third-party artwork and generated raster assets stay local.
+# Ignore ad hoc exports; the prepared demo assets below are versioned.
 *.png
 *.jpg
 *.jpeg
@@ -29,3 +29,11 @@ language.cfg
 *.zip
 iphone-duo-3ds-prototype/assets/sf-symbols/symbols-data.js
 iphone-duo-3ds-native/asset-inputs/
+
+# Bundled, provenance-documented demo artwork.
+!iphone-duo-3ds-native/icon.png
+!iphone-duo-3ds-native/gfx/**/*.png
+!iphone-duo-3ds-prototype/assets/**/*.png
+!iphone-duo-3ds-prototype/assets/**/*.jpg
+!iphone-duo-3ds-prototype/assets/sf-symbols/symbols-data.js
+!docs/images/*.png
