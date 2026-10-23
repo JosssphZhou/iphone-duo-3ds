@@ -4,58 +4,36 @@
 
 ### Two screens. One very unlikely iPhone.
 
-A native Nintendo 3DS homebrew UI toy inspired by the iPhone Duo launch interface, paired with an interactive browser prototype.
+Native Nintendo 3DS homebrew that recreates the iPhone Duo desktop and dual-screen interactions.
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [Try It in Your Browser](#try-it-in-your-browser) | [Build for 3DS](#build-for-3ds)
+[English](README.md) | [简体中文](README.zh-CN.md) | [Build for 3DS](#build-for-3ds) | [Install on Your SD Card](#install-on-your-sd-card) | [Controls](#controls)
 
 [![Checks](https://github.com/JosssphZhou/iphone-duo-3ds/actions/workflows/ci.yml/badge.svg)](https://github.com/JosssphZhou/iphone-duo-3ds/actions)
 ![Platform](https://img.shields.io/badge/platform-Nintendo_3DS-222222)
 ![Languages](https://img.shields.io/badge/UI-English_%2F_中文-3478F6)
 [![Code license](https://img.shields.io/badge/code-MIT-36A66B)](LICENSE)
 
-<img src="docs/images/book-widget.png" width="820" alt="Browser prototype in book orientation: Music widget on the left display, touch-screen app icons on the right">
-
-*Interactive browser prototype in book orientation. Native 3DS runtime shown below.*
-
 </div>
 
-## The Hinge Is the Trick
+## Build for 3DS
 
-Hold **Music** until the icons start wiggling, then drag it toward the hinge. The icon leaves the touchscreen and expands into a Music widget on the other display.
-
-Want it back on the home screen? Hold **Music** again, tap **Remove widget**, and watch it fold back into its icon slot, even if you have already moved that icon to another position or page.
-
-| Make It Yours | Turn It Sideways | Familiar Details |
-| --- | --- | --- |
-| Long-press to enter edit mode, swap icon slots, and organize two home pages plus the Dock. | Press **L** for book orientation, placing the original upper screen on the left and the touchscreen on the right. | Swipe up to unlock, toggle day and night wallpapers, and switch the UI between English and Chinese. |
-
-> **Scope note:** This project recreates the interface and motion design. It does not run iOS or iPhone apps. The Music widget and app previews are offline visual demos that do not play audio, place calls, or download software.
-
-## Try It in Your Browser
-
-**All prepared artwork is included.** Clone the repository, start a local server, and open the prototype with no asset import or package installation required.
+Follow the [official devkitPro setup guide](https://devkitpro.org/wiki/Getting_Started) to install the **devkitPro 3DS toolchain** (`devkitARM`, `libctru`, `citro2d`, `citro3d`, `3dstools`, and `tex3ds`). Prepared textures are already committed to the repository.
 
 ```sh
 git clone https://github.com/JosssphZhou/iphone-duo-3ds.git
 cd iphone-duo-3ds
-python3 -m http.server 8000
-```
-
-Open **http://localhost:8000/iphone-duo-3ds-prototype/** and interact with a mouse or touchscreen. Click **中文 / EN** to switch the UI language, or use **Recording stage** to enlarge the console frame for capture.
-
-The browser edition is a companion prototype and does not measure physical 3DS performance. See its [controls and prototype notes](iphone-duo-3ds-prototype/README.md) for more details.
-
-## Build for 3DS
-
-Install the **devkitPro 3DS toolchain** (`devkitARM`, `libctru`, `citro2d`, `citro3d`, `3dstools`, and `tex3ds`). Prepared textures are already committed to the repository.
-
-```sh
 python3 tools/check_assets.py
 cd iphone-duo-3ds-native
 ./build.sh -j4
 ```
 
-Copy the two generated files to your SD card:
+The build entry point is `iphone-duo-3ds-native/build.sh`. It produces `iphone-duo.3dsx` and `iphone-duo.smdh` in that directory. All prepared artwork is included; building does not require running the browser prototype or regenerating images.
+
+The script defaults to `/opt/devkitpro`. For another installation location, set `DEVKITPRO` and `DEVKITARM` before building. The commands above require Git, Python 3.9+, make, and the installed 3DS toolchain.
+
+## Install on Your SD Card
+
+You need a 3DS with a working **Homebrew Launcher** and its SD card. Copy the two generated files into this directory on the card:
 
 ```text
 SD:/
@@ -65,11 +43,9 @@ SD:/
         └── iphone-duo.smdh
 ```
 
-Launch **iPhone Duo** from **Homebrew Launcher**. When updating an existing installation, keep your `layout.bin` and `language.bin` files to preserve your saved icon layout and language choice.
+When updating an existing installation, keep your `layout.bin` and `language.bin` files to preserve your saved icon layout and language choice.
 
-<img src="docs/images/native-emulator.png" width="760" alt="The native bilingual 3DS build running in Azahar, with English home-screen labels">
-
-*Native C build running in Azahar (not the browser mockup). The bilingual v10 build has passed emulator checks; physical-console verification is still pending.*
+Safely eject the SD card, put it back into the 3DS, and open the app in Homebrew Launcher. Artwork is embedded in the `.3dsx`; you do not need to copy the browser directory or `gfx/` onto the card.
 
 ## Controls
 
@@ -91,6 +67,18 @@ Launch **iPhone Duo** from **Homebrew Launcher**. When updating an existing inst
 | START | Exit to Homebrew Launcher |
 
 The hardware HOME button remains controlled by the 3DS system. Automatic orientation is experimental and its physical sensor behavior still needs console verification. Use **L** for predictable orientation changes.
+
+## The Hinge Is the Trick
+
+Hold **Music** until the icons start wiggling, then drag it toward the hinge. The icon leaves the touchscreen and expands into a Music widget on the other display.
+
+Want it back on the home screen? Hold **Music** again, tap **Remove widget**, and watch it fold back into its icon slot, even if you have already moved that icon to another position or page.
+
+| Make It Yours | Turn It Sideways | Familiar Details |
+| --- | --- | --- |
+| Long-press to enter edit mode, swap icon slots, and organize two home pages plus the Dock. | Press **L** for book orientation, placing the original upper screen on the left and the touchscreen on the right. | Swipe up to unlock, toggle day and night wallpapers, and switch the UI between English and Chinese. |
+
+> **Scope note:** This project recreates the interface and motion design. It does not run iOS or iPhone apps. The Music widget and app previews are offline visual demos that do not play audio, place calls, or download software.
 
 ## Under the Hood
 
@@ -144,6 +132,23 @@ The importer validates hashes, rejects symlinks and unlisted files, and skips co
 - **Physical 3DS hardware:** The earlier v9.3 build was copied to an SD card; bilingual v10 and automatic sensor rotation still await physical-console verification.
 - **App previews:** App interiors use static reference screens where available. Apps without an official preview remain on the home screen, and text embedded inside screenshots keeps its original language.
 - **Archived screens:** Experimental Music and App Store interiors are not part of the default preview path and are not fully translated.
+
+## Development Extras
+
+<details>
+<summary>Browser prototype and development screenshots</summary>
+
+The browser prototype is a development aid for checking layouts and interactions. It is not part of the 3DS build or installation process. See its [separate instructions](iphone-duo-3ds-prototype/README.md).
+
+<img src="docs/images/book-widget.png" width="820" alt="Browser prototype in book orientation, not a physical-console photograph">
+
+*Browser prototype in book orientation.*
+
+<img src="docs/images/native-emulator.png" width="760" alt="Native build running in Azahar for development validation">
+
+*Native build running in Azahar for development validation.*
+
+</details>
 
 ## Credits and Rights
 

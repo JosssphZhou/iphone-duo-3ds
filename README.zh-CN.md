@@ -4,58 +4,36 @@
 
 ### 两块屏幕，一台意想不到的 iPhone。
 
-参考 iPhone Duo 发布界面制作的原生 3DS 自制程序，附带可交互的浏览器原型。
+在 Nintendo 3DS 上运行的原生自制程序，复刻 iPhone Duo 的双屏桌面与交互。
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [浏览器体验](#浏览器体验) | [构建与安装](#构建与安装)
+[English](README.md) | [简体中文](README.zh-CN.md) | [编译 3DS 程序](#编译-3ds-程序) | [安装到 SD 卡](#安装到-sd-卡) | [按键与操作](#按键与操作)
 
 [![Checks](https://github.com/JosssphZhou/iphone-duo-3ds/actions/workflows/ci.yml/badge.svg)](https://github.com/JosssphZhou/iphone-duo-3ds/actions)
 ![Platform](https://img.shields.io/badge/platform-Nintendo_3DS-222222)
 ![Languages](https://img.shields.io/badge/UI-English_%2F_中文-3478F6)
 [![Code license](https://img.shields.io/badge/code-MIT-36A66B)](LICENSE)
 
-<img src="docs/images/book-widget.png" width="820" alt="竖屏书本模式的网页原型：左侧音乐组件，右侧触控桌面">
-
-*上图为竖屏书本模式下的可交互网页原型，下方另有原生 3DS 程序运行截图。*
-
 </div>
 
-## 最好玩的地方，在两块屏幕之间
+## 编译 3DS 程序
 
-长按**音乐**图标进入抖动编辑状态，把它拖向两屏接缝，图标就会跨过触控屏，在另一块屏幕上展开成音乐小组件。
-
-想收回来？再次长按**音乐**，点击**移除组件**，小组件便会缩回图标当前所在的格子。就算你已经把图标挪到了别的位置或另一页，收回动画也会准确跟过去。
-
-| 整理桌面 | 转过来玩 | 熟悉的细节 |
-| --- | --- | --- |
-| 长按抖动、拖动换位，支持两页桌面与 Dock。 | 按 **L** 切换书本模式，原上屏在左，触控屏在右。 | 上滑解锁、日夜壁纸切换，以及中英文界面切换。 |
-
-> **项目边界说明：** 本项目复刻的是双屏界面与交互动效，不运行 iOS 或 iPhone 应用。音乐组件与应用内页均为离线视觉演示，不播放音乐、不通话，也不下载应用。
-
-## 浏览器体验
-
-**图片与纹理素材已包含在仓库中。** 克隆仓库后直接启动本地静态服务即可体验，无需额外导入素材或安装前端依赖。
+先按 [devkitPro 官方安装指南](https://devkitpro.org/wiki/Getting_Started) 安装 **devkitPro 3DS 工具链**（包含 `devkitARM`、`libctru`、`citro2d`、`citro3d`、`3dstools` 和 `tex3ds`）。所需预制纹理已随仓库提交，可直接校验并编译：
 
 ```sh
 git clone https://github.com/JosssphZhou/iphone-duo-3ds.git
 cd iphone-duo-3ds
-python3 -m http.server 8000
-```
-
-在浏览器打开 **http://localhost:8000/iphone-duo-3ds-prototype/**，即可用鼠标或触控屏交互。点击 **中文 / EN** 可切换界面语言，点击**录制舞台**可放大机身画面以便录屏或截图。
-
-浏览器版本是配套的交互原型，不代表实体 3DS 的硬件性能表现。更多细节见[网页原型说明](iphone-duo-3ds-prototype/README.md)。
-
-## 构建与安装
-
-先安装 **devkitPro 3DS 工具链**（包含 `devkitARM`、`libctru`、`citro2d`、`citro3d`、`3dstools` 和 `tex3ds`）。所需预制纹理已随仓库提交，可直接校验并编译：
-
-```sh
 python3 tools/check_assets.py
 cd iphone-duo-3ds-native
 ./build.sh -j4
 ```
 
-将编译生成的两个文件复制到 SD 卡对应目录：
+构建入口是 `iphone-duo-3ds-native/build.sh`，输出为同目录下的 `iphone-duo.3dsx` 和 `iphone-duo.smdh`。编译使用仓库内已有的图片素材，无需启动网页或重新生成图片。
+
+脚本默认工具链路径为 `/opt/devkitpro`；安装在其他位置时，设置 `DEVKITPRO` 和 `DEVKITARM` 后再运行。执行上述命令需要 Git、Python 3.9+、make 和已安装的 3DS 工具链。
+
+## 安装到 SD 卡
+
+准备一台能打开 **Homebrew Launcher** 的 3DS，以及它使用的 SD 卡。将编译生成的两个文件复制到卡中：
 
 ```text
 SD:/
@@ -65,11 +43,9 @@ SD:/
         └── iphone-duo.smdh
 ```
 
-从 **Homebrew Launcher** 启动 **iPhone Duo**。覆盖更新时，保留原有的 `layout.bin` 和 `language.bin` 即可延续此前的图标排布与语言设置。
+覆盖更新时，保留原有的 `layout.bin` 和 `language.bin` 即可延续此前的图标排布与语言设置。
 
-<img src="docs/images/native-emulator.png" width="760" alt="原生中英文 3DS 程序在 Azahar 中运行，桌面显示英文图标文字">
-
-*上图为原生 C 程序在 Azahar 模拟器中的运行画面（非网页原型）。中英文 v10 版本已完成模拟器验证，实体机仍待复测。*
+复制完成后安全弹出 SD 卡，插回 3DS，再从 Homebrew Launcher 打开程序。图片资源已嵌入 `.3dsx`，无需把网页目录或 `gfx/` 另行复制到卡上。
 
 ## 按键与操作
 
@@ -91,6 +67,18 @@ SD:/
 | START | 退出并返回 Homebrew Launcher |
 
 硬件 HOME 键仍由 3DS 系统接管。重力感应自动旋转目前属于实验特性，仍待实体机复测；需要稳定切换横竖屏时请按 **L**。
+
+## 双屏玩法
+
+长按**音乐**图标进入抖动编辑状态，把它拖向两屏接缝，图标就会跨过触控屏，在另一块屏幕上展开成音乐小组件。
+
+想收回来？再次长按**音乐**，点击**移除组件**，小组件便会缩回图标当前所在的格子。就算你已经把图标挪到了别的位置或另一页，收回动画也会准确跟过去。
+
+| 整理桌面 | 转过来玩 | 熟悉的细节 |
+| --- | --- | --- |
+| 长按抖动、拖动换位，支持两页桌面与 Dock。 | 按 **L** 切换书本模式，原上屏在左，触控屏在右。 | 上滑解锁、日夜壁纸切换，以及中英文界面切换。 |
+
+> **项目边界说明：** 本项目复刻的是双屏界面与交互动效，不运行 iOS 或 iPhone 应用。音乐组件与应用内页均为离线视觉演示，不播放音乐、不通话，也不下载应用。
 
 ## 实现与目录结构
 
@@ -144,6 +132,23 @@ python3 tools/import_assets.py \
 - **实体 3DS 主机：** 早期 v9.3 版本已拷入 SD 卡；中英文 v10 版本与自动旋转仍待实体机验证。
 - **应用内页演示：** 已提供素材的应用使用静态参考画面展示内页；无对应演示图的应用保留在桌面上，截图内嵌文字保持原语言。
 - **归档实验页面：** 归档的实验性 Music 与 App Store 页面不在默认预览路径中，且未做完整翻译。
+
+## 开发辅助
+
+<details>
+<summary>网页交互原型与开发截图</summary>
+
+网页原型用于开发时检查布局与交互，不参与 3DS 编译和安装。运行方法见[网页原型说明](iphone-duo-3ds-prototype/README.md)。
+
+<img src="docs/images/book-widget.png" width="820" alt="网页原型的书本模式，非真机截图">
+
+*网页原型的书本模式。*
+
+<img src="docs/images/native-emulator.png" width="760" alt="原生程序在 Azahar 中运行的开发验证截图">
+
+*原生程序在 Azahar 中运行的开发验证截图。*
+
+</details>
 
 ## 来源与许可
 
