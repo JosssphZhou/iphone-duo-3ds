@@ -10,11 +10,12 @@ function load(saved, languages = ['en-US'], storageError = false) {
   vm.runInContext(fs.readFileSync(path.join(root,'i18n.js'),'utf8'),context);
   return code => vm.runInContext(code,context);
 }
-assert.equal(load(null,['ja-JP'])('uiLanguage'),'ja');
+// The page opens in English until the visitor picks a language, whatever the browser prefers.
+assert.equal(load(null,['ja-JP'])('uiLanguage'),'en');
 assert.equal(load('fr',['ja-JP'])('uiLanguage'),'fr');
-assert.equal(load('invalid',['xx-XX','pt-BR'])('uiLanguage'),'pt');
+assert.equal(load('invalid',['xx-XX','pt-BR'])('uiLanguage'),'en');
 assert.equal(load(null,['xx-XX'])('uiLanguage'),'en');
-assert.equal(load(null,['ko-KR'],true)('uiLanguage'),'ko');
+assert.equal(load(null,['ko-KR'],true)('uiLanguage'),'en');
 assert.equal(load('zh',['en-US'])('uiLanguage'),'zh');
 const run=load('en');
 run(`for(const [code,catalog] of Object.entries(UI_TRANSLATIONS)) {
