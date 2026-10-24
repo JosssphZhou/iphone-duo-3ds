@@ -4,14 +4,22 @@
 
 Native Nintendo 3DS homebrew recreating the iPhone Duo dual-screen home screen and cross-hinge interactions.
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [Build for 3DS](#build-for-3ds) | [Install on Your SD Card](#install-on-your-sd-card) | [Controls](#controls)
+**[Try it in your browser →](https://josephzhou.me/3ds/)**
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [Web Version](#web-version) | [Build for 3DS](#build-for-3ds) | [Install on Your SD Card](#install-on-your-sd-card) | [Controls](#controls)
 
 [![Checks](https://github.com/JosssphZhou/iphone-duo-3ds/actions/workflows/ci.yml/badge.svg)](https://github.com/JosssphZhou/iphone-duo-3ds/actions)
 ![Platform](https://img.shields.io/badge/platform-Nintendo_3DS-222222)
 ![Languages](https://img.shields.io/badge/UI-English_%2F_中文-3478F6)
 [![Code license](https://img.shields.io/badge/code-MIT-36A66B)](LICENSE)
 
+<img src="docs/images/web-3d.png" width="820" alt="The web version: a 3D iPhone Duo on Nintendo 3DS in the browser">
+
 </div>
+
+## Web Version
+
+Open [josephzhou.me/3ds](https://josephzhou.me/3ds/) on your phone or computer. Nothing to install. Drag to spin the 3D console, tap the bottom screen to use it, and press the rotate button to turn it into book mode. The source is in [`iphone-duo-3ds-prototype/`](iphone-duo-3ds-prototype/README.md).
 
 ## Build for 3DS
 
@@ -83,7 +91,7 @@ Icons, labels, and backgrounds are pre-rendered at native 3DS resolutions and pa
 
 ```text
 iphone-duo-3ds-native/       Native C runtime, texture atlases, interaction logic, tests
-iphone-duo-3ds-prototype/    Interactive web prototype and reference assets
+iphone-duo-3ds-prototype/    Web version (https://josephzhou.me/3ds/) and reference assets
 docs/images/                 Emulator and web prototype screenshots
 tools/                       Asset verification, optional asset importer, host test runner
 asset-manifest.json          SHA-256 manifest for all 945 bundled asset files

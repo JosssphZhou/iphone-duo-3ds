@@ -4,14 +4,22 @@
 
 运行在 Nintendo 3DS 上的原生自制程序，还原 iPhone Duo 双屏桌面与跨屏交互。
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [编译 3DS 程序](#编译-3ds-程序) | [安装到 SD 卡](#安装到-sd-卡) | [按键与操作](#按键与操作)
+**[在浏览器里打开 →](https://josephzhou.me/3ds/)**
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [网页版](#网页版) | [编译 3DS 程序](#编译-3ds-程序) | [安装到 SD 卡](#安装到-sd-卡) | [按键与操作](#按键与操作)
 
 [![Checks](https://github.com/JosssphZhou/iphone-duo-3ds/actions/workflows/ci.yml/badge.svg)](https://github.com/JosssphZhou/iphone-duo-3ds/actions)
 ![Platform](https://img.shields.io/badge/platform-Nintendo_3DS-222222)
 ![Languages](https://img.shields.io/badge/UI-English_%2F_中文-3478F6)
 [![Code license](https://img.shields.io/badge/code-MIT-36A66B)](LICENSE)
 
+<img src="docs/images/web-3d.png" width="820" alt="网页版：浏览器里的三维 iPhone Duo on Nintendo 3DS">
+
 </div>
+
+## 网页版
+
+在手机或电脑上打开 [josephzhou.me/3ds](https://josephzhou.me/3ds/)，不用安装。拖动可以转动三维机身，点下屏可以操作，按旋转按钮切换成书本模式。源代码在 [`iphone-duo-3ds-prototype/`](iphone-duo-3ds-prototype/README.md)。
 
 ## 编译 3DS 程序
 
@@ -83,7 +91,7 @@ SD:/
 
 ```text
 iphone-duo-3ds-native/       C 原生程序、纹理图集、交互逻辑与测试
-iphone-duo-3ds-prototype/    网页交互原型与参考素材
+iphone-duo-3ds-prototype/    网页版（https://josephzhou.me/3ds/）与参考素材
 docs/images/                 模拟器与网页原型运行截图
 tools/                       素材校验、可选素材导入脚本与本地测试脚本
 asset-manifest.json          945 个内置素材文件的大小与 SHA-256 清单

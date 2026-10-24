@@ -1,15 +1,15 @@
-# iPhone Duo on Nintendo 3DS — Web Prototype
+# iPhone Duo on Nintendo 3DS: Web Version
 
-An interactive browser prototype used to design and test the dual-screen layout and interactions before porting to native 3DS hardware.
+Live at **https://josephzhou.me/3ds/**. This directory is the whole site: a 3D console in the browser with the dual-screen layout and interactions, also used to design them before porting to native 3DS hardware.
 
-Serve this directory over HTTP for the interactive 3D enclosure. No build step or package installation is needed:
+To run it locally, serve this directory over HTTP for the interactive 3D enclosure. No build step or package installation is needed:
 
 ```sh
 cd iphone-duo-3ds-prototype
 python3 -m http.server 8080
 ```
 
-Open `http://localhost:8080/`. The original model is generated locally with bundled Three.js modules; the screens remain live HTML. Drag the enclosure or background to orbit, or pick **Angled** or **Back** in the **Menu**. Pick **Front** to align the screens and enable touch interactions. **L** still changes the console orientation.
+Open `http://localhost:8080/`. The original model is generated locally with bundled Three.js modules; the screens remain live HTML. Drag the enclosure or background to orbit, or pick **Angled** or **Back** in the **Menu**. Pick **Front** to align the screens and enable touch interactions. The rotate button next to **Menu**, or **L**, changes the console orientation.
 
 WebGL initialization or context failure restores the 2D interface. Add `?webgl=0` to request it explicitly. Opening `index.html` as a local file uses the 2D interface because browsers restrict local JavaScript module loading.
 
@@ -23,7 +23,7 @@ To verify asset integrity from the repository root, run `python3 tools/check_ass
 
 ## Language Support
 
-Choose **English, 简体中文, 日本語, 한국어, Español, Français, Deutsch, or Português** from **Menu > Language**. The first visit follows your browser language preferences, falling back to English. An explicit choice is saved in `localStorage`, independently of your icon layout. App search accepts names in any supported language and ignores accents. Dates follow the selected locale.
+Choose **English, 简体中文, 日本語, 한국어, Español, Français, Deutsch, or Português** with the globe button in the top bar. The page opens in English until you pick a language. An explicit choice is saved in `localStorage`, independently of your icon layout. App search accepts names in any supported language and ignores accents. Dates follow the selected locale.
 
 UI labels, accessibility labels, help, search, status messages, lock-screen dates, and the widget menu are localized. Text embedded inside reference Apple screenshots remains in its original language. Archived Music and App Store mockups are kept as developer export references and are not part of the default user flow.
 
