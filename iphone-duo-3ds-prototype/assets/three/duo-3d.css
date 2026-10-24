@@ -148,7 +148,7 @@ header {
   margin: 0 auto;
 }
 /* not enough room to keep the title centred: title left, buttons right */
-@media (max-width: 1180px) {
+@media (max-width: 1023px) {
   .topbar { justify-content: space-between; }
   .topbar-actions { position: static; transform: none; flex-shrink: 0; }
 }
