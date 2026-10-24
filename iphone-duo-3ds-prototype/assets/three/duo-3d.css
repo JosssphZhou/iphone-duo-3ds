@@ -200,3 +200,17 @@ body.recording .stage-3d-hint { display: none; }
 @media (max-width: 620px) {
   .stage-3d-hint { max-width: 94%; width: max-content; white-space: normal; }
 }
+
+.stage-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px auto 0;
+  padding: 0 8px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.stage-toolbar .orientation-toggle, .stage-toolbar .view-3d-controls,
+.stage-toolbar #language-toggle { margin-left: 0; }
