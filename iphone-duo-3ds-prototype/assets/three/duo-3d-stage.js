@@ -87,6 +87,14 @@ export function initDuo3DStage() {
   const lighting = lightConsole(scene, renderer);
   const model = buildConsoleModel();
   scene.add(model.root);
+  // Local bounds of the shell, used to keep a turned console inside the stage card.
+  const shellCorners = [];
+  {
+    const box = new THREE.Box3().setFromObject(model.root);
+    for (const x of [box.min.x, box.max.x])
+      for (const y of [box.min.y, box.max.y])
+        for (const z of [box.min.z, box.max.z]) shellCorners.push(new THREE.Vector3(x, y, z));
+  }
 
   // Soft studio backdrop shadow receiver plane behind the 3DS
   const shadowPlane = new THREE.Mesh(
@@ -184,6 +192,36 @@ export function initDuo3DStage() {
       updateViewButtons(null);
     }
   });
+
+  // Turned away from the front, the near corner comes toward the camera and grows past the
+  // rounded stage card. fitFactor() is how much farther the camera must sit, relative to the
+  // front distance, so every shell corner stays inside the card (1 when it already fits).
+  const fitRight = new THREE.Vector3();
+  const fitUp = new THREE.Vector3();
+  const fitBack = new THREE.Vector3();
+  const fitCorner = new THREE.Vector3();
+  let fitLast = 1;
+  function fitFactor() {
+    fitBack.copy(camera.position).sub(controls.target).normalize();
+    fitRight.crossVectors(camera.up, fitBack);
+    if (fitRight.lengthSq() < 1e-6) return fitLast;
+    fitRight.normalize();
+    fitUp.crossVectors(fitBack, fitRight);
+    const tanY = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * 0.97;
+    const tanX = tanY * camera.aspect;
+    model.root.updateMatrixWorld(true);
+    let need = 0;
+    for (const c of shellCorners) {
+      fitCorner.copy(c).applyMatrix4(model.root.matrixWorld).sub(controls.target);
+      const toward = fitCorner.dot(fitBack);
+      need = Math.max(
+        need,
+        toward + Math.abs(fitCorner.dot(fitRight)) / tanX,
+        toward + Math.abs(fitCorner.dot(fitUp)) / tanY
+      );
+    }
+    return Math.max(1, need / frontZ);
+  }
 
   function renderFrame() {
     needsRender = false;
@@ -440,6 +478,15 @@ export function initDuo3DStage() {
     }
 
     controls.update();
+    // While the user turns the console, ease the camera back just enough to keep it in frame.
+    // Scaling by the change in fit keeps any wheel or pinch zoom the user chose.
+    const fit = fitFactor();
+    if (!viewTween && currentView === 'custom' && Math.abs(fit / fitLast - 1) > 1e-4) {
+      camToOrigin.copy(camera.position).sub(controls.target).multiplyScalar(fit / fitLast);
+      camera.position.copy(controls.target).add(camToOrigin);
+      needsRender = true;
+    }
+    fitLast = fit;
     if (needsRender && !document.hidden) renderFrame();
     requestAnimationFrame(animateLoop);
   }
