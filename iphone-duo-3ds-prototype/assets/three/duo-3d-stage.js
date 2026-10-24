@@ -39,8 +39,8 @@ export function initDuo3DStage() {
     renderer?.dispose();
     if (consoleEl.parentElement !== viewport) viewport.appendChild(consoleEl);
     consoleEl.inert = false;
-    viewport.querySelectorAll('#duo-3d-canvas, #duo-css3d-layer, .stage-3d-hint').forEach(el => el.remove());
-    document.body.classList.remove('webgl-3d', 'inspecting-3d');
+    document.querySelectorAll('#duo-3d-canvas, #duo-css3d-layer, .stage-3d-hint').forEach(el => el.remove());
+    document.body.classList.remove('webgl-3d');
     if (viewControlsEl) viewControlsEl.hidden = true;
     const status = { active: false, webgl: false, fallback2D: true, reason: String(err?.message || err) };
     window.duo3D = { ...status, snapshot: () => ({ ...status }) };
@@ -114,14 +114,17 @@ export function initDuo3DStage() {
   cssObject.position.set(0, 0, 0);
   model.root.add(cssObject);
 
-  // Subtle status hint inside stage
-  const stageHint = document.createElement('div');
+  // First-visit hint under the stage; fades a few seconds after the first touch.
+  const stageHint = document.createElement('p');
   stageHint.className = 'stage-3d-hint';
-  stageHint.textContent = '拖动机身或空白处可旋转视角，点「正面操作」回到正面触屏';
-  viewport.appendChild(stageHint);
+  stageHint.textContent = '拖动机身旋转，点下屏直接操作';
+  viewport.after(stageHint);
   if (typeof window.translateDOM === 'function') {
     window.translateDOM(stageHint);
   }
+  viewport.addEventListener('pointerdown', () => {
+    setTimeout(() => stageHint.classList.add('is-faded'), 4000);
+  }, { once: true });
 
   // OrbitControls on the WebGL canvas
   controls = new OrbitControls(camera, canvas);
@@ -168,14 +171,22 @@ export function initDuo3DStage() {
   const frontNormal = new THREE.Vector3();
   const camToOrigin = new THREE.Vector3();
 
+  // The live screens stay interactive at every angle: the browser maps taps
+  // through the CSS3D transform, so there is no "switch to front view first" step.
   let needsRender = true;
-  controls.addEventListener('change', () => { needsRender = true; });
+  let orbitFrom = null;
+  controls.addEventListener('change', () => {
+    needsRender = true;
+    // A tap on the shell fires 'start' without moving; only real drags leave the preset view.
+    if (orbitFrom && camera.position.distanceTo(orbitFrom) > 1) {
+      orbitFrom = null;
+      currentView = 'custom';
+      updateViewButtons(null);
+    }
+  });
 
   function renderFrame() {
     needsRender = false;
-    const inspecting = currentView !== 'front' || Boolean(viewTween);
-    document.body.classList.toggle('inspecting-3d', inspecting);
-    consoleEl.inert = inspecting;
 
     model.root.updateMatrixWorld(true);
     camera.updateMatrixWorld(true);
@@ -243,16 +254,16 @@ export function initDuo3DStage() {
     recording = false,
   } = {}) {
     const docWidth = document.documentElement.clientWidth || window.innerWidth;
-    const availW = Math.max(280, docWidth - 16);
+    const availW = Math.max(280, docWidth - (docWidth <= 440 ? 8 : 16));
     const consoleW = portrait ? CONSOLE_H : CONSOLE_W;
     const consoleH = portrait ? CONSOLE_W : CONSOLE_H;
 
     // Leave subtle breathing room around the 3D shell inside the stage
-    const marginFactor = docWidth <= 440 ? 1.06 : 1.12;
+    const marginFactor = docWidth <= 440 ? 1.03 : 1.12;
     const maxStageW = Math.min(availW, recording ? 1120 : 880);
     const maxStageH = Math.max(
       340,
-      window.innerHeight - (recording ? 76 : docWidth <= 620 ? 150 : 185)
+      window.innerHeight - (recording ? 76 : docWidth <= 620 ? 118 : 132)
     );
 
     const s = pixelSize
@@ -277,11 +288,21 @@ export function initDuo3DStage() {
     camera.updateProjectionMatrix();
 
     const fovPx = camera.projectionMatrix.elements[5] * (vpH / 2);
+    const previousFrontZ = frontZ;
     frontZ = fovPx / s;
 
     model.root.rotation.z = portrait ? Math.PI / 2 : 0;
 
-    {
+    if (currentView === 'custom') {
+      // Keep the user's own angle on resize (mobile URL bar, rotation); only rescale the distance.
+      const tween = viewTween;
+      viewTween = null;
+      if (tween) camera.position.copy(tween.toPos);
+      const offset = camera.position.clone().sub(controls.target);
+      offset.setLength(offset.length() * (frontZ / previousFrontZ));
+      camera.position.copy(controls.target).add(offset);
+      controls.update();
+    } else {
       viewTween = null;
       const pose = viewPose(currentView);
       camera.position.copy(pose.pos);
@@ -298,13 +319,13 @@ export function initDuo3DStage() {
     });
   });
 
-  // When user orbits manually with OrbitControls, mark view as custom/hero
+  // When the user orbits manually, the 'change' handler marks the view as custom.
   controls.addEventListener('start', () => {
     needsRender = true;
     viewTween = null;
-    updateViewButtons('hero');
-    currentView = 'hero';
+    orbitFrom = camera.position.clone();
   });
+  controls.addEventListener('end', () => { orbitFrom = null; });
 
   // Double-clicking stage background resets to Front operate view
   canvas.addEventListener('dblclick', () => {
@@ -379,7 +400,7 @@ export function initDuo3DStage() {
       fromTarget: heroPose.target.clone(),
       toTarget: frontPose.target.clone(),
       start: performance.now(),
-      duration: 520,
+      duration: 900,
     };
     currentView = 'front';
     updateViewButtons('front');
