@@ -29,3 +29,9 @@ Building the native 3DS application requires external devkitPro packages (`libct
 Because the 3DS build embeds `gfx/` textures into RomFS, any compiled `.3dsx` binary contains both MIT-licensed project code and third-party imagery. Automated CI checks source code and asset checksums only and does not publish prebuilt binaries.
 
 Apple, iPhone, Apple Music, and related marks are trademarks of Apple Inc. Nintendo and Nintendo 3DS are trademarks of Nintendo. This is an independent fan project and is not affiliated with or endorsed by Apple or Nintendo.
+
+## Browser 3D Runtime
+
+Three.js r180 (`0.180.0`), including OrbitControls, CSS3DRenderer, and RoundedBoxGeometry, is bundled in `iphone-duo-3ds-prototype/assets/three/` under the MIT license. The upstream license is preserved in [assets/three/LICENSE](iphone-duo-3ds-prototype/assets/three/LICENSE). Upstream: https://github.com/mrdoob/three.js/tree/r180.
+
+The console geometry in `duo-3d-model.js` is original procedural artwork, not an official Nintendo CAD model or a downloaded third-party console mesh. It follows the existing prototype's proportions. Existing Apple screen artwork retains the attributions above.

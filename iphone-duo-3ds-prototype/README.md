@@ -2,7 +2,18 @@
 
 An interactive browser prototype used to design and test the dual-screen layout and interactions before porting to native 3DS hardware.
 
-Open `index.html` directly in a browser—no build step or package installation is needed. For the native 3DS application, see the root [README](../README.md).
+Serve this directory over HTTP for the interactive 3D enclosure. No build step or package installation is needed:
+
+```sh
+cd iphone-duo-3ds-prototype
+python3 -m http.server 8080
+```
+
+Open `http://localhost:8080/`. The original model is generated locally with bundled Three.js modules; the screens remain live HTML. Drag the enclosure or background to orbit, or use **3D angle** and **Back view**. Select **Front view** to align the screens and enable touch interactions. **L** still changes the console orientation.
+
+WebGL initialization or context failure restores the 2D interface. Add `?webgl=0` to request it explicitly. Opening `index.html` as a local file uses the 2D interface because browsers restrict local JavaScript module loading.
+
+For the native 3DS application, see the root [README](../README.md).
 
 ## Bundled Assets
 

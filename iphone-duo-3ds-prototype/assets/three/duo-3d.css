@@ -1,0 +1,202 @@
+/* 3D Hardware Stage & CSS3DRenderer Overlay Styles */
+.viewport {
+  position: relative;
+  margin: 6px auto 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body.webgl-3d .viewport {
+  border-radius: 24px;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 32%, #ffffff 0%, #f1f3f2 58%, #e4e8e7 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85), 0 14px 36px rgba(34, 40, 44, 0.08);
+  touch-action: none;
+}
+
+#duo-3d-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+  cursor: grab;
+}
+
+#duo-3d-canvas:active {
+  cursor: grabbing;
+}
+
+#duo-css3d-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.console-3d-carrier {
+  width: 600px;
+  height: 658px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+body.webgl-3d .console {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 600px;
+  height: 658px;
+  transform: none !important;
+  transform-origin: 50% 50% !important;
+  filter: none !important;
+  pointer-events: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Make 2D CSS shell parts transparent so the 3D WebGL enclosure renders the hardware */
+body.webgl-3d .lid,
+body.webgl-3d .base {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  pointer-events: none;
+}
+
+body.webgl-3d .hinge,
+body.webgl-3d .camera-dot,
+body.webgl-3d .speaker,
+body.webgl-3d .circle-pad,
+body.webgl-3d .c-stick,
+body.webgl-3d .brand,
+body.webgl-3d .power-led {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+body.webgl-3d .dpad:after,
+body.webgl-3d .start-select button:before {
+  display: none !important;
+}
+
+body.webgl-3d .dpad {
+  filter: none !important;
+  pointer-events: none;
+}
+
+/* Keep hardware buttons interactive as transparent hit targets aligned over 3D buttons */
+body.webgl-3d .dpad button,
+body.webgl-3d .abxy button,
+body.webgl-3d .start-select button,
+body.webgl-3d .home {
+  pointer-events: auto;
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  color: transparent !important;
+}
+
+body.webgl-3d .dpad button:focus-visible,
+body.webgl-3d .abxy button:focus-visible,
+body.webgl-3d .start-select button:focus-visible,
+body.webgl-3d .home:focus-visible {
+  outline: 2px solid #4d9aff;
+  outline-offset: 2px;
+}
+
+/* Live DOM screens sit cleanly inside the 3D recessed display bezels */
+body.webgl-3d .top-screen,
+body.webgl-3d .bottom-screen {
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.55) !important;
+  border: 1px solid rgba(8, 10, 14, 0.9) !important;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+body.webgl-3d .top-screen {
+  pointer-events: none;
+}
+
+body.webgl-3d .bottom-screen {
+  pointer-events: auto;
+}
+
+/* View switcher controls in header */
+.view-3d-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.view-3d-controls .orientation-toggle {
+  margin-left: 0;
+}
+
+.view-3d-controls .orientation-toggle[aria-pressed="true"] {
+  background: #25282e;
+  color: #ffffff;
+  border-color: #25282e;
+}
+
+.stage-3d-hint {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(24, 27, 32, 0.68);
+  color: #f3f5f7;
+  font-size: 11px;
+  line-height: 1.4;
+  pointer-events: none;
+  white-space: nowrap;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: opacity 200ms ease;
+}
+
+@media (max-width: 620px) {
+  header {
+    padding: 16px 10px 8px;
+  }
+  header p {
+    line-height: 2.1;
+  }
+  .orientation-toggle {
+    padding: 4px 9px;
+    font-size: 10px;
+    margin-left: 4px;
+  }
+  .view-3d-controls {
+    margin-left: 4px;
+    gap: 3px;
+  }
+  .stage-3d-hint {
+    font-size: 10px;
+    padding: 3px 9px;
+    bottom: 6px;
+  }
+}
+
+/* Inspecting uses the whole console as an orbit surface. Front view restores input. */
+body.webgl-3d.inspecting-3d .console * { pointer-events: none !important; }
+.view-3d-controls[hidden] { display: none; }
+body.recording .stage-3d-hint { display: none; }
+@media (max-width: 620px) {
+  .stage-3d-hint { max-width: 94%; width: max-content; white-space: normal; }
+}

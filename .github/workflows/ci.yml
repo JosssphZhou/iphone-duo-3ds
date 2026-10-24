@@ -34,7 +34,7 @@ jobs:
               def handle_starttag(self, tag, attrs):
                   if tag == 'script':
                       attr = dict(attrs)
-                      self.active = 'src' not in attr and attr.get('type', '') not in ('application/json', 'application/ld+json')
+                      self.active = 'src' not in attr and attr.get('type', '') not in ('application/json', 'application/ld+json', 'importmap')
                       self.content = []
               def handle_data(self, data):
                   if self.active:
