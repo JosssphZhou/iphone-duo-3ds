@@ -211,6 +211,9 @@ main.stage {
   transition: transform 260ms ease;
 }
 .icon-button[aria-pressed="true"] { background: rgba(255, 255, 255, 0.96); }
+a.icon-button { color: #1d1d1f; text-decoration: none; }
+.social-glyph { width: 15px; height: 15px; }
+.topbar-divider { width: 1px; height: 18px; margin: 0 2px; background: rgba(30, 36, 40, 0.16); }
 .icon-button[aria-pressed="true"] .rotate-glyph { transform: rotate(90deg); }
 
 .stage-menu {
@@ -446,6 +449,8 @@ body.recording .stage-3d-hint { display: none; }
   .topbar h1 { min-width: 0; overflow: hidden; text-overflow: ellipsis; font-size: clamp(16px, 4.6vw, 19px); letter-spacing: -0.6px; }
   .topbar-actions { position: static; flex-shrink: 0; transform: none; gap: 6px; }
   .stage-menu > summary { gap: 6px; padding: 0 11px; }
+  .topbar h1 { line-height: 1.1; }
+  .topbar h1 .h1-sub { display: block; font-size: 0.78em; }
   .tagline { font-size: 11px; line-height: 1.6; text-align: left; }
   .tagline .prototype-tag { font-size: 9px; padding: 2px 5px; letter-spacing: 0.3px; margin-left: 5px; }
   .stage-3d-hint { font-size: 11px; }
