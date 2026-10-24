@@ -105,14 +105,14 @@ export function lightConsole(scene, renderer) {
   const key = new THREE.DirectionalLight(0xfffdf8, 2.35);
   key.position.set(-460, 880, 740);
   key.castShadow = true;
-  key.shadow.mapSize.set(1024, 1024);
+  key.shadow.mapSize.set(2048, 2048);
   key.shadow.radius = 9;
   key.shadow.blurSamples = 16;
   Object.assign(key.shadow.camera, {
-    left: -580,
-    right: 580,
-    top: 580,
-    bottom: -580,
+    left: -1000,
+    right: 1000,
+    top: 1000,
+    bottom: -1000,
     near: 80,
     far: 2400,
   });
@@ -465,31 +465,6 @@ export function buildConsoleModel() {
     lidGroup.add(outerLens);
   }
 
-  // Rear Lid subtle metallic emblem plate
-  const lidBadgeTex = makeTextCanvas(512, 128, (ctx, w, h) => {
-    ctx.clearRect(0, 0, w, h);
-    ctx.strokeStyle = 'rgba(180, 188, 200, 0.32)';
-    ctx.lineWidth = 3;
-    ctx.strokeRect(18, 18, w - 36, h - 36);
-    ctx.fillStyle = 'rgba(195, 204, 216, 0.42)';
-    ctx.font = '600 28px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif';
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillText('NINTENDO 3DS', w / 2, h / 2);
-  });
-  const lidBadge = new THREE.Mesh(
-    new THREE.PlaneGeometry(168, 42),
-    new THREE.MeshPhysicalMaterial({
-      map: lidBadgeTex,
-      transparent: true,
-      roughness: 0.25,
-      metalness: 0.4,
-    })
-  );
-  lidBadge.rotation.y = Math.PI;
-  lidBadge.position.set(0, -18, lidBackZ - 0.2);
-  lidGroup.add(lidBadge);
-
   // =========================================================================
   // 2. CENTRAL HINGE ASSEMBLY (576 x 24 at cy = 316 => y = +13)
   // =========================================================================
@@ -809,64 +784,6 @@ export function buildConsoleModel() {
     registerButton(spec.key, ssGroup);
   }
 
-  // F. Sculpted HOME Button Assembly (cx = 302, cy = 624.5, 48 x 27)
-  const homeX = cxTo3D(302);
-  const homeY = cyTo3D(624.5) - baseCenterY;
-
-  // Outer metallic bezel ring around HOME button
-  const homeOuterShape = roundedRectShape(52, 31, 11);
-  homeOuterShape.holes.push(roundedRectHole(0, 0, 46, 25, 8));
-  const homeOuterGeo = new THREE.ExtrudeGeometry(homeOuterShape, {
-    depth: 2.0,
-    bevelEnabled: true,
-    bevelSegments: 3,
-    bevelSize: 0.7,
-    bevelThickness: 0.7,
-  });
-  homeOuterGeo.translate(homeX, homeY, -0.3);
-  baseGroup.add(new THREE.Mesh(homeOuterGeo, materials.homeRing));
-
-  // Tactile HOME pill button cap
-  const homeCapGroup = new THREE.Group();
-  homeCapGroup.position.set(homeX, homeY, 1.3);
-  const homeCapShape = roundedRectShape(44, 23, 7.5);
-  const homeCapGeo = new THREE.ExtrudeGeometry(homeCapShape, {
-    depth: 2.2,
-    bevelEnabled: true,
-    bevelSegments: 3,
-    bevelSize: 0.8,
-    bevelThickness: 0.8,
-  });
-  homeCapGeo.translate(0, 0, -1.1);
-  const homeCapMesh = new THREE.Mesh(homeCapGeo, materials.buttonCap);
-  homeCapMesh.castShadow = true;
-  homeCapGroup.add(homeCapMesh);
-
-  const homeTex = makeTextCanvas(192, 108, (ctx, w, h) => {
-    ctx.clearRect(0, 0, w, h);
-    ctx.strokeStyle = '#aeb6c2';
-    ctx.lineWidth = 3.2;
-    ctx.beginPath();
-    ctx.moveTo(w / 2 - 16, 34);
-    ctx.lineTo(w / 2, 20);
-    ctx.lineTo(w / 2 + 16, 34);
-    ctx.stroke();
-    ctx.strokeRect(w / 2 - 11, 33, 22, 16);
-    ctx.fillStyle = '#a4aeb9';
-    ctx.font = '600 24px -apple-system, BlinkMacSystemFont, Arial, sans-serif';
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillText('HOME', w / 2, 76);
-  });
-  const homeLabelMesh = new THREE.Mesh(
-    new THREE.PlaneGeometry(40, 21),
-    new THREE.MeshBasicMaterial({ map: homeTex, transparent: true })
-  );
-  homeLabelMesh.position.z = 1.95;
-  homeCapGroup.add(homeLabelMesh);
-  baseGroup.add(homeCapGroup);
-  registerButton('home', homeCapGroup);
-
   // G. Front Brand Wordmark & Glowing Power LED
   const brandTex = makeTextCanvas(256, 48, (ctx, w, h) => {
     ctx.clearRect(0, 0, w, h);
@@ -984,11 +901,6 @@ export function buildConsoleModel() {
     ctx.fillStyle = '#1d2026';
     ctx.fillRect(0, 0, w, h);
 
-    // Removable battery/microSD cover seam outline
-    ctx.strokeStyle = '#0d0f13';
-    ctx.lineWidth = 4;
-    ctx.strokeRect(86, 48, w - 172, h - 96);
-
     // Shoulder button labels along top edge
     ctx.fillStyle = '#8b929c';
     ctx.font = 'bold 26px -apple-system, BlinkMacSystemFont, Arial, sans-serif';
@@ -997,11 +909,6 @@ export function buildConsoleModel() {
     ctx.fillText('ZR', 260, 34);
     ctx.fillText('ZL', w - 260, 34);
     ctx.fillText('L', w - 120, 34);
-
-    // Subtle console mark; no invented serial numbers or regulatory claims.
-    ctx.fillStyle = '#686f7a';
-    ctx.font = '600 30px -apple-system, BlinkMacSystemFont, Arial, sans-serif';
-    ctx.fillText('Nintendo 3DS', w / 2, h / 2);
 
   });
 
