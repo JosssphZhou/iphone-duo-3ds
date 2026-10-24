@@ -105,14 +105,14 @@ export function lightConsole(scene, renderer) {
   const key = new THREE.DirectionalLight(0xfffdf8, 2.35);
   key.position.set(-460, 880, 740);
   key.castShadow = true;
-  key.shadow.mapSize.set(1024, 1024);
+  key.shadow.mapSize.set(2048, 2048);
   key.shadow.radius = 9;
   key.shadow.blurSamples = 16;
   Object.assign(key.shadow.camera, {
-    left: -580,
-    right: 580,
-    top: 580,
-    bottom: -580,
+    left: -1000,
+    right: 1000,
+    top: 1000,
+    bottom: -1000,
     near: 80,
     far: 2400,
   });

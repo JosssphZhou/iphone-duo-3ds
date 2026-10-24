@@ -6,7 +6,7 @@ import {
   CONSOLE_H,
   lightConsole,
   buildConsoleModel,
-} from './duo-3d-model.js?v=20261024-trim';
+} from './duo-3d-model.js?v=20261024-trim43';
 
 function clamp(v, min, max) {
   return Math.max(min, Math.min(max, v));
@@ -101,6 +101,19 @@ export function initDuo3DStage() {
     new THREE.PlaneGeometry(1800, 1800),
     new THREE.ShadowMaterial({ opacity: 0.11 })
   );
+  // Fade the shadow out toward the canvas edge so a long shadow never ends in a hard line.
+  const shadowFade = { value: new THREE.Vector2(1, 1) };
+  shadowPlane.material.onBeforeCompile = (shader) => {
+    shader.uniforms.uDrawSize = shadowFade;
+    shader.fragmentShader = shader.fragmentShader
+      .replace('void main() {', 'uniform vec2 uDrawSize;\nvoid main() {')
+      .replace(
+        '#include <fog_fragment>',
+        '#include <fog_fragment>\n' +
+          'vec2 edge = min(gl_FragCoord.xy, uDrawSize - gl_FragCoord.xy) / (0.09 * uDrawSize.y);\n' +
+          'gl_FragColor.a *= smoothstep(0.0, 1.0, min(edge.x, edge.y));'
+      );
+  };
   shadowPlane.position.set(0, -18, -42);
   shadowPlane.receiveShadow = true;
   scene.add(shadowPlane);
@@ -321,6 +334,7 @@ export function initDuo3DStage() {
     consoleEl.style.transform = 'none';
 
     renderer.setSize(vpW, vpH, false);
+    renderer.getDrawingBufferSize(shadowFade.value);
     cssRenderer.setSize(vpW, vpH);
     camera.aspect = vpW / Math.max(1, vpH);
     camera.updateProjectionMatrix();
