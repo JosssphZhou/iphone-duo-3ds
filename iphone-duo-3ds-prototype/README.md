@@ -12,9 +12,9 @@ To verify asset integrity from the repository root, run `python3 tools/check_ass
 
 ## Language Support
 
-The interface defaults to Chinese when opened in a Chinese browser locale and English otherwise. Click **中文 / EN** to switch languages at any time; your choice is saved in `localStorage` independently of your icon layout. Search supports both English and Chinese app names.
+Choose **English, 简体中文, 日本語, 한국어, Español, Français, Deutsch, or Português** from the language menu. The first visit follows your browser language preferences, falling back to English. An explicit choice is saved in `localStorage`, independently of your icon layout. App search accepts names in any supported language and ignores accents. Dates follow the selected locale.
 
-UI labels, help text, search, messages, and the widget menu are localized. Text embedded inside reference Apple screenshots remains in its original language. Archived Music and App Store mockups are kept as developer export references and are not part of the default user flow.
+UI labels, accessibility labels, help, search, status messages, lock-screen dates, and the widget menu are localized. Text embedded inside reference Apple screenshots remains in its original language. Archived Music and App Store mockups are kept as developer export references and are not part of the default user flow.
 
 ## Controls
 

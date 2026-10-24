@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Browser localization regression
+        run: node iphone-duo-3ds-prototype/tests/i18n.test.cjs
       - name: Bundled artwork integrity
         run: python3 tools/check_assets.py
       - name: Portable C regressions
