@@ -1,5 +1,5 @@
 /* UI language only; internal app identities and Apple image text stay unchanged. */
-const UI_LANGUAGE_KEY = 'iphone-duo-ui-language-v1';
+const UI_LANGUAGE_KEY = 'iphone-duo-ui-language-v2';
 const UI_LANGUAGES = {
   en: {label: 'English', locale: 'en-US'},
   zh: {label: '简体中文', locale: 'zh-CN'},
@@ -19,10 +19,6 @@ function initialLanguage() {
     const saved = supportedLanguage(localStorage.getItem(UI_LANGUAGE_KEY));
     if (saved) return saved;
   } catch {}
-  for (const candidate of navigator.languages || [navigator.language]) {
-    const code = supportedLanguage(candidate);
-    if (code) return code;
-  }
   return 'en';
 }
 let uiLanguage = initialLanguage();
@@ -99,6 +95,8 @@ function translateDOM(root = document.body) {
   }
   const languageValue = document.querySelector('#language-value');
   if (languageValue) languageValue.textContent = UI_LANGUAGES[uiLanguage].label;
+  const languageCode = document.querySelector('#lang-code');
+  if (languageCode) languageCode.textContent = uiLanguage.toUpperCase();
   for (const item of document.querySelectorAll('[data-lang]')) item.setAttribute('aria-pressed', String(item.dataset.lang === uiLanguage));
   // Fit translated app names to the same physical icon grid; full labels remain accessible.
   for (const el of root.querySelectorAll('.app-label')) {

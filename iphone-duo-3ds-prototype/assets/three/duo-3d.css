@@ -145,8 +145,12 @@ header {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  max-width: 880px;
   margin: 0 auto;
+}
+/* not enough room to keep the title centred: title left, buttons right */
+@media (max-width: 1180px) {
+  .topbar { justify-content: space-between; }
+  .topbar-actions { position: static; transform: none; flex-shrink: 0; }
 }
 .topbar h1 {
   margin: 0;
@@ -213,6 +217,10 @@ main.stage {
 .icon-button[aria-pressed="true"] { background: rgba(255, 255, 255, 0.96); }
 a.icon-button { color: #1d1d1f; text-decoration: none; }
 .social-glyph { width: 15px; height: 15px; }
+.lang-menu > summary { gap: 5px; padding: 0 11px; }
+.lang-menu .lang-glyph { flex: 0 0 17px; width: 17px; height: 17px; color: currentColor; }
+.lang-code { font-size: 12px; font-weight: 600; letter-spacing: 0.2px; }
+.menu-panel.lang-panel { width: 184px; }
 .topbar-divider { width: 1px; height: 18px; margin: 0 2px; background: rgba(30, 36, 40, 0.16); }
 .icon-button[aria-pressed="true"] .rotate-glyph { transform: rotate(90deg); }
 
@@ -442,6 +450,10 @@ a.icon-button { color: #1d1d1f; text-decoration: none; }
 .stage-3d-hint.is-faded { opacity: 0; }
 body.recording .stage-3d-hint { display: none; }
 
+@media (max-width: 700px) {
+  .topbar h1 { line-height: 1.1; }
+  .topbar h1 .h1-sub { display: block; font-size: 0.78em; }
+}
 @media (max-width: 620px) {
   header { padding: 10px 10px 2px; }
   .topbar { justify-content: space-between; }
@@ -449,14 +461,21 @@ body.recording .stage-3d-hint { display: none; }
   .topbar h1 { min-width: 0; overflow: hidden; text-overflow: ellipsis; font-size: clamp(16px, 4.6vw, 19px); letter-spacing: -0.6px; }
   .topbar-actions { position: static; flex-shrink: 0; transform: none; gap: 6px; }
   .stage-menu > summary { gap: 6px; padding: 0 11px; }
-  .topbar h1 { line-height: 1.1; }
-  .topbar h1 .h1-sub { display: block; font-size: 0.78em; }
   .tagline { font-size: 11px; line-height: 1.6; text-align: left; }
   .tagline .prototype-tag { font-size: 9px; padding: 2px 5px; letter-spacing: 0.3px; margin-left: 5px; }
   .stage-3d-hint { font-size: 11px; }
+}
+@media (max-width: 620px) {
+  .lang-menu > summary { width: 34px; padding: 0; justify-content: center; }
+  .lang-menu .lang-code { display: none; }
+  /* the language list opens from the right edge of the button group, like Menu */
+  .topbar-actions { position: relative; }
+  .lang-menu { position: static; }
 }
 @media (max-width: 380px) {
   .topbar h1 { font-size: 16px; }
   .stage-menu > summary .menu-text { display: none; }
   .stage-menu > summary { width: 34px; padding: 0; justify-content: center; }
+  .topbar-divider { display: none; }
+  .topbar-actions { gap: 4px; }
 }
