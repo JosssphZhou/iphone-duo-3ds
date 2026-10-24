@@ -27,7 +27,7 @@ function initialLanguage() {
 }
 let uiLanguage = initialLanguage();
 const uiNames={'日历':'Calendar','照片':'Photos','相机':'Camera','邮件':'Mail','备忘录':'Notes','时钟':'Clock','地图':'Maps','新闻':'News','游戏':'Games','健康':'Health','钱包':'Wallet','设置':'Settings','电话':'Phone','信息':'Messages','音乐':'Music','计算器':'Calculator','搜索':'Search'};
-const uiStrings={...uiNames,'网页交互预演':'Interactive web prototype','切换竖屏':'Portrait','切换横屏':'Landscape','正面':'Front','斜侧':'Angled','背面':'Back','拖动机身旋转，点下屏直接操作':'Drag to spin. Tap the bottom screen to use it.','菜单':'Menu','视角':'View','语言':'Language','显示':'Display','作者':'Made by','录制舞台':'Recording stage','退出舞台':'Exit stage','重置演示':'Reset demo','发布时的桌面，装进两块熟悉的屏幕。':'The launch screen, on two familiar displays.','点图标打开应用，长按拖动整理，按 HOME 回桌面。':'Tap an app, hold to rearrange, and press HOME to return.','试试备忘录、照片、音乐，再按 X 切换日夜壁纸。':'Explore the original screens. Press X for day or night.','1× 像素尺寸':'1× pixel size','适应窗口':'Fit to window','键盘与按键说明':'Controls & help','网页交互预演；真机版本单独验证。':'Web prototype; native build validated separately.','完成':'Done','移除小组件':'Remove widget','创作时间':'Creative time','出去散步':'Take a walk','向上':'Up','向下':'Down','向左':'Left','向右':'Right','锁屏':'Lock screen','搜索应用':'Search apps','查看回忆':'View memory','第一页':'Page 1','第二页':'Page 2','官网未展示此应用':'This app is not shown on the official site.','本次排列未保存，刷新会恢复':'Layout could not be saved. Reloading will restore the previous layout.','桌面布局已还原':'Layout restored.','你想打开什么？':'What would you like to open?','在触屏找到你的应用。':'Find an app on the touch screen.','输入应用名称':'Search app names','部分 Apple 素材缺失。请按 README 的本地素材导入说明安装素材后刷新。':'Apple artwork is missing. Follow the local asset import guide in README, then reload.','素材导入说明':'Asset import guide'};
+const uiStrings={...uiNames,'网页交互预演':'Interactive web prototype','切换竖屏':'Portrait','切换横屏':'Landscape','正面':'Front','斜侧':'Angled','背面':'Back','拖动机身旋转，点下屏直接操作':'Drag to spin. Tap the bottom screen to use it.','菜单':'Menu','视角':'View','语言':'Language','显示':'Display','作者':'Made by','录制舞台':'Recording stage','按键音':'Sounds','退出舞台':'Exit stage','重置演示':'Reset demo','发布时的桌面，装进两块熟悉的屏幕。':'The launch screen, on two familiar displays.','点图标打开应用，长按拖动整理，按 HOME 回桌面。':'Tap an app, hold to rearrange, and press HOME to return.','试试备忘录、照片、音乐，再按 X 切换日夜壁纸。':'Explore the original screens. Press X for day or night.','1× 像素尺寸':'1× pixel size','适应窗口':'Fit to window','键盘与按键说明':'Controls & help','网页交互预演；真机版本单独验证。':'Web prototype; native build validated separately.','完成':'Done','移除小组件':'Remove widget','创作时间':'Creative time','出去散步':'Take a walk','向上':'Up','向下':'Down','向左':'Left','向右':'Right','锁屏':'Lock screen','搜索应用':'Search apps','查看回忆':'View memory','第一页':'Page 1','第二页':'Page 2','官网未展示此应用':'This app is not shown on the official site.','本次排列未保存，刷新会恢复':'Layout could not be saved. Reloading will restore the previous layout.','桌面布局已还原':'Layout restored.','你想打开什么？':'What would you like to open?','在触屏找到你的应用。':'Find an app on the touch screen.','输入应用名称':'Search app names','部分 Apple 素材缺失。请按 README 的本地素材导入说明安装素材后刷新。':'Apple artwork is missing. Follow the local asset import guide in README, then reload.','素材导入说明':'Asset import guide'};
 uiStrings['点击应用查看 Apple 原图。长按图标整理；将音乐拖向靠近主屏的边缘添加组件，再长按音乐移除。方向键选择，A/Enter 打开，B/Esc 返回，Y 翻页，X 切换壁纸，L 旋转。START 锁屏，从触屏底边上滑解锁。音乐组件为静态预览，天气与日程为示例。默认官网图片模式支持双语；历史实验页面和图片内文字保留原语言。']='Tap an app to view an original Apple screen. Hold an icon to rearrange it. Drag Music toward the top screen to add a widget; hold Music again to remove it. Arrow keys select, A/Enter opens, B/Esc returns, Y changes page, X changes wallpaper, and L rotates. START locks; swipe up from the bottom edge to unlock. The music widget is a static preview. Weather and events are examples. The default image mode supports both languages; archived experimental screens and image text keep their original language.';
 function englishText(value){const s=String(value);if(uiStrings[s])return uiStrings[s];if(s.endsWith(' 官网展示画面'))return 'Official '+(uiNames[s.slice(0,-7)]||s.slice(0,-7))+' screenshot';if(s==='Apple Music 官方小组件')return 'Official Apple Music widget';if(s.startsWith('打开'))return 'Open '+(uiNames[s.slice(2)]||s.slice(2));if(/^空位 \d+$/.test(s))return s.replace('空位','Empty slot');if(/^\d+月\d+日$/.test(s)){const [,m,d]=s.match(/(\d+)月(\d+)日/);return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][Number(m)-1]+' '+d;}if(s.startsWith('星期'))return ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']['日一二三四五六'.indexOf(s.slice(2))]||s;const map={'日':'S','一':'M','二':'T','三':'W','四':'T','五':'F','六':'S','X 切换壁纸':'X: change wallpaper','A 打开':'A: open','B 返回':'B: back','Y 下一页':'Y: next page','HOME 返回桌面':'HOME: return to desktop','3DS 上屏 400乘240':'3DS top screen 400 by 240','3DS 下屏 320乘240':'3DS touch screen 320 by 240','3DS 左屏 240乘400':'3DS left screen 240 by 400','3DS 右触屏 240乘320':'3DS right touch screen 240 by 320'};return map[s]||s;}
 
@@ -70,7 +70,7 @@ function translateDOM(root = document.body) {
   }
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
   for (let node; node = walker.nextNode();) {
-    if (node.parentElement?.closest('script,style,textarea,select')) continue;
+    if (node.parentElement?.closest('script,style,textarea,select,[data-no-i18n]')) continue;
     let original = sourceText.get(node);
     if (original === undefined || (lastText.has(node) && lastText.get(node) !== node.nodeValue)) {
       original = node.nodeValue;
@@ -97,8 +97,9 @@ function translateDOM(root = document.body) {
     }
     lastAttrs.set(el, last);
   }
-  const selector = document.querySelector('#language-toggle');
-  if (selector) selector.value = uiLanguage;
+  const languageValue = document.querySelector('#language-value');
+  if (languageValue) languageValue.textContent = UI_LANGUAGES[uiLanguage].label;
+  for (const item of document.querySelectorAll('[data-lang]')) item.setAttribute('aria-pressed', String(item.dataset.lang === uiLanguage));
   // Fit translated app names to the same physical icon grid; full labels remain accessible.
   for (const el of root.querySelectorAll('.app-label')) {
     el.title = el.textContent;
@@ -141,13 +142,16 @@ document.addEventListener('error', e => {
   if (e.target instanceof HTMLImageElement) { e.target.style.visibility = 'hidden'; showMissingAssets(); }
 }, true);
 document.addEventListener('DOMContentLoaded', () => {
-  const selector = document.querySelector('#language-toggle');
+  const list = document.querySelector('#language-list');
   for (const [code, info] of Object.entries(UI_LANGUAGES)) {
-    const option = document.createElement('option'); option.value = code; option.textContent = info.label;
-    selector.append(option);
+    const item = document.createElement('button');
+    item.type = 'button'; item.className = 'menu-item'; item.dataset.lang = code; item.lang = info.locale;
+    item.setAttribute('data-no-i18n', '');
+    item.innerHTML = '<span class="menu-item-label"></span><span class="menu-check" aria-hidden="true"></span>';
+    item.firstChild.textContent = info.label;
+    item.onclick = () => setLanguage(code);
+    list?.append(item);
   }
-  selector.value = uiLanguage;
-  selector.onchange = () => setLanguage(selector.value);
   translateDOM();
   for (const path of ['assets/launch-memory.jpg','assets/desert-day.jpg']) {
     const image = new Image(); image.onerror = showMissingAssets; image.src = path;

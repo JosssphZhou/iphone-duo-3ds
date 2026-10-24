@@ -9,7 +9,7 @@ cd iphone-duo-3ds-prototype
 python3 -m http.server 8080
 ```
 
-Open `http://localhost:8080/`. The original model is generated locally with bundled Three.js modules; the screens remain live HTML. Drag the enclosure or background to orbit, or use **3D angle** and **Back view**. Select **Front view** to align the screens and enable touch interactions. **L** still changes the console orientation.
+Open `http://localhost:8080/`. The original model is generated locally with bundled Three.js modules; the screens remain live HTML. Drag the enclosure or background to orbit, or pick **Angled** or **Back** in the **Menu**. Pick **Front** to align the screens and enable touch interactions. **L** still changes the console orientation.
 
 WebGL initialization or context failure restores the 2D interface. Add `?webgl=0` to request it explicitly. Opening `index.html` as a local file uses the 2D interface because browsers restrict local JavaScript module loading.
 
@@ -23,14 +23,14 @@ To verify asset integrity from the repository root, run `python3 tools/check_ass
 
 ## Language Support
 
-Choose **English, 简体中文, 日本語, 한국어, Español, Français, Deutsch, or Português** from the language menu. The first visit follows your browser language preferences, falling back to English. An explicit choice is saved in `localStorage`, independently of your icon layout. App search accepts names in any supported language and ignores accents. Dates follow the selected locale.
+Choose **English, 简体中文, 日本語, 한국어, Español, Français, Deutsch, or Português** from **Menu > Language**. The first visit follows your browser language preferences, falling back to English. An explicit choice is saved in `localStorage`, independently of your icon layout. App search accepts names in any supported language and ignores accents. Dates follow the selected locale.
 
 UI labels, accessibility labels, help, search, status messages, lock-screen dates, and the widget menu are localized. Text embedded inside reference Apple screenshots remains in its original language. Archived Music and App Store mockups are kept as developer export references and are not part of the default user flow.
 
 ## Controls
 
-- **Open / close apps:** Click or tap an icon, or select with the arrow keys and press **A / Enter**. Press **B / Esc / HOME** to return to the home screen.
-- **Rotate console:** Press **L** or click the orientation button to switch between landscape and book-style portrait mode.
+- **Open / close apps:** Click or tap an icon, or select with the arrow keys and press **A / Enter**. Swipe up from the bottom edge, or press **B / Esc**, to return to the home screen.
+- **Rotate console:** Press **L** or click the rotate button next to **Menu** to switch between landscape and book-style portrait mode.
 - **Theme and pages:** Press **X** to toggle day/night wallpaper, and **Y** to switch home screen pages.
 - **Lock screen:** Press **START** to lock. Swipe up at least 64 logical pixels from the bottom edge to unlock.
 - **Rearrange icons:** Hold an icon for 450 ms, then drag to move it. Dragging near a screen edge flips to the adjacent page. Custom layouts are persisted in `localStorage`.

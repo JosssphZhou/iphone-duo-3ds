@@ -67,6 +67,13 @@ with sync_playwright() as p:
     pg.evaluate("state.sound=false"); reset()
     pg.click('[data-hw="y"]'); pg.click('[data-hw="x"]'); pg.wait_for_timeout(300)
     check('with the sound switch off nothing plays', names() == [], str(names()))
+    # the Sounds row in the menu drives the same switch
+    pg.click('#stage-menu > summary'); pg.wait_for_timeout(100)
+    check('menu Sounds row shows off while sound is off', pg.get_attribute('#sound-toggle', 'aria-pressed') == 'false')
+    pg.click('#sound-toggle'); reset(); pg.click('[data-hw="y"]'); pg.wait_for_timeout(300)
+    check('turning Sounds on from the menu brings the key click back', names() == ['tap'] and not pg.evaluate("document.querySelector('#stage-menu').open"), str(names()))
+    pg.click('#stage-menu > summary'); pg.click('#sound-toggle'); reset(); pg.click('[data-hw="y"]'); pg.wait_for_timeout(300)
+    check('turning Sounds off from the menu silences keys again', names() == [] and pg.evaluate('state.sound') is False, str(names()))
     # level check: every file peaks at or below the iOS key click (-8.4 dBFS)
     peaks = pg.evaluate("""async () => { const c = new OfflineAudioContext(1, 44100, 44100); const r = {};
       for (const n of ['tap','tock','tink','lock','unlock','open','back','drop']) { const buf = await c.decodeAudioData(await (await fetch('assets/audio/'+n+'.wav')).arrayBuffer());
