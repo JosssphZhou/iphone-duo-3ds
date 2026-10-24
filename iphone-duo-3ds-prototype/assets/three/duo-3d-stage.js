@@ -6,7 +6,7 @@ import {
   CONSOLE_H,
   lightConsole,
   buildConsoleModel,
-} from './duo-3d-model.js';
+} from './duo-3d-model.js?v=20261024-trim';
 
 function clamp(v, min, max) {
   return Math.max(min, Math.min(max, v));
